@@ -137,7 +137,7 @@ class Song(config.Base):
 
     @classmethod
     def profile(cls, slug):
-        songs = config.session.query(cls).filter_by(slug=slug).all()
+        songs = config.session.query(cls).join(Album).filter(cls.slug==slug).order_by(Album.date).all()
         if not songs:
             raise DataNotFound
         title = songs[0].title
