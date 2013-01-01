@@ -1,0 +1,160 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Boston", 
+    "city_slug": "boston", 
+    "date": "2009-11-14", 
+    "date_added": "2012-12-31T13:18:18.665853", 
+    "encoding": "ogg -q 5", 
+    "folder": "boston_2009", 
+    "id": 3, 
+    "songs": [
+        {
+            "album_id": 3, 
+            "duration": "4:49", 
+            "s3_name": "01 - Cats In the Well.ogg", 
+            "slug": "cat-s-in-the-well", 
+            "title": "Cat's In the Well", 
+            "track": 1
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "5:28", 
+            "s3_name": "02 - Lay, Lady, Lay.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 2
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "6:08", 
+            "s3_name": "03 - Most Likely You Go Your Way (And Ill Go Mine).ogg", 
+            "slug": "most-likely-you-go-your-way-and-i-ll-go-mine", 
+            "title": "Most Likely You Go Your Way (And I'll Go Mine)", 
+            "track": 3
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "5:47", 
+            "s3_name": "04 - My Wifes Home Town.ogg", 
+            "slug": "my-wife-s-home-town", 
+            "title": "My Wife's Home Town", 
+            "track": 4
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "7:17", 
+            "s3_name": "05 - The Lonesome Death of Hattie Carroll.ogg", 
+            "slug": "the-lonesome-death-of-hattie-carroll", 
+            "title": "The Lonesome Death of Hattie Carroll", 
+            "track": 5
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "5:37", 
+            "s3_name": "06 - Cold Irons Bound.ogg", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 6
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "8:03", 
+            "s3_name": "07 - Every Grain of Sand.ogg", 
+            "slug": "every-grain-of-sand", 
+            "title": "Every Grain of Sand", 
+            "track": 7
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "6:41", 
+            "s3_name": "08 - Spirit On the Water.ogg", 
+            "slug": "spirit-on-the-water", 
+            "title": "Spirit On the Water", 
+            "track": 8
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "5:07", 
+            "s3_name": "09 - Ballad of Hollis Brown.ogg", 
+            "slug": "the-ballad-of-hollis-brown", 
+            "title": "The Ballad of Hollis Brown", 
+            "track": 9
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "6:29", 
+            "s3_name": "10 - When the Deal Goes Down.ogg", 
+            "slug": "when-the-deal-goes-down", 
+            "title": "When the Deal Goes Down", 
+            "track": 10
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "7:47", 
+            "s3_name": "11 - Highway 61 Revisited.ogg", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 11
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "8:18", 
+            "s3_name": "12 - Aint Talkin.ogg", 
+            "slug": "ain-t-talkin", 
+            "title": "Ain't Talkin", 
+            "track": 12
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "7:09", 
+            "s3_name": "13 - Thunder On the Mountain.ogg", 
+            "slug": "thunder-on-the-mountain", 
+            "title": "Thunder On the Mountain", 
+            "track": 13
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "6:28", 
+            "s3_name": "14 - Ballad of a Thin Man.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad of a Thin Man", 
+            "track": 14
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "6:38", 
+            "s3_name": "15 - Like a Rolling Stone.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like a Rolling Stone", 
+            "track": 15
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "1:50", 
+            "s3_name": "16 - band intros.ogg", 
+            "slug": "band-intros", 
+            "title": "band intros", 
+            "track": 16
+        }, 
+        {
+            "album_id": 3, 
+            "duration": "5:08", 
+            "s3_name": "17 - Jolene.ogg", 
+            "slug": "jolene", 
+            "title": "Jolene", 
+            "track": 17
+        },
+        {
+            "album_id": 3, 
+            "duration": "5:13", 
+            "s3_name": "18 - All Along the Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along the Watchtower", 
+            "track": 18
+        }
+    ], 
+    "source": "SP-CMC-8 > SP-SPSB-8 @69Hz > Edirol R-09 (Taped by Walkin' Dude)", 
+    "title": "Boston 2009", 
+    "venue": "Wang Theatre", 
+    "venue_slug": "wang-theatre"
+}

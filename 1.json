@@ -1,0 +1,136 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Los Angeles", 
+    "city_slug": "los-angeles", 
+    "date": "2012-10-26", 
+    "date_added": "2012-12-31T04:34:02.038350", 
+    "encoding": "q5", 
+    "folder": "hollywood_bowl_2012", 
+    "id": 1, 
+    "songs": [
+        {
+            "album_id": 1, 
+            "duration": "5:20", 
+            "s3_name": "Los Angeles 2012-10-26-00.ogg", 
+            "slug": "you-ain-t-goin-nowhere", 
+            "title": "You Ain't Goin' Nowhere", 
+            "track": 1
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "5:01", 
+            "s3_name": "Los Angeles 2012-10-26-02.ogg", 
+            "slug": "to-ramona", 
+            "title": "To Ramona", 
+            "track": 2
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "5:20", 
+            "s3_name": "Los Angeles 2012-10-26-02.ogg", 
+            "slug": "things-have-changed", 
+            "title": "Things Have Changed", 
+            "track": 3
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "6:26", 
+            "s3_name": "Los Angeles 2012-10-26-03.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 4
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "7:14", 
+            "s3_name": "Los Angeles 2012-10-26-04.ogg", 
+            "slug": "the-levee-s-gonna-break", 
+            "title": "The Levee's Gonna Break", 
+            "track": 5
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "5:00", 
+            "s3_name": "Los Angeles 2012-10-26-05.ogg", 
+            "slug": "make-you-feel-my-love", 
+            "title": "Make You Feel My Love", 
+            "track": 6
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "5:42", 
+            "s3_name": "Los Angeles 2012-10-26-06.ogg", 
+            "slug": "cry-a-while", 
+            "title": "Cry A While", 
+            "track": 7
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "9:08", 
+            "s3_name": "Los Angeles 2012-10-26-07.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 8
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "7:00", 
+            "s3_name": "Los Angeles 2012-10-26-08.ogg", 
+            "slug": "highway-61-revisitied", 
+            "title": "Highway 61 Revisitied", 
+            "track": 9
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "5:32", 
+            "s3_name": "Los Angeles 2012-10-26-09.ogg", 
+            "slug": "love-sick", 
+            "title": "Love Sick", 
+            "track": 10
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "7:51", 
+            "s3_name": "Los Angeles 2012-10-26-10.ogg", 
+            "slug": "thunder-on-the-mountain", 
+            "title": "Thunder on the Mountain", 
+            "track": 11
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "6:17", 
+            "s3_name": "Los Angeles 2012-10-26-11.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad of A Thin Man", 
+            "track": 12
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "6:32", 
+            "s3_name": "Los Angeles 2012-10-26-12.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 13
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "6:18", 
+            "s3_name": "Los Angeles 2012-10-26-13.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along the Watchtower", 
+            "track": 14
+        }, 
+        {
+            "album_id": 1, 
+            "duration": "9:02", 
+            "s3_name": "Los Angeles 2012-10-26-14.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In the Wind", 
+            "track": 15
+        }
+    ], 
+    "source": "Core Sound micros DPA 4060 with Sony PCM - M10>Hard Drive>Flac", 
+    "title": "Hollywood Bowl 2012", 
+    "venue": "Hollywood Bowl", 
+    "venue_slug": "hollywood-bowl"
+}

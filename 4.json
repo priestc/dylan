@@ -1,0 +1,232 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Lakeland, FL", 
+    "city_slug": "lakeland-fl", 
+    "date": "1978-12-15", 
+    "date_added": "2012-12-31T17:28:54.312142", 
+    "encoding": "ogg -q 5", 
+    "folder": "lakeland_1978", 
+    "id": 4, 
+    "songs": [
+        {
+            "album_id": 4, 
+            "duration": "4:27", 
+            "s3_name": "d1/Track 01.ogg", 
+            "slug": "my-back-pages", 
+            "title": "My Back Pages", 
+            "track": 1
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "2:40", 
+            "s3_name": "d1/Track 02.ogg", 
+            "slug": "she-s-love-crazy", 
+            "title": "She's Love Crazy", 
+            "track": 2
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "5:32", 
+            "s3_name": "d1/Track 03.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 3
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:18", 
+            "s3_name": "d1/Track 04.ogg", 
+            "slug": "shelter-from-the-storm", 
+            "title": "Shelter From The Storm", 
+            "track": 4
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "3:32", 
+            "s3_name": "d1/Track 05.ogg", 
+            "slug": "love-minus-zero-no-limit", 
+            "title": "Love Minus Zero/No Limit", 
+            "track": 5
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "8:20", 
+            "s3_name": "d1/Track 06.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 6
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "5:31", 
+            "s3_name": "d1/Track 07.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad Of A Thin Man", 
+            "track": 7
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "6:00", 
+            "s3_name": "d1/Track 08.ogg", 
+            "slug": "maggie-s-farm", 
+            "title": "Maggie's Farm", 
+            "track": 8
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:01", 
+            "s3_name": "d1/Track 09.ogg", 
+            "slug": "i-don-t-believe-you", 
+            "title": "I Don't Believe You", 
+            "track": 9
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "7:39", 
+            "s3_name": "d1/Track 10.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 10
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:31", 
+            "s3_name": "d1/Track 11.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 11
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "8:01", 
+            "s3_name": "d1/Track 12.ogg", 
+            "slug": "senor-tales-of-yankee-power", 
+            "title": "Senor (Tales Of Yankee Power)", 
+            "track": 12
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:46", 
+            "s3_name": "d1/Track 13.ogg", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 13
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "3:38", 
+            "s3_name": "d2/Track 01.ogg", 
+            "slug": "rainy-day-women-12-35", 
+            "title": "Rainy Day Women # 12 & 35", 
+            "track": 14
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "6:28", 
+            "s3_name": "d2/Track 02.ogg", 
+            "slug": "it-ain-t-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 15
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "3:32", 
+            "s3_name": "d2/Track 03.ogg", 
+            "slug": "am-i-your-stepchild", 
+            "title": "Am I Your Stepchild?", 
+            "track": 16
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "7:59", 
+            "s3_name": "d2/Track 04.ogg", 
+            "slug": "one-more-cup-of-coffee-valley-below", 
+            "title": "One More Cup Of Coffee (Valley Below)", 
+            "track": 17
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:56", 
+            "s3_name": "d2/Track 05.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 18
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "5:41", 
+            "s3_name": "d2/Track 06.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 19
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "3:36", 
+            "s3_name": "d2/Track 07.ogg", 
+            "slug": "we-better-talk-this-over", 
+            "title": "We Better Talk This Over", 
+            "track": 20
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "4:56", 
+            "s3_name": "d2/Track 08.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 21
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "5:34", 
+            "s3_name": "d2/Track 09.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 22
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "3:43", 
+            "s3_name": "d2/Track 10.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 23
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "6:57", 
+            "s3_name": "d2/Track 11.ogg", 
+            "slug": "to-ramona", 
+            "title": "To Ramona", 
+            "track": 24
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "6:22", 
+            "s3_name": "d2/Track 12.ogg", 
+            "slug": "it-s-alright-ma-i-m-only-bleeding", 
+            "title": "It's Alright, Ma (I'm Only Bleeding)", 
+            "track": 25
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "6:27", 
+            "s3_name": "d2/Track 13.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 26
+        }, 
+        {
+            "album_id": 4, 
+            "duration": "7:13", 
+            "s3_name": "d2/Track 14.ogg", 
+            "slug": "changing-of-the-guards", 
+            "title": "Changing of The Guards", 
+            "track": 27
+        }
+    ], 
+    "source": "Fix of LB-7785: Wave Repair 4.9.3 to fix micro gaps between all tracks > FLAC.", 
+    "title": "Lakeland 1978", 
+    "venue": "Lakeland Center", 
+    "venue_slug": "lakeland-center"
+}

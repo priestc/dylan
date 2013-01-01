@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ data.city }} - {{ data.length }} albums</h1>
+    <a href="/cities">Back to all cities</a>
+    <ul>
+    {% for album in data.albums %}
+        <li><a href="/album/{{ album.id }}">{{ album.date }} - {{ album.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

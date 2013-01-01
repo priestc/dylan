@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="/static/album.css" type="text/css" media="all" />
+{% endblock %}
+
+{% block content %}
+    <h1>{{ data.album.title }}</h1>
+    <a href="/">Home</a>
+    <table id="album_data"><br><br>
+        <tr>
+            <th>Run time:</th>
+            <td>{{ data.album.duration() }}<td>
+            <th>Source:</th>
+            <td>{{ data.album.source }}<td>
+        </tr>
+        <tr>
+            <th>Date:</th>
+            <td>{{ data.album.date }}<td>
+            <th>Encoding:</th>
+            <td>{{ data.album.encoding }}<td>
+        </tr>
+        <tr>
+            <th>City:</th>
+            <td><a href="/city/{{ data.album.city_slug }}">{{ data.album.city }}</a><td>
+            <th>Performance:</th>
+            <td>5.3/10<td>
+        </tr>
+        <tr>
+            <th>Venue:</th>
+            <td><a href="/venue/{{ data.album.venue_slug }}">{{ data.album.venue }}<td>
+            <th>Sound:</th>
+            <td>5.3/10<td>
+        </tr>
+    </table>
+    <br>
+    <div id="player_box">
+        <div id="currently_playing"></div>
+        <div id="player_container"><audio id="player" controls></audio></div>
+    
+        <table id="playlist_table">
+            {% for song in data.album.songs %}
+            <tr class="row_{{ song.track }}">
+                <td class="duration_column">
+                    <span class="hidden_info" id="info_{{ song.track }}">
+                        <span class="title">{{ song.title }}</span>
+                        <span class="duration">{{ song.duration }}</span>
+                    </span>
+                    [{{ song.duration }}]
+                </td>
+                <td class="track_column">
+                     {{ song.track }}
+                </td>
+                <td class="title_column">
+                    <a href="#" class="playlist_item" id="track_{{ song.track }}">{{ song.title }}</a>
+                </td>
+                <td class="links_column">
+                    <a class="more_link" href="/song/{{ song.slug }}">more</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <script>
+        $('.playlist_item')
+        var urls = {{ data.album.playlist_urls_js() }};
+        var player = $('#player');
+
+        var initial_track = 1;
+        if(window.location.hash.substr(1, 5) == 'track') {
+            initial_track = Number(window.location.hash.substr(6));
+        }
+
+        // set initial state
+        player.attr('src', urls[initial_track]);
+        player.attr('track', initial_track);
+        set_currently_playing(initial_track);
+
+        function set_currently_playing(track) {
+            var title = $('#info_' + track + ' .title').text();
+            var duration = $('#info_' + track + ' .duration').text();
+            $('#currently_playing').text(title + ' [' + duration + ']');
+            $('#playlist_table tr').removeClass('now_playing');
+            $('#playlist_table tr.row_' + track).addClass('now_playing');
+        }
+
+        player.bind('ended', function() {
+            var track = Number($(this).attr('track'));
+            var new_track = track + 1;
+            console.log(new_track, urls.length);
+            if (new_track >= urls.length) {
+                return
+            }
+            player.attr('src', urls[new_track]);
+            player.attr('track', new_track);
+            player.trigger('change');
+        });
+
+        player.bind('change', function() {
+            player.get(0).play();
+            var track = player.attr('track');
+            set_currently_playing(track);
+        });
+
+        $("a.playlist_item").click(function(e) {
+            e.preventDefault();
+            var this_track = $(this).attr('id').substr(6);
+            player.attr('src', urls[this_track]);
+            player.attr('track', this_track);
+            player.trigger('change');
+        });
+    </script>
+{% endblock %}

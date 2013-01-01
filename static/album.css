@@ -1,0 +1,58 @@
+#player_box {
+    margin: 10px auto 10px auto;
+    width: 80%;
+    background: #AAAAAA;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#currently_playing {
+    font-size: xx-large;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.more_link {
+    font-size: x-small;
+}
+
+#player_container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#player {
+    width: 100%;
+}
+
+.hidden_info {
+    display: none
+}
+
+#playlist_table {
+    margin: 0 auto 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+#playlist_table td {
+    padding: 3px;
+}
+
+#playlist_table td.links_column {
+    text-align: right;
+}
+
+#playlist_item a:visited {
+    color: blue;
+}
+
+.now_playing {
+    background: #D59FB4;
+}
+
+#album_data th {
+    text-align: right
+}

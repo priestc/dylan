@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>All Albums</h1>
+    <a href="/">Home</a>
+    <ul>
+    {% for album in data.albums %}
+        <li><a href="/album/{{ album.id }}">{{ album.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

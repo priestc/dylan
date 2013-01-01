@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ data.title }} - {{ data.length }} songs</h1>
+    <ul>
+    {% for song in data.songs %}
+        <li><a href="/album/{{ song.album.id }}#track{{ song.track }}">{{song.album.date }} - {{ song.album.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
