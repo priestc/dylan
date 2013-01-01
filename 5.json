@@ -1,0 +1,232 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "London", 
+    "city_slug": "london", 
+    "date": "1981-07-01", 
+    "date_added": "2013-01-01T02:15:44.904377", 
+    "encoding": "ogg -q5", 
+    "folder": "earls_court_1981", 
+    "id": 5, 
+    "songs": [
+        {
+            "album_id": 5, 
+            "duration": "3:52", 
+            "s3_name": "bd1981-07-01.d1t01.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 1
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:45", 
+            "s3_name": "bd1981-07-01.d1t02.ogg", 
+            "slug": "i-believe-in-you", 
+            "title": "I Believe In You", 
+            "track": 2
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "5:43", 
+            "s3_name": "bd1981-07-01.d1t03.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 3
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:34", 
+            "s3_name": "bd1981-07-01.d1t04.ogg", 
+            "slug": "man-gave-names-to-all-the-animals", 
+            "title": "Man Gave Names To All The Animals", 
+            "track": 4
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:47", 
+            "s3_name": "bd1981-07-01.d1t05.ogg", 
+            "slug": "maggie-s-farm", 
+            "title": "Maggie's Farm", 
+            "track": 5
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "1:38", 
+            "s3_name": "bd1981-07-01.d1t06.ogg", 
+            "slug": "here-comes-the-sun", 
+            "title": "Here Comes The Sun", 
+            "track": 6
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:04", 
+            "s3_name": "bd1981-07-01.d1t07.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 7
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:14", 
+            "s3_name": "bd1981-07-01.d1t08.ogg", 
+            "slug": "dead-man-dead-man", 
+            "title": "Dead Man, Dead Man", 
+            "track": 8
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:37", 
+            "s3_name": "bd1981-07-01.d1t09.ogg", 
+            "slug": "simple-twist-of-fate", 
+            "title": "Simple Twist Of Fate", 
+            "track": 9
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:09", 
+            "s3_name": "bd1981-07-01.d1t10.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad Of A Thin Man", 
+            "track": 10
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:28", 
+            "s3_name": "bd1981-07-01.d1t11.ogg", 
+            "slug": "slow-train-coming", 
+            "title": "Slow Train Coming", 
+            "track": 11
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:21", 
+            "s3_name": "bd1981-07-01.d1t12.ogg", 
+            "slug": "let-s-begin", 
+            "title": "Let's Begin", 
+            "track": 12
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "5:09", 
+            "s3_name": "bd1981-07-01.d1t13.ogg", 
+            "slug": "shot-of-love", 
+            "title": "Shot Of Love", 
+            "track": 13
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:26", 
+            "s3_name": "bd1981-07-01.d1t14.ogg", 
+            "slug": "lenny-bruce", 
+            "title": "Lenny Bruce", 
+            "track": 14
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "5:07", 
+            "s3_name": "bd1981-07-01.d2t01.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 15
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:05", 
+            "s3_name": "bd1981-07-01.d2t02.ogg", 
+            "slug": "solid-rock", 
+            "title": "Solid Rock", 
+            "track": 16
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:58", 
+            "s3_name": "bd1981-07-01.d2t03.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 17
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "2:33", 
+            "s3_name": "bd1981-07-01.d2t04.ogg", 
+            "slug": "we-just-disagree", 
+            "title": "We Just Disagree", 
+            "track": 18
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:01", 
+            "s3_name": "bd1981-07-01.d2t05.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 19
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:19", 
+            "s3_name": "bd1981-07-01.d2t06.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 20
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:27", 
+            "s3_name": "bd1981-07-01.d2t07.ogg", 
+            "slug": "heart-of-mine", 
+            "title": "Heart Of Mine", 
+            "track": 21
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:54", 
+            "s3_name": "bd1981-07-01.d2t08.ogg", 
+            "slug": "watered-down-love", 
+            "title": "Watered-Down Love", 
+            "track": 22
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "3:29", 
+            "s3_name": "bd1981-07-01.d2t09.ogg", 
+            "slug": "when-you-gonna-wake-up", 
+            "title": "When You Gonna Wake Up?", 
+            "track": 23
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "8:26", 
+            "s3_name": "bd1981-07-01.d2t10.ogg", 
+            "slug": "in-the-garden", 
+            "title": "In The Garden", 
+            "track": 24
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:38", 
+            "s3_name": "bd1981-07-01.d2t11.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 25
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "5:52", 
+            "s3_name": "bd1981-07-01.d2t12.ogg", 
+            "slug": "it-s-alright-ma-i-m-only-bleeding", 
+            "title": "It's Alright, Ma (I'm Only Bleeding)", 
+            "track": 26
+        }, 
+        {
+            "album_id": 5, 
+            "duration": "4:52", 
+            "s3_name": "bd1981-07-01.d2t13.ogg", 
+            "slug": "knockin-on-heaven-s-door", 
+            "title": "Knockin' On Heaven's Door", 
+            "track": 27
+        }
+    ], 
+    "source": "Trade cd-r's > eac > flac 5 > y'all", 
+    "title": "Earl's Court 1981", 
+    "venue": "Earl's Court", 
+    "venue_slug": "earl-s-court"
+}

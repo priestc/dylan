@@ -98,7 +98,7 @@ class Album(config.Base):
             city=data['city'],    
         )
         config.session.add(a)
-        for i in xrange(int(data['num_of_tracks'])):
+        for i in xrange(int(data['num_of_tracks']) + 1):
             title = data['title_%s' % i]
             track = data['track_%s' % i]
             s3_name = data['s3_%s' % i]
