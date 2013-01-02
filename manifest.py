@@ -15,12 +15,14 @@ manifest = ProgramManifest({
     ),
     'albums': GiottoProgram(
         model=[Album.all],
+        cache=3600
         view=BasicView(
             html=jinja_template('album_list.html'),
         ),
     ),
     'album': GiottoProgram(
         model=[Album.get],
+        cache=3600,
         view=BasicView(
             html=jinja_template('album.html'),
             json=album2json,
@@ -28,36 +30,42 @@ manifest = ProgramManifest({
     ),
     'song': GiottoProgram(
         model=[Song.profile],
+        cache=3600,
         view=BasicView(
             html=jinja_template('song.html')
         ),
     ),
     'songs': GiottoProgram(
         model=[Song.all_songs],
+        cache=3600,
         view=BasicView(
             html=jinja_template('all_songs.html'),
         ),
     ),
     'venue': GiottoProgram(
         model=[Album.by_venue],
+        cache=3600,
         view=BasicView(
             html=jinja_template('venue.html'),
         )
     ),
     'venues': GiottoProgram(
         model=[Album.all_venues],
+        cache=3600,
         view=BasicView(
             html=jinja_template('all_venues.html'),
         )
     ),
     'city': GiottoProgram(
         model=[Album.by_city],
+        cache=3600,
         view=BasicView(
             html=jinja_template('city.html'),
         )
     ),
     'cities': GiottoProgram(
         model=[Album.all_cities],
+        cache=3600,
         view=BasicView(
             html=jinja_template('all_cities.html'),
         )
