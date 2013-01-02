@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}{{ data.venue }}{% endblock %}
+
 {% block content %}
     <h1>{{ data.venue }} - {{ data.length }} albums</h1>
     <a href="/venues">Back to all venues</a>
