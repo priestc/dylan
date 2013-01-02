@@ -132,7 +132,9 @@ class Song(config.Base):
 
     @classmethod
     def all_songs(cls):
-        songs = config.session.query(func.max(cls.title), cls.slug, func.count(cls.title)).group_by(cls.slug).all()
+        songs = config.session.query(
+            func.max(cls.title), cls.slug, func.count(cls.title)
+            ).group_by(cls.slug).order_by(cls.title).all()
         return {'songs': songs, 'length': len(songs)}
 
     @classmethod
