@@ -18,14 +18,11 @@ header a {
 
 footer {
     font-size: small;
+    text-align: center;
 }
 
 #social {
     text-align: right;
     padding-top: 5px;
     height: 2px;
-}
-
-footer {
-    text-align: center;
 }

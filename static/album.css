@@ -60,3 +60,8 @@
 #album_data th {
     text-align: right
 }
+
+#disqus_thread {
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
