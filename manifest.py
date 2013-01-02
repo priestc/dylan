@@ -1,7 +1,7 @@
 from giotto import config
 from giotto.programs import GiottoProgram, ProgramManifest, management_manifest
 from giotto.views import BasicView, jinja_template
-from giotto.contrib.static.programs import StaticServe
+from giotto.contrib.static.programs import StaticServe, SingleStaticServe
 from giotto.control import Redirection
 
 from models import Album, Song, get_bucket_contents, from_json
@@ -34,7 +34,7 @@ manifest = ProgramManifest({
         model=[Song.profile, mock_song()],
         cache=3600,
         view=BasicView(
-            html=jinja_template('song.html')
+            html=jinja_template('song.html'),
         ),
     ),
     'songs': GiottoProgram(
@@ -101,6 +101,7 @@ manifest = ProgramManifest({
         model=[from_json],
         view=BasicView(),
     ),
+    'favicon': SingleStaticServe(config.project_path + '/static/favicon.ico'),
     'static': StaticServe(config.project_path + '/static/'),
     'mgt': management_manifest,
 })

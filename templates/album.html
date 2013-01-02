@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="/static/album.css" type="text/css" media="all" />
 {% endblock %}
 
+{% block title %}{{ data.album.title }}{% endblock %}
+
 {% block content %}
     <h1>{{ data.album.title }}</h1>
     <table id="album_data"><br><br>
