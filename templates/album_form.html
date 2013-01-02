@@ -27,7 +27,9 @@
         var bucket = $('#bucket').val();
         var folder = $('#folder').val();
         $("#spinner").show();
-        $.get('/bucket_contents', {bucket: bucket, folder: folder}).done(function(r) {
+        $.get(
+            '/bucket_contents', {bucket: bucket, folder: folder}
+        ).done(function(r) {
             var filename, html;
             for(i in r) {
                 filename = r[i];

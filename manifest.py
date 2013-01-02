@@ -5,6 +5,8 @@ from giotto.contrib.static.programs import StaticServe
 from giotto.control import Redirection
 
 from models import Album, Song, get_bucket_contents, from_json
+from mocks import mock_album, mock_songs, mock_venues, mock_venue, mock_song
+
 from views import album2json
 
 manifest = ProgramManifest({
@@ -14,14 +16,14 @@ manifest = ProgramManifest({
         ),
     ),
     'albums': GiottoProgram(
-        model=[Album.all],
+        model=[Album.all, {'albums': [mock_album()]}],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_albums.html'),
         ),
     ),
     'album': GiottoProgram(
-        model=[Album.get],
+        model=[Album.get, {'album': mock_album()}],
         cache=3600,
         view=BasicView(
             html=jinja_template('album.html'),
@@ -29,28 +31,28 @@ manifest = ProgramManifest({
         ),
     ),
     'song': GiottoProgram(
-        model=[Song.profile],
+        model=[Song.profile, mock_song()],
         cache=3600,
         view=BasicView(
             html=jinja_template('song.html')
         ),
     ),
     'songs': GiottoProgram(
-        model=[Song.all_songs],
+        model=[Song.all_songs, mock_songs()],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_songs.html'),
         ),
     ),
     'venue': GiottoProgram(
-        model=[Album.by_venue],
+        model=[Album.by_venue, mock_venue()],
         cache=3600,
         view=BasicView(
             html=jinja_template('venue.html'),
         )
     ),
     'venues': GiottoProgram(
-        model=[Album.all_venues],
+        model=[Album.all_venues, mock_venues()],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_venues.html'),
