@@ -1,0 +1,160 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Asheville, NC", 
+    "city_slug": "asheville-nc", 
+    "date": "1993-04-18", 
+    "date_added": "2013-01-02T16:31:43.811438", 
+    "encoding": "ogg -q5", 
+    "folder": "thomas_wolfe_auditorium_1993", 
+    "id": 7, 
+    "songs": [
+        {
+            "album_id": 7, 
+            "duration": "5:51", 
+            "s3_name": "bd1993-04-18.d1t01.ogg", 
+            "slug": "hard-times", 
+            "title": "Hard Times", 
+            "track": 1
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "8:45", 
+            "s3_name": "bd1993-04-18.d1t02.ogg", 
+            "slug": "stuck-inside-of-mobile-with-the-memphis-blues-again", 
+            "title": "Stuck Inside Of Mobile With The Memphis Blues Again", 
+            "track": 2
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "4:46", 
+            "s3_name": "bd1993-04-18.d1t03.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 3
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "6:32", 
+            "s3_name": "bd1993-04-18.d1t04.ogg", 
+            "slug": "you-re-a-big-girl-now", 
+            "title": "You're A Big Girl Now", 
+            "track": 4
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "11:26", 
+            "s3_name": "bd1993-04-18.d1t05.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 5
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "8:16", 
+            "s3_name": "bd1993-04-18.d1t06.ogg", 
+            "slug": "disease-of-conceit", 
+            "title": "Disease Of Conceit", 
+            "track": 6
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "5:53", 
+            "s3_name": "bd1993-04-18.d1t07.ogg", 
+            "slug": "watching-the-river-flow", 
+            "title": "Watching The River Flow", 
+            "track": 7
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "6:59", 
+            "s3_name": "bd1993-04-18.d1t08.ogg", 
+            "slug": "jim-jones", 
+            "title": "Jim Jones", 
+            "track": 8
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "5:55", 
+            "s3_name": "bd1993-04-18.d1t09.ogg", 
+            "slug": "tomorrow-night", 
+            "title": "Tomorrow Night", 
+            "track": 9
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "7:41", 
+            "s3_name": "bd1993-04-18.d1t10.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 10
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "7:17", 
+            "s3_name": "bd1993-04-18.d1t11.ogg", 
+            "slug": "don-t-think-twice-it-s-all-right", 
+            "title": "Don't Think Twice. It's All Right", 
+            "track": 11
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "5:35", 
+            "s3_name": "bd1993-04-18.d2t01.ogg", 
+            "slug": "cat-s-in-the-well", 
+            "title": "Cat's In The Well", 
+            "track": 12
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "7:47", 
+            "s3_name": "bd1993-04-18.d2t02.ogg", 
+            "slug": "i-and-i", 
+            "title": "I And I", 
+            "track": 13
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "5:50", 
+            "s3_name": "bd1993-04-18.d2t03.ogg", 
+            "slug": "i-ll-remember-you", 
+            "title": "I'll Remember You", 
+            "track": 14
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "8:33", 
+            "s3_name": "bd1993-04-18.d2t04.ogg", 
+            "slug": "everything-is-broken", 
+            "title": "Everything Is Broken", 
+            "track": 15
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "6:19", 
+            "s3_name": "bd1993-04-18.d2t05.ogg", 
+            "slug": "i-ll-be-your-baby-tonight", 
+            "title": "I'll Be Your Baby Tonight", 
+            "track": 16
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "7:22", 
+            "s3_name": "bd1993-04-18.d2t06.ogg", 
+            "slug": "maggie-s-farm", 
+            "title": "Maggie's Farm", 
+            "track": 17
+        }, 
+        {
+            "album_id": 7, 
+            "duration": "10:02", 
+            "s3_name": "bd1993-04-18.d2t07.ogg", 
+            "slug": "it-ain-t-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 18
+        }
+    ], 
+    "source": "Alternate recording to LB-2334 (board) & LB-4991 (PDub)", 
+    "title": "Thomas Wolfe Auditorium 1993", 
+    "venue": "Thomas Wolfe Auditorium", 
+    "venue_slug": "thomas-wolfe-auditorium"
+}
