@@ -17,7 +17,7 @@ manifest = ProgramManifest({
         model=[Album.all],
         cache=3600,
         view=BasicView(
-            html=jinja_template('album_list.html'),
+            html=jinja_template('all_albums.html'),
         ),
     ),
     'album': GiottoProgram(
