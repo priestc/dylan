@@ -46,7 +46,8 @@
             $("#spinner").hide();
         }).error(function(r) {
             $("#spinner").hide();
-            alert('error');
+            console.log(r);
+            alert(r.responseText);
         });
     });
 </script>

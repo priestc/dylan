@@ -41,12 +41,16 @@
     padding: 3px;
 }
 
-#playlist_table td.links_column {
+#playlist_table td.duration_column {
     text-align: right;
 }
 
-#playlist_item a:visited {
-    color: blue;
+.playlist_item:visited {
+    color: #8A1A15;
+}
+
+.playlist_item {
+    color: #8A1A15;
 }
 
 .now_playing {

@@ -2,7 +2,7 @@ import datetime
 import re
 
 from boto.s3.connection import S3Connection
-
+from boto.exception import S3ResponseError
 from giotto import config
 from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
@@ -166,11 +166,18 @@ class Song(config.Base):
 
 def get_bucket_contents(bucket, folder):
     conn = S3Connection(config.aws_access_key, config.aws_secret_access_key)
-    bucket = conn.get_bucket(bucket)
+    try:
+        bucket = conn.get_bucket(bucket)
+    except S3ResponseError:
+        raise DataNotFound("Can't open S3 bucket")
+
     length = len(folder)
     # skip the first result (which is just the folder name, and remove the
     # folder name from each result
-    return [x.name[length+1:] for x in bucket.list(folder)]
+    ret = [x.name[length+1:] for x in bucket.list(folder)]
+    if len(ret) == 0:
+        raise DataNotFound("Empty Bucket or folder")
+    return ret
 
 
 def from_json(file):

@@ -48,14 +48,14 @@
                      {{ song.track }}
                 </td>
                 <td class="title_column">
-                    <a href="#" class="playlist_item" id="track_{{ song.track }}">{{ song.title }}</a>
+                    <a href class="playlist_item" id="track_{{ song.track }}">{{ song.title }}</a>
                 </td>
                 <td class="duration_column">
                     <span class="hidden_info" id="info_{{ song.track }}">
                         <span class="title">{{ song.title }}</span>
                         <span class="duration">{{ song.duration }}</span>
                     </span>
-                    [{{ song.duration }}]
+                    {{ song.duration }}
                 </td>
             </tr>
             {% endfor %}
