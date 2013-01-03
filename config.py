@@ -2,8 +2,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from giotto.utils import better_base
-from giotto.keyvalue import DummyKeyValue
-from private_config import *
+from machine_config import *
 
 Base = better_base()
 
@@ -11,7 +10,7 @@ from sqlite3 import dbapi2 as sqlite
 engine = create_engine('sqlite+pysqlite:///file.db', module=sqlite)
 
 session = sessionmaker(bind=engine)()
-cache = DummyKeyValue()
+
 auth_session = None
 
 project_path = os.path.dirname(os.path.abspath(__file__))
