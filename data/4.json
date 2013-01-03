@@ -7,6 +7,7 @@
     "encoding": "ogg -q 5", 
     "folder": "lakeland_1978", 
     "id": 4, 
+    "published": true,
     "songs": [
         {
             "album_id": 4, 

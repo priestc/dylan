@@ -8,7 +8,7 @@ from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
 from giotto.utils import slugify
 
-from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, func
+from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Boolean, func
 from sqlalchemy.orm import relationship
 
 class Album(config.Base):
@@ -25,6 +25,7 @@ class Album(config.Base):
     folder = Column(String)
     encoding = Column(String)
     songs = relationship('Song', backref="album")
+    published = Column(Boolean)
 
     def __repr__(self):
         return "<Album: %s - %s>" % (self.title, self.date)
@@ -59,12 +60,14 @@ class Album(config.Base):
 
     @classmethod
     def all_cities(cls):
-        cities = config.session.query(func.max(cls.city), cls.city_slug, func.count(cls.title)).group_by(cls.city_slug).all()
+        selects = [func.max(cls.city), cls.city_slug, func.count(cls.title)]
+        cities = config.session.query(*selects).group_by(cls.city_slug).all()
         return {'cities': cities, 'length': len(cities)}
 
     @classmethod
     def all_venues(cls):
-        venues = config.session.query(func.max(cls.venue), cls.venue_slug, func.count(cls.title)).group_by(cls.venue_slug).all()
+        selects = [func.max(cls.venue), cls.venue_slug, func.count(cls.title)]
+        venues = config.session.query(*selects).group_by(cls.venue_slug).all()
         return {'venues': venues, 'length': len(venues)}
 
     @classmethod
@@ -161,7 +164,9 @@ class Song(config.Base):
         return "<Song: %02d - %s>" %(self.track, self.title)
 
     def url(self):
-        return "https://s3.amazonaws.com/%s/%s/%s" % (self.album.bucket, self.album.folder, self.s3_name) 
+        return "https://s3.amazonaws.com/%s/%s/%s" % (
+            self.album.bucket, self.album.folder, self.s3_name
+        ) 
 
 
 def get_bucket_contents(bucket, folder):

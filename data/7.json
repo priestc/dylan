@@ -7,6 +7,7 @@
     "encoding": "ogg -q5", 
     "folder": "thomas_wolfe_auditorium_1993", 
     "id": 7, 
+    "published": true,
     "songs": [
         {
             "album_id": 7, 

@@ -6,7 +6,8 @@
     "date_added": "2012-12-31T04:35:18.877216", 
     "encoding": "ogg -q5", 
     "folder": "hollywood_bowl_1965", 
-    "id": 2, 
+    "id": 2,
+    "published": true, 
     "songs": [
         {
             "album_id": 2, 
