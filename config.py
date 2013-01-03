@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from giotto.utils import better_base
 from giotto.keyvalue import DummyKeyValue
+from private_config import *
 
 Base = better_base()
 
@@ -18,5 +19,4 @@ project_path = os.path.dirname(os.path.abspath(__file__))
 from jinja2 import Environment, FileSystemLoader
 jinja2_env = Environment(loader=FileSystemLoader(project_path + '/templates'))
 
-debug = True
-error_template = None
+error_template = "error.html"

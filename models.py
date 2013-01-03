@@ -140,7 +140,6 @@ class Song(config.Base):
                               .group_by(cls.slug)\
                               .order_by(cls.slug)\
                               .all()
-        import debug
         return {'songs': songs, 'length': len(songs)}
 
     @classmethod
