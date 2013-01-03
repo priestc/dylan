@@ -20,6 +20,3 @@ jinja2_env = Environment(loader=FileSystemLoader(project_path + '/templates'))
 
 debug = True
 error_template = None
-
-aws_access_key = 'AKIAJDBRZGUZ2PE334MQ'
-aws_secret_access_key = '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'

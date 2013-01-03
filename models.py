@@ -72,7 +72,7 @@ class Album(config.Base):
 
     @classmethod
     def all(cls):
-        return {'albums': config.session.query(cls).all()}
+        return {'albums': config.session.query(cls).filter_by(published=True).all()}
 
     @classmethod
     def get(cls, id):
@@ -135,9 +135,12 @@ class Song(config.Base):
 
     @classmethod
     def all_songs(cls):
-        songs = config.session.query(
-            func.max(cls.title), cls.slug, func.count(cls.title)
-            ).group_by(cls.slug).order_by(cls.slug).all()
+        selects = func.max(cls.title), cls.slug, func.count(cls.title)
+        songs = config.session.query(*selects)\
+                              .group_by(cls.slug)\
+                              .order_by(cls.slug)\
+                              .all()
+        import debug
         return {'songs': songs, 'length': len(songs)}
 
     @classmethod
