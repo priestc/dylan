@@ -1,0 +1,177 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "ogg -q5", 
+    "city_slug": "ogg-q5", 
+    "date": "1990-08-20", 
+    "date_added": "2013-01-04T15:46:49.410257", 
+    "encoding": "ogg -q5", 
+    "folder": "vancouver_1990", 
+    "id": 8, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 8, 
+            "duration": "0:35", 
+            "s3_name": "01 - Intro.ogg", 
+            "slug": "intro", 
+            "title": "Intro", 
+            "track": 1
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "4:04", 
+            "s3_name": "02 - Maggie", 
+            "slug": "maggie-s-farm", 
+            "title": "Maggie's Farm", 
+            "track": 2
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "3:16", 
+            "s3_name": "03 - Shelter From The Storm.ogg", 
+            "slug": "shelter-from-the-storm", 
+            "title": "Shelter From The Storm", 
+            "track": 3
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "5:27", 
+            "s3_name": "04 - Ballad Of A Thin Man.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad of a Thin Man", 
+            "track": 4
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "6:43", 
+            "s3_name": "05 - Stuck Inside Of Mobile With The Memphis Blues Again.ogg", 
+            "slug": "stuck-inside-of-mobile-with-the-memphis-blues-again", 
+            "title": "Stuck Inside Of Mobile With The Memphis Blues Again", 
+            "track": 5
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "2:46", 
+            "s3_name": "06 - Masters Of War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters of War", 
+            "track": 6
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "5:36", 
+            "s3_name": "07 - Gotta Serve Somebody.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 7
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "3:10", 
+            "s3_name": "08 - Man Of Constant Sorrow.ogg", 
+            "slug": "man-of-constant-sorrow", 
+            "title": "Man of Constant Sorrow", 
+            "track": 8
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "6:00", 
+            "s3_name": "09 - Don", 
+            "slug": "don-t-think-twice-it-s-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "6:01", 
+            "s3_name": "10 - It", 
+            "slug": "it-s-alright-ma-i-m-only-bleeding", 
+            "title": "It's Alright, Ma (I'm Only Bleeding)", 
+            "track": 10
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "4:15", 
+            "s3_name": "11 - Girl From The North Country.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 11
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "6:54", 
+            "s3_name": "12 - It", 
+            "slug": "it-s-all-over-now-baby-blue", 
+            "title": "It's All Over Now, Baby Blue", 
+            "track": 12
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "3:33", 
+            "s3_name": "13 - Everything Is Broken.ogg", 
+            "slug": "everything-is-broken", 
+            "title": "Everything Is Broken", 
+            "track": 13
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "4:12", 
+            "s3_name": "14 - I Believe In You.ogg", 
+            "slug": "i-believe-in-you", 
+            "title": "I Believe In You", 
+            "track": 14
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "3:42", 
+            "s3_name": "15 - All Along The Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 15
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "2:22", 
+            "s3_name": "16 - Shooting Star.ogg", 
+            "slug": "shooting-star", 
+            "title": "Shooting Star", 
+            "track": 16
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "4:07", 
+            "s3_name": "17 - I Shall Be Released.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 17
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "6:20", 
+            "s3_name": "18 - Like A Rolling Stone.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 18
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "4:58", 
+            "s3_name": "19 - Blowin", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 19
+        }, 
+        {
+            "album_id": 8, 
+            "duration": "5:51", 
+            "s3_name": "20 - Highway 61 Revisited.ogg", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 20
+        }
+    ], 
+    "source": null, 
+    "title": "Vancouver 1990", 
+    "venue": "Pacific Coliseum", 
+    "venue_slug": "pacific-coliseum"
+}
