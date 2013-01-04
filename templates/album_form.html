@@ -16,8 +16,8 @@
     <label for="folder">Folder:</label><input type="text" id="folder" name="folder" value="{{ errors.folder.value }}"><br>
     <label for="venue">Venue:</label><input type="text" id="venue" name="venue" value="{{ errors.venue.value }}"><br>
     <label for="city">City:</label><input type="text" id="city" name="city" value="{{ errors.city.value }}"><br>
-    <label for="city">Source:</label><input type="text" id="source" name="city" value="{{ errors.source.value }}"><br>
-    <label for="city">Encoding:</label><input type="text" id="encoding" name="city" value="{{ errors.encoding.value }}"><br>
+    <label for="source">Source:</label><input type="text" id="source" name="source" value="{{ errors.source.value }}"><br>
+    <label for="encoding">Encoding:</label><input type="text" id="encoding" name="encoding" value="{{ errors.encoding.value }}"><br>
     <input type="button" value="get tracks" id="get_tracks">
     <div id="tracks"></div>
     <img id="spinner" src="/static/spinner.gif">
@@ -46,7 +46,7 @@
                 $("#tracks").append(html);
             }
             $('#tracks').append($("<input type='hidden' name='num_of_tracks' value='" + i + "'>"));
-            $('#input_button').show();
+            $('#submit_button').show();
             $("#spinner").hide();
         }).error(function(r) {
             $("#spinner").hide();

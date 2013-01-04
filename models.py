@@ -96,6 +96,8 @@ class Album(config.Base):
             venue=data['venue'],
             bucket=data['bucket'],
             folder=data['folder'],
+            encoding=data['encoding'],
+            source=data['source'],
             city=data['city'],    
         )
         config.session.add(a)
