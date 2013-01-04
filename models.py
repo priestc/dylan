@@ -1,8 +1,6 @@
 import datetime
 import re
 
-from boto.s3.connection import S3Connection
-from boto.exception import S3ResponseError
 from giotto import config
 from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
@@ -172,6 +170,8 @@ class Song(config.Base):
 
 
 def get_bucket_contents(bucket, folder):
+    from boto.s3.connection import S3Connection
+    from boto.exception import S3ResponseError
     conn = S3Connection(config.aws_access_key, config.aws_secret_access_key)
     try:
         bucket = conn.get_bucket(bucket)
