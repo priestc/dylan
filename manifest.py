@@ -96,7 +96,7 @@ manifest = ProgramManifest({
             ),
         ),
     ],
-    'load_from_json': GiottoProgram(
+    'load_all_data': GiottoProgram(
         controllers=['cmd'],
         model=[from_json],
         view=BasicView(),

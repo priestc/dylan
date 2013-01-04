@@ -189,20 +189,31 @@ def get_bucket_contents(bucket, folder):
     return ret
 
 
-def from_json(file):
+def from_json():
+    """
+    Import all files in the data folder
+    """
     import json
     import dateutil.parser
-    j = open(file).read()
-    obj = json.loads(j)
-    songs = obj['songs']
-    del obj['songs']
-    obj['date_added'] = dateutil.parser.parse(obj['date_added'])
-    obj['date'] = dateutil.parser.parse(obj['date'])
-    a = Album(**obj)
-    config.session.add(a)
+    index = 0
+    while True:
+        try:
+            index += 1
+            j = open("data/%s.json" % index).read()
+        except IOError:
+            index -= 1
+            break
+        obj = json.loads(j)
+        songs = obj['songs']
+        del obj['songs']
+        obj['date_added'] = dateutil.parser.parse(obj['date_added'])
+        obj['date'] = dateutil.parser.parse(obj['date'])
+        a = Album(**obj)
+        config.session.add(a)
 
-    for song_data in songs:
-        s = Song(**song_data)
-        config.session.add(s)
-    
+        for song_data in songs:
+            s = Song(**song_data)
+            config.session.add(s)
+
     config.session.commit()
+    return "added %s albums from json" % index
