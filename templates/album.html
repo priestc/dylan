@@ -107,7 +107,6 @@
         player.bind('ended', function() {
             var track = Number($(this).attr('track'));
             var new_track = track + 1;
-            console.log(new_track, urls.length);
             if (new_track >= urls.length) {
                 return
             }
