@@ -199,7 +199,7 @@ def from_json():
     while True:
         try:
             index += 1
-            j = open("data/%s.json" % index).read()
+            j = open("data/%s.json" % index, 'r').read()
         except IOError:
             index -= 1
             break
