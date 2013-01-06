@@ -1,0 +1,169 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Akita, Japan", 
+    "city_slug": "akita-japan", 
+    "date": "2001-02-28", 
+    "date_added": "2013-01-05T22:33:51.249192", 
+    "encoding": "ogg -q5", 
+    "folder": "akita_2001", 
+    "id": 11, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 11, 
+            "duration": "4:09", 
+            "s3_name": "bd2001-02-28d1t01.ogg", 
+            "slug": "duncan-and-brady", 
+            "title": "Duncan And Brady", 
+            "track": 1
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "5:11", 
+            "s3_name": "bd2001-02-28d1t02.ogg", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 2
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "8:14", 
+            "s3_name": "bd2001-02-28d1t03.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 3
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "4:10", 
+            "s3_name": "bd2001-02-28d1t04.ogg", 
+            "slug": "mama-you-been-on-my-mind", 
+            "title": "Mama, You Been On My Mind", 
+            "track": 4
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "7:39", 
+            "s3_name": "bd2001-02-28d1t05.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 5
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "4:02", 
+            "s3_name": "bd2001-02-28d1t06.ogg", 
+            "slug": "this-world-cant-stand-long", 
+            "title": "This World Can't Stand Long", 
+            "track": 6
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "3:17", 
+            "s3_name": "bd2001-02-28d1t07.ogg", 
+            "slug": "country-pie", 
+            "title": "Country Pie", 
+            "track": 7
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "3:44", 
+            "s3_name": "bd2001-02-28d1t08.ogg", 
+            "slug": "tell-me-that-it-isnt-true", 
+            "title": "Tell Me That It Isn't True", 
+            "track": 8
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "4:32", 
+            "s3_name": "bd2001-02-28d1t09.ogg", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 9
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "4:54", 
+            "s3_name": "bd2001-02-28d1t10.ogg", 
+            "slug": "trying-to-get-to-heaven", 
+            "title": "Trying To Get To Heaven", 
+            "track": 10
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "6:22", 
+            "s3_name": "bd2001-02-28d1t11.ogg", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 11
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "7:01", 
+            "s3_name": "bd2001-02-28d1t12.ogg", 
+            "slug": "leopard-skin-pill-box-hat", 
+            "title": "Leopard-Skin Pill-Box Hat", 
+            "track": 12
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "7:20", 
+            "s3_name": "bd2001-02-28d2t01.ogg", 
+            "slug": "love-sick", 
+            "title": "Love Sick", 
+            "track": 13
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "7:49", 
+            "s3_name": "bd2001-02-28d2t02.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 14
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "3:59", 
+            "s3_name": "bd2001-02-28d2t03.ogg", 
+            "slug": "if-dogs-run-free", 
+            "title": "If Dogs Run Free", 
+            "track": 15
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "5:03", 
+            "s3_name": "bd2001-02-28d2t04.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 16
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "5:54", 
+            "s3_name": "bd2001-02-28d2t05.ogg", 
+            "slug": "girl-of-the-north-country", 
+            "title": "Girl Of The North Country", 
+            "track": 17
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "6:04", 
+            "s3_name": "bd2001-02-28d2t06.ogg", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 18
+        }, 
+        {
+            "album_id": 11, 
+            "duration": "8:04", 
+            "s3_name": "bd2001-02-28d2t07.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 19
+        }
+    ], 
+    "source": "LB-3905", 
+    "title": "Akita 2001", 
+    "venue": "Prefectural Hall", 
+    "venue_slug": "prefectural-hall"
+}
