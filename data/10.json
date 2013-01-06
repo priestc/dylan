@@ -1,0 +1,137 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "San Diego, CA", 
+    "city_slug": "san-diego-ca", 
+    "date": "2012-10-24", 
+    "date_added": "2013-01-05T18:59:03.254008", 
+    "encoding": "ogg -q5", 
+    "folder": "san_diego_2012", 
+    "id": 10, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 10, 
+            "duration": "5:13", 
+            "s3_name": "2012-10-24 San Diego-00.ogg", 
+            "slug": "you-aint-goin-nowhere", 
+            "title": "You Ain't Goin' Nowhere", 
+            "track": 1
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:22", 
+            "s3_name": "2012-10-24 San Diego-01.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me Babe", 
+            "track": 2
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "5:32", 
+            "s3_name": "2012-10-24 San Diego-02.ogg", 
+            "slug": "things-have-changed", 
+            "title": "Things Have Changed", 
+            "track": 3
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:17", 
+            "s3_name": "2012-10-24 San Diego-03.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 4
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "5:15", 
+            "s3_name": "2012-10-24 San Diego-04.ogg", 
+            "slug": "cry-a-while", 
+            "title": "Cry A While", 
+            "track": 5
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:37", 
+            "s3_name": "2012-10-24 San Diego-05.ogg", 
+            "slug": "joey", 
+            "title": "Joey", 
+            "track": 6
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:39", 
+            "s3_name": "2012-10-24 San Diego-06.ogg", 
+            "slug": "summer-days", 
+            "title": "Summer Days", 
+            "track": 7
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "5:49", 
+            "s3_name": "2012-10-24 San Diego-07.ogg", 
+            "slug": "visions-of-johanna", 
+            "title": "Visions of Johanna", 
+            "track": 8
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "7:17", 
+            "s3_name": "2012-10-24 San Diego-08.ogg", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 9
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "4:52", 
+            "s3_name": "2012-10-24 San Diego-09.ogg", 
+            "slug": "forgetful-heart", 
+            "title": "Forgetful Heart", 
+            "track": 10
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "7:17", 
+            "s3_name": "2012-10-24 San Diego-10.ogg", 
+            "slug": "thunder-on-the-mountain", 
+            "title": "Thunder on the Mountain", 
+            "track": 11
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:17", 
+            "s3_name": "2012-10-24 San Diego-11.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad of A Thin Man", 
+            "track": 12
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "7:06", 
+            "s3_name": "2012-10-24 San Diego-12.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 13
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "6:31", 
+            "s3_name": "2012-10-24 San Diego-13.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along the Watchtower", 
+            "track": 14
+        }, 
+        {
+            "album_id": 10, 
+            "duration": "7:11", 
+            "s3_name": "2012-10-24 San Diego-14.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In the Wind", 
+            "track": 15
+        }
+    ], 
+    "source": "Core Sound micros DPA 4060 with Sony PCM - M10>Hard Drive>Flac by Legendary Taper \"D\"", 
+    "title": "San Diego 2012", 
+    "venue": "Valley View Casino Center", 
+    "venue_slug": "valley-view-casino-center"
+}
