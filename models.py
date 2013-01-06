@@ -1,4 +1,5 @@
 import datetime
+import json
 import re
 
 from giotto import config
@@ -8,6 +9,8 @@ from giotto.utils import slugify
 
 from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Boolean, func
 from sqlalchemy.orm import relationship
+
+import dateutil.parser
 
 class Album(config.Base):
     id = Column(Integer, primary_key=True)
@@ -189,31 +192,36 @@ def get_bucket_contents(bucket, folder):
     return ret
 
 
-def from_json():
+def add_all():
     """
     Import all files in the data folder
     """
-    import json
-    import dateutil.parser
-    index = 0
+    index = 1
     while True:
-        try:
-            index += 1
-            j = open("data/%s.json" % index, 'r').read()
-        except IOError:
-            index -= 1
+        if not add_album(index):
             break
-        obj = json.loads(j)
-        songs = obj['songs']
-        del obj['songs']
-        obj['date_added'] = dateutil.parser.parse(obj['date_added'])
-        obj['date'] = dateutil.parser.parse(obj['date'])
-        a = Album(**obj)
-        config.session.add(a)
+        else:
+            index += 1
+    
+    return "added %s albums from json" % (index - 1)
 
-        for song_data in songs:
-            s = Song(**song_data)
-            config.session.add(s)
+
+def add_album(index):
+    try:
+        j = open("data/%s.json" % index, 'r').read()
+    except IOError:
+        return False
+    obj = json.loads(j)
+    songs = obj['songs']
+    del obj['songs']
+    obj['date_added'] = dateutil.parser.parse(obj['date_added'])
+    obj['date'] = dateutil.parser.parse(obj['date'])
+    a = Album(**obj)
+    config.session.add(a)
+
+    for song_data in songs:
+        s = Song(**song_data)
+        config.session.add(s)
 
     config.session.commit()
-    return "added %s albums from json" % index
+    return "Added album #%s" % index

@@ -4,7 +4,7 @@ from giotto.views import BasicView, jinja_template
 from giotto.contrib.static.programs import StaticServe, SingleStaticServe
 from giotto.control import Redirection
 
-from models import Album, Song, get_bucket_contents, from_json
+from models import Album, Song, get_bucket_contents, add_all, add_album
 from mocks import mock_album, mock_songs, mock_venues, mock_venue, mock_song
 
 from views import album2json
@@ -98,7 +98,12 @@ manifest = ProgramManifest({
     ],
     'load_all_data': GiottoProgram(
         controllers=['cmd'],
-        model=[from_json],
+        model=[add_all],
+        view=BasicView(),
+    ),
+    'add_album': GiottoProgram(
+        controllers=['cmd'],
+        model=[add_album],
         view=BasicView(),
     ),
     'favicon': SingleStaticServe(config.project_path + '/static/favicon.ico'),
