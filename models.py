@@ -73,7 +73,8 @@ class Album(config.Base):
 
     @classmethod
     def all(cls):
-        return {'albums': config.session.query(cls).filter_by(published=True).all()}
+        qs = config.session.query(cls).filter_by(published=True).order_by('date').all()
+        return {'albums': qs}
 
     @classmethod
     def get(cls, id):
