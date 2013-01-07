@@ -20,7 +20,7 @@
         {
             "album_id": 8, 
             "duration": "4:04", 
-            "s3_name": "02 - Maggie", 
+            "s3_name": "02 - Maggies Farm.ogg", 
             "slug": "maggie-s-farm", 
             "title": "Maggie's Farm", 
             "track": 2
@@ -76,7 +76,7 @@
         {
             "album_id": 8, 
             "duration": "6:00", 
-            "s3_name": "09 - Don", 
+            "s3_name": "09 - Dont Think Twice, Its All Right.ogg", 
             "slug": "don-t-think-twice-it-s-all-right", 
             "title": "Don't Think Twice, It's All Right", 
             "track": 9
@@ -84,7 +84,7 @@
         {
             "album_id": 8, 
             "duration": "6:01", 
-            "s3_name": "10 - It", 
+            "s3_name": "10 - Its Alright, Ma (I'm Only Bleeding).ogg", 
             "slug": "it-s-alright-ma-i-m-only-bleeding", 
             "title": "It's Alright, Ma (I'm Only Bleeding)", 
             "track": 10
@@ -100,7 +100,7 @@
         {
             "album_id": 8, 
             "duration": "6:54", 
-            "s3_name": "12 - It", 
+            "s3_name": "12 - Its All Over Now, Baby Blue.ogg", 
             "slug": "it-s-all-over-now-baby-blue", 
             "title": "It's All Over Now, Baby Blue", 
             "track": 12
@@ -156,7 +156,7 @@
         {
             "album_id": 8, 
             "duration": "4:58", 
-            "s3_name": "19 - Blowin", 
+            "s3_name": "19 - Blowin In The Wind.ogg", 
             "slug": "blowin-in-the-wind", 
             "title": "Blowin' In The Wind", 
             "track": 19
