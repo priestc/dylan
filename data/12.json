@@ -1,0 +1,137 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Springfield, MA", 
+    "city_slug": "springfield-ma", 
+    "date": "1996-04-16", 
+    "date_added": "2013-01-07T00:20:36.849730", 
+    "encoding": "ogg -q5", 
+    "folder": "sprintfield_1996", 
+    "id": 12, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 12, 
+            "duration": "4:54", 
+            "s3_name": "01 Track01.ogg", 
+            "slug": "down-in-the-flood-crash-on-the-levee", 
+            "title": "Down In The Flood (Crash On The Levee)", 
+            "track": 1
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "5:34", 
+            "s3_name": "02 Track02.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 2
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:17", 
+            "s3_name": "03 Track03.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along the Watchtower", 
+            "track": 3
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:22", 
+            "s3_name": "04 Track04.ogg", 
+            "slug": "most-likely-you-go-your-way-and-ill-go-mine", 
+            "title": "Most Likely You Go Your Way (And I'll Go Mine)", 
+            "track": 4
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "8:06", 
+            "s3_name": "05 Track05.ogg", 
+            "slug": "tears-of-rage", 
+            "title": "Tears Of Rage", 
+            "track": 5
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:45", 
+            "s3_name": "06 Track06.ogg", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 6
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "10:25", 
+            "s3_name": "07 Track07.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 7
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "6:15", 
+            "s3_name": "08 Track08.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters of War", 
+            "track": 8
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "6:54", 
+            "s3_name": "09 Track09.ogg", 
+            "slug": "mama-you-been-on-my-mind", 
+            "title": "Mama, You Been On My Mind", 
+            "track": 9
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:25", 
+            "s3_name": "d2/01 Track01.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 10
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:20", 
+            "s3_name": "d2/02 Track02.ogg", 
+            "slug": "this-wheels-on-fire", 
+            "title": "This Wheel's On Fire", 
+            "track": 11
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:59", 
+            "s3_name": "d2/03 Track03.ogg", 
+            "slug": "seeing-the-real-you-at-last", 
+            "title": "Seeing the Real You At Last", 
+            "track": 12
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "8:03", 
+            "s3_name": "d2/04 Track04.ogg", 
+            "slug": "alabama-getaway", 
+            "title": "Alabama Getaway", 
+            "track": 13
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "10:24", 
+            "s3_name": "d2/05 Track05.ogg", 
+            "slug": "my-back-pages", 
+            "title": "My Back Pages", 
+            "track": 14
+        }, 
+        {
+            "album_id": 12, 
+            "duration": "7:32", 
+            "s3_name": "d2/06 Track06.ogg", 
+            "slug": "rainy-day-women-12-35", 
+            "title": "Rainy Day Women # 12 & 35", 
+            "track": 15
+        }
+    ], 
+    "source": "", 
+    "title": "Springfield, MA 1996", 
+    "venue": "Springfield Symphony Hall", 
+    "venue_slug": "springfield-symphony-hall"
+}
