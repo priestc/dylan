@@ -9,7 +9,7 @@
 {% block content %}
 <h1>New Album</h1>
 <form method="post">
-    {{ errors.message }}
+    <div class="errors">{{ errors.message }}</div>
     <label for="title">Title: </label><input type="text" id="title" name="title" value="{{ errors.title.value }}"><br>
     <label for="date">Date:</label><input type="text" id="date" name="date" value="{{ errors.title.value }}">yyyy-mm-dd<br>
     <label for="bucket">Bucket:</label><input type="text" id="bucket" name="bucket" value="{{ errors.bucket.value }}"><br>

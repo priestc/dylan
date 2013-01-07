@@ -26,3 +26,8 @@ footer {
     padding-top: 5px;
     height: 2px;
 }
+
+.errors {
+    color: red;
+    font-weight: bold;
+}
