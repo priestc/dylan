@@ -91,15 +91,21 @@
             initial_track = Number(window.location.hash.substr(6));
         }
 
+        function set_player(track) {
+            // set the player to the track.
+            player.attr('src', urls[track]);
+            player.attr('track', track);
+            set_currently_playing(track);
+            player.trigger('change');
+        }
+
         // set initial state
-        player.attr('src', urls[initial_track]);
-        player.attr('track', initial_track);
-        set_currently_playing(initial_track);
+        set_player(initial_track);
 
         function set_currently_playing(track) {
-            var title = $('#info_' + track + ' .title').text();
-            var duration = $('#info_' + track + ' .duration').text();
-            $('#currently_playing').text(title + ' [' + duration + ']');
+            // set the title at the top of the player.
+            var data = get_info(track);
+            $('#currently_playing').text(data.song + ' [' + data.duration + ']');
             $('#playlist_table tr').removeClass('now_playing');
             $('#playlist_table tr.row_' + track).addClass('now_playing');
         }
@@ -110,28 +116,29 @@
             if (new_track >= urls.length) {
                 return
             }
-            player.attr('src', urls[new_track]);
-            player.attr('track', new_track);
-            player.trigger('change');
-            do_track('ended', track);
+            set_player(new_track);
+            fire_tracking_event('ended', track);
         });
 
         player.bind('change', function() {
             player.get(0).play();
-            var track = player.attr('track');
-            set_currently_playing(track);
         });
 
         player.bind('play', function() {
-            do_track('started', $(this).attr('track'));
+            fire_tracking_event('started', $(this).attr('track'));
+        });
+
+        player.bind('error', function() {
+            var this_track = Number(player.attr('track'));
+            fire_tracking_event('error', this_track);
+            set_player(this_track + 1);
         });
 
         $("a.playlist_item").click(function(e) {
+            // when the user clicks on a item in the playlist
             e.preventDefault();
             var this_track = $(this).attr('id').substr(6);
-            player.attr('src', urls[this_track]);
-            player.attr('track', this_track);
-            player.trigger('change');
+            set_player(Number(this_track) + 1);
         });
 
         function get_info(track) {
@@ -144,12 +151,16 @@
             }
         }
 
-        function do_track(event, track) {
+        function fire_tracking_event(event, track) {
             var info = get_info(track);
             var full_title = info['song'] + ' - ' + info['album']
             //console.log(event, track);
-            _gaq.push(['_trackEvent', 'Music', event + '-by-slug', info['slug']]);
-            _gaq.push(['_trackEvent', 'Music', event + '-by-song', full_title]);
+            if(event == 'error') {
+                _gaq.push(['_trackEvent', 'error', info['slug']]);
+            } else {
+                _gaq.push(['_trackEvent', event + '-by-slug', info['slug']]);
+                _gaq.push(['_trackEvent', event + '-by-track', full_title]);
+            }
         }
 
     </script>
