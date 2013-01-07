@@ -2,6 +2,10 @@
 
 {% block extra_head %}
 <link rel="stylesheet" href="/static/album.css" type="text/css" media="all" />
+<script src="/static/album.js"></script>
+<script>
+    var urls = {{ data.album.playlist_urls_js() }};
+</script>
 {% endblock %}
 
 {% block title %}{{ data.album.title }}{% endblock %}
@@ -80,10 +84,8 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
 
     <script>
-        var urls = {{ data.album.playlist_urls_js() }};
         var player = $('#player');
 
         var initial_track = 1;
@@ -91,24 +93,8 @@
             initial_track = Number(window.location.hash.substr(6));
         }
 
-        function set_player(track) {
-            // set the player to the track.
-            player.attr('src', urls[track]);
-            player.attr('track', track);
-            set_currently_playing(track);
-            player.trigger('change');
-        }
-
         // set initial state
         set_player(initial_track);
-
-        function set_currently_playing(track) {
-            // set the title at the top of the player.
-            var data = get_info(track);
-            $('#currently_playing').text(data.song + ' [' + data.duration + ']');
-            $('#playlist_table tr').removeClass('now_playing');
-            $('#playlist_table tr.row_' + track).addClass('now_playing');
-        }
 
         player.bind('ended', function() {
             var track = Number($(this).attr('track'));
@@ -140,28 +126,6 @@
             var this_track = $(this).attr('id').substr(6);
             set_player(Number(this_track) + 1);
         });
-
-        function get_info(track) {
-            // given a track number, return all the dta for that track.
-            return {
-                song: $('#info_' + track + ' .title').text(),
-                slug: $('#info_' + track + ' .slug').text(),
-                duration: slug = $('#info_' + track + ' .duration').text(),
-                album: $('#album_title').text(),
-            }
-        }
-
-        function fire_tracking_event(event, track) {
-            var info = get_info(track);
-            var full_title = info['song'] + ' - ' + info['album']
-            //console.log(event, track);
-            if(event == 'error') {
-                _gaq.push(['_trackEvent', 'error', info['slug']]);
-            } else {
-                _gaq.push(['_trackEvent', event + '-by-slug', info['slug']]);
-                _gaq.push(['_trackEvent', event + '-by-track', full_title]);
-            }
-        }
 
     </script>
 {% endblock %}
