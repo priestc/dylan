@@ -15,12 +15,12 @@ import dateutil.parser
 class Album(config.Base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
-    date = Column(Date)
+    date = Column(Date, nullable=True)
     date_added = Column(DateTime)
-    venue = Column(String)
-    venue_slug = Column(String)
-    city = Column(String)
-    city_slug = Column(String)
+    venue = Column(String, nullable=True)
+    venue_slug = Column(String, nullable=True)
+    city = Column(String, nullable=True)
+    city_slug = Column(String, nullable=True)
     source = Column(String)
     bucket = Column(String)
     folder = Column(String)
@@ -111,8 +111,9 @@ class Album(config.Base):
             s3_name = data['s3_%s' % i]
             dur = data['duration_%s' % i]
             info = data['info_%s' % i]
+            date = dateutil.parser.parse(data['date_%s' % i])
             s = Song(
-                title=title, info=info, 
+                title=title, info=info, date=date,
                 track=track, s3_name=s3_name, album=a, duration=dur
             )
             config.session.add(s)
@@ -125,7 +126,7 @@ class Album(config.Base):
         # first item is empty so the index of the array equals the track number.
         # (to avoid off by one errors)
         return [''] + ret
-    
+
     def run_time_in_seconds(self):
         return sum(x.duration_in_seconds() for x in self.songs)
 
