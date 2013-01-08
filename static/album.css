@@ -65,3 +65,7 @@
     margin: 0 auto 0 auto;
     width: 80%;
 }
+
+.song_info {
+    color: gray;
+}
