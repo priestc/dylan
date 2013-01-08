@@ -6,3 +6,19 @@
 #submit_button {
     display: none;
 }
+
+.track {
+    width: 2em;
+}
+
+.duration {
+    width: 3em;
+}
+
+.title {
+    width: 30em
+}
+
+.info {
+    width: 10em;
+}

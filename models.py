@@ -110,7 +110,11 @@ class Album(config.Base):
             track = data['track_%s' % i]
             s3_name = data['s3_%s' % i]
             dur = data['duration_%s' % i]
-            s = Song(title=title, track=track, s3_name=s3_name, album=a, duration=dur)
+            info = data['info_%s' % i]
+            s = Song(
+                title=title, info=info, 
+                track=track, s3_name=s3_name, album=a, duration=dur
+            )
             config.session.add(s)
 
         config.session.commit()
@@ -118,7 +122,10 @@ class Album(config.Base):
 
     def playlist_urls_js(self):
         ret = [str(x.url()) for x in self.songs]
+        # first item is empty so the index of the array equals the track number.
+        # (to avoid off by one errors)
         return [''] + ret
+    
     def run_time_in_seconds(self):
         return sum(x.duration_in_seconds() for x in self.songs)
 
@@ -133,6 +140,8 @@ class Song(config.Base):
     title = Column(String)
     slug = Column(String)
     track = Column(Integer)
+    date = Column(Date, nullable=True)
+    info = Column(String)
     duration = Column(String)
     album_id = Column(Integer, ForeignKey('giotto_album.id'))
     s3_name = Column(String)

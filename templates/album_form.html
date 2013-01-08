@@ -38,9 +38,10 @@
                 html = "<div class='song'><strong>" + filename + "</strong>\
                             <div>\
                                 <input type='hidden' name='s3_" + i + "' value='" + filename + "'>\
-                                Track: <input type='text' name='track_" + i + "'>\
-                                Title: <input type='text' name='title_" + i + "'>\
-                                Duration: <input type='text' name='duration_" + i + "'>\
+                                Track: <input class=\"track\" type='text' name='track_" + i + "' value='" + (Number(i)+1) + "'>\
+                                Title: <input class=\"title\" type='text' name='title_" + i + "'>\
+                                Info: <input class=\"info\" type='text' name='info_" + i + "'>\
+                                Duration: <input class=\"duration\" type='text' name='duration_" + i + "'>\
                             </div>\
                         </div>";
                 $("#tracks").append(html);
