@@ -102,7 +102,7 @@ class Album(config.Base):
             folder=data['folder'],
             encoding=data['encoding'],
             source=data['source'],
-            city=data['city'],    
+            city=data['city'],
         )
         config.session.add(a)
         for i in xrange(int(data['num_of_tracks']) + 1):
