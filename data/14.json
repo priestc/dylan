@@ -1,0 +1,227 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Various", 
+    "city_slug": "various", 
+    "date": "1997-01-01", 
+    "date_added": "2013-01-09T22:17:04.834085", 
+    "encoding": "ogg -q5", 
+    "folder": "bathed_in_a_stream_of_pure_heat", 
+    "id": 14, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 14, 
+            "date": "1997-04-19", 
+            "duration": "4:32", 
+            "info": "Hartford, CT", 
+            "s3_name": "0101%20Not%20Fade%20Away.ogg", 
+            "slug": "not-fade-away", 
+            "title": "Not Fade Away", 
+            "track": 1
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-18", 
+            "duration": "6:42", 
+            "info": "Albany, NY", 
+            "s3_name": "0102%20Pretty%20Peggy-O.ogg", 
+            "slug": "pretty-peggy-o", 
+            "title": "Pretty Peggy-O", 
+            "track": 2
+        },
+        {
+            "album_id": 14, 
+            "date": "1997-05-03", 
+            "duration": "4:48", 
+            "info": "Huntsville, AL", 
+            "s3_name": "0103%20You%20Ain%27t%20Goin%27%20Nowhere.ogg", 
+            "slug": "you-aint-goin-nowhere", 
+            "title": "You Ain't Goin' Nowhere", 
+            "track": 3
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-09", 
+            "duration": "9:46", 
+            "info": "Bangor, ME", 
+            "s3_name": "0104%20Every%20Grain%20Of%20Sand.ogg", 
+            "slug": "every-grain-of-sand", 
+            "title": "Every Grain Of Sand", 
+            "track": 4
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-22", 
+            "duration": "6:43", 
+            "info": "Indiana, PA", 
+            "s3_name": "0105%20Pledging%20My%20Time.ogg", 
+            "slug": "pledging-my-time", 
+            "title": "Pledging My Time", 
+            "track": 5
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-11", 
+            "duration": "6:05", 
+            "info": "Durham, NH", 
+            "s3_name": "0106%20O%20Babe%20It%20Ain%27t%20No%20Lie.ogg", 
+            "slug": "o-babe-it-aint-no-lie", 
+            "title": "O Babe It Ain't No Lie", 
+            "track": 6
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-17", 
+            "duration": "7:39", 
+            "info": "Providence, RI", 
+            "s3_name": "0107%20Friend%20of%20the%20Devil.ogg", 
+            "slug": "friend-of-the-devil", 
+            "title": "Friend of the Devil", 
+            "track": 7
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-15", 
+            "duration": "8:04", 
+            "info": "Northampton, MA", 
+            "s3_name": "0108%20John%20Brown.ogg", 
+            "slug": "john-brown", 
+            "title": "John Brown", 
+            "track": 8
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-02-24", 
+            "duration": "4:45", 
+            "info": "Sapporo, Japan", 
+            "s3_name": "0109%20Viola%20Lee%20Blues.ogg", 
+            "slug": "viola-lee-blues", 
+            "title": "Viola Lee Blues", 
+            "track": 9
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-19", 
+            "duration": "4:22", 
+            "info": "Hartford, CT", 
+            "s3_name": "0110%20Roving%20Gambler.ogg", 
+            "slug": "roving-gambler", 
+            "title": "Roving Gambler", 
+            "track": 10
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-05", 
+            "duration": "9:57", 
+            "info": "Monton, NJ", 
+            "s3_name": "0111%20Desolation%20Row.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 11
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-05-21", 
+            "duration": "3:35", 
+            "info": "Beverly Hills, CA", 
+            "s3_name": "0201%20Stone%20Walls%20And%20Steel%20Bars.ogg", 
+            "slug": "stone-walls-and-steel-bars", 
+            "title": "Stone Walls And Steel Bars", 
+            "track": 12
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-09", 
+            "duration": "7:26", 
+            "info": "Bangor, ME", 
+            "s3_name": "0202%20Love%20Minus%20Zero.ogg", 
+            "slug": "love-minus-zero", 
+            "title": "Love Minus Zero", 
+            "track": 13
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-09", 
+            "duration": "5:25", 
+            "info": "Bangor, ME", 
+            "s3_name": "0203%20Wicked%20Messenger.ogg", 
+            "slug": "wicked-messenger", 
+            "title": "Wicked Messenger", 
+            "track": 14
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-22", 
+            "duration": "6:34", 
+            "info": "Indiana, PA", 
+            "s3_name": "0204%20Shooting%20Star.ogg", 
+            "slug": "shooting-star", 
+            "title": "Shooting Star", 
+            "track": 15
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-28", 
+            "duration": "6:19", 
+            "info": "Wheeling, WV", 
+            "s3_name": "0205%20Long%20Black%20Veil.ogg", 
+            "slug": "long-black-veil", 
+            "title": "Long Black Veil", 
+            "track": 16
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-28", 
+            "duration": "7:41", 
+            "info": "Wayne, NJ", 
+            "s3_name": "0206%20Born%20in%20Time.ogg", 
+            "slug": "born-in-time", 
+            "title": "Born in Time", 
+            "track": 17
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-17", 
+            "duration": "7:31", 
+            "info": "Providence, RI", 
+            "s3_name": "0207%20You%27re%20a%20Big%20Girl%20Now.ogg", 
+            "slug": "youre-a-big-girl-now", 
+            "title": "You're a Big Girl Now", 
+            "track": 18
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-20", 
+            "duration": "5:14", 
+            "info": "West Long Branch, NJ", 
+            "s3_name": "0208%20This%20Wheels%20on%20Fire.ogg", 
+            "slug": "this-wheels-on-fire", 
+            "title": "This Wheels on Fire", 
+            "track": 19
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-10", 
+            "duration": "11:42", 
+            "info": "Portland, ME", 
+            "s3_name": "0209%20Hard%20Rains%20Gonna%20Fall.ogg", 
+            "slug": "hard-rains-gonna-fall", 
+            "title": "Hard Rains Gonna Fall", 
+            "track": 20
+        }, 
+        {
+            "album_id": 14, 
+            "date": "1997-04-24", 
+            "duration": "9:08", 
+            "info": "Utica, NY", 
+            "s3_name": "0210%20My%20Back%20Pages.ogg", 
+            "slug": "my-back-pages", 
+            "title": "My Back Pages", 
+            "track": 21
+        }
+    ], 
+    "source": "Various", 
+    "title": "Bathed in a Stream of Pure Heat", 
+    "venue": "Various", 
+    "venue_slug": "various"
+}
