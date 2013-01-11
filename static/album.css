@@ -33,7 +33,6 @@
 
 #playlist_table {
     margin: 0 auto 0 auto;
-    width: 60%;
     border-collapse: collapse;
 }
 
@@ -68,4 +67,9 @@
 
 .song_info {
     color: gray;
+    font-size: smaller;
+}
+
+.song_date {
+    color: #333333;
 }

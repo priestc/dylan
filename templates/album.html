@@ -55,7 +55,14 @@
                 </td>
                 <td class="title_column">
                     <a href="" class="playlist_item" id="track_{{ song.track }}">{{ song.title }}</a>
-                    {% if song.info %} <span class="song_info">{{ song.info }}</span>{% endif %}
+                    {% if song.info %}
+                        <span class="song_info">
+                            {% if song.date %}
+                            <span class="song_date">{{ song.date }}</span>
+                            {% endif %}
+                            {{ song.info }}
+                        </span>
+                    {% endif %}
                 </td>
                 <td class="duration_column">
                     <span class="hidden_info" id="info_{{ song.track }}">
