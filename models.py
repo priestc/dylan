@@ -85,24 +85,18 @@ class Album(config.Base):
 
     @classmethod
     def create(cls, data=ALL_DATA):
-        try:
-            if '-' in data['date']:
-                y, m, d = data['date'].split('-')
-            else:
-                y = data['date']
-                m, d = 1, 1
-        except:
-            raise InvalidInput("invalid date")
+        d = data.get('date', None)
+        date = dateutil.parser.parse(d) if d else None
 
         a = cls(
             title=data['title'],
-            date=datetime.date(year=int(y), month=int(m), day=int(d)),
-            venue=data['venue'],
+            date=date,
+            venue=data.get('venue', None),
             bucket=data['bucket'],
             folder=data['folder'],
             encoding=data['encoding'],
             source=data['source'],
-            city=data['city'],
+            city=data.get('city', None),
         )
         config.session.add(a)
         for i in xrange(int(data['num_of_tracks']) + 1):
@@ -111,7 +105,8 @@ class Album(config.Base):
             s3_name = data['s3_%s' % i]
             dur = data['duration_%s' % i]
             info = data['info_%s' % i]
-            date = dateutil.parser.parse(data['date_%s' % i])
+            d = data.get('date_%s' % i, None)
+            date = dateutil.parser.parse(d) if d else None
             s = Song(
                 title=title, info=info, date=date,
                 track=track, s3_name=s3_name, album=a, duration=dur

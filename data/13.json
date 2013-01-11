@@ -1,8 +1,8 @@
 {
     "bucket": "priestc-dylan", 
-    "city": "none", 
-    "city_slug": "none", 
-    "date": "2000-01-01", 
+    "city": "Various", 
+    "city_slug": "various", 
+    "date": null, 
     "date_added": "2013-01-08T12:27:03.038393", 
     "encoding": "ogg -q5", 
     "folder": "hard_to_find", 
@@ -21,7 +21,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "2:41", 
             "info": "Highway 61 Interactive", 
             "s3_name": "d1/02.ogg", 
@@ -31,7 +31,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:12", 
             "info": "'Til The Night Is Done (Doc Pomus Tribute)", 
             "s3_name": "d1/03.ogg", 
@@ -41,7 +41,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "4:25", 
             "info": "A Vision Shared (Guthrie/Leadbelly Tribute)", 
             "s3_name": "d1/04.ogg", 
@@ -51,7 +51,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "5:23", 
             "info": "Third Annual Farewell Reunion (w/Pete Seeger)", 
             "s3_name": "d1/05.ogg", 
@@ -61,7 +61,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "4:35", 
             "info": "Heartland (w/Willie Nelson)", 
             "s3_name": "d1/06.ogg", 
@@ -71,7 +71,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "2:57", 
             "info": "No Reason No Cry (w/Eric Clapton)", 
             "s3_name": "d1/07.ogg", 
@@ -81,7 +81,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:34", 
             "info": "Hearts Of Fire soundtrack", 
             "s3_name": "d1/08.ogg", 
@@ -91,7 +91,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "2:49", 
             "info": "", 
             "s3_name": "d1/09.ogg", 
@@ -121,7 +121,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:26", 
             "info": "Traveling Wilburys single", 
             "s3_name": "d1/12.ogg", 
@@ -131,7 +131,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "4:34", 
             "info": "Band Of The Hand soundtrack", 
             "s3_name": "d1/13.ogg", 
@@ -141,7 +141,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "6:23", 
             "info": "Shot Of Love sessions", 
             "s3_name": "d1/14.ogg", 
@@ -151,7 +151,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:10", 
             "info": "For Our Children", 
             "s3_name": "d1/15.ogg", 
@@ -161,7 +161,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:17", 
             "info": "Flashback soundtrack", 
             "s3_name": "d1/16.ogg", 
@@ -171,7 +171,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:07", 
             "info": "Natural Born Killers soundtrack", 
             "s3_name": "d1/17.ogg", 
@@ -181,7 +181,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:11", 
             "info": "Masterpieces", 
             "s3_name": "d1/18.ogg", 
@@ -191,7 +191,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "2:30", 
             "info": "The Last Waltz", 
             "s3_name": "d1/19.ogg", 
@@ -201,7 +201,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "3:32", 
             "info": "single", 
             "s3_name": "d1/20.ogg", 
@@ -211,7 +211,7 @@
         }, 
         {
             "album_id": 13, 
-            "date": "2013-01-08", 
+            "date": null, 
             "duration": "2:52", 
             "info": "X rated David Allen Coe added as a joke", 
             "s3_name": "d1/21.ogg", 
@@ -220,8 +220,8 @@
             "track": 21
         }
     ], 
-    "source": "various", 
-    "title": "Hard To Find", 
-    "venue": "none", 
-    "venue_slug": "none"
+    "source": "Various", 
+    "title": "Hard To Find Vol. 1",
+    "venue": "Various", 
+    "venue_slug": "various"
 }
