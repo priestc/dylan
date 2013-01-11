@@ -1,0 +1,197 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "various", 
+    "city_slug": "various", 
+    "date": null, 
+    "date_added": "2013-01-11T15:36:36.790660", 
+    "encoding": "ogg -q5", 
+    "folder": "hard_to_find/d2", 
+    "id": 15, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 15, 
+            "date": "1975-11-20", 
+            "duration": "5:15", 
+            "info": "Harvard Square Theater Cambridge, MA", 
+            "s3_name": "Track01.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me Babe", 
+            "track": 1
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1975-10-01", 
+            "duration": "2:34", 
+            "info": "Studio Inst. Rentals NYC (Curtis Mayfield)", 
+            "s3_name": "Track02.ogg", 
+            "slug": "people-get-ready", 
+            "title": "People Get Ready", 
+            "track": 2
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1978-07-01", 
+            "duration": "3:55", 
+            "info": "Zeppelinfeld, N\u00fcrnberg, West Germany", 
+            "s3_name": "Track03.ogg", 
+            "slug": "one-of-us-must-know-sooner-or-later", 
+            "title": "One Of Us Must Know (Sooner or Later)", 
+            "track": 3
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1978-01-11", 
+            "duration": "4:32", 
+            "info": "Renaldo And Clara 4 track promo EP", 
+            "s3_name": "Track04.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 4
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1980-01-22", 
+            "duration": "5:51", 
+            "info": "Rainbow Music Hall,  Denver, CO", 
+            "s3_name": "Track05.ogg", 
+            "slug": "precious-angel", 
+            "title": "Precious Angel", 
+            "track": 5
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1984-03-22", 
+            "duration": "2:24", 
+            "info": "David Letterman TV Show", 
+            "s3_name": "Track06.ogg", 
+            "slug": "dont-start-me-talkin", 
+            "title": "Don't Start Me Talkin'", 
+            "track": 6
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1984-03-22", 
+            "duration": "4:56", 
+            "info": "David Letterman TV Show", 
+            "s3_name": "Track07.ogg", 
+            "slug": "license-to-kill", 
+            "title": "License To Kill", 
+            "track": 7
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1984-06-03", 
+            "duration": "4:42", 
+            "info": "Olympia Stadion, M\u00fcnchen, Germany", 
+            "s3_name": "Track08.ogg", 
+            "slug": "why-do-i-have-to-choose", 
+            "title": "Why Do I Have To Choose", 
+            "track": 8
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1984-06-03", 
+            "duration": "5:00", 
+            "info": "Olympia Stadion, M\u00fcnchen, Germany", 
+            "s3_name": "Track09.ogg", 
+            "slug": "every-grain-of-sand", 
+            "title": "Every Grain Of Sand", 
+            "track": 9
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1986-02-24", 
+            "duration": "3:59", 
+            "info": "Sydney, Australia", 
+            "s3_name": "Track10.ogg", 
+            "slug": "girl-of-the-north-country", 
+            "title": "Girl Of The North Country", 
+            "track": 10
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1987-09-30", 
+            "duration": "4:59", 
+            "info": "Olympiahalle, M\u00fcnchen, West Germany", 
+            "s3_name": "Track11.ogg", 
+            "slug": "i-dreamed-i-saw-st-augustine", 
+            "title": "I Dreamed I Saw St Augustine", 
+            "track": 11
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1988-07-02", 
+            "duration": "4:53", 
+            "info": "Great Woods, Mansfield, MA", 
+            "s3_name": "Track12.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr Tambourine Man", 
+            "track": 12
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1988-07-02", 
+            "duration": "3:43", 
+            "info": "Great Woods, Mansfield, MA", 
+            "s3_name": "Track13.ogg", 
+            "slug": "love-minus-zerono-limit", 
+            "title": "Love Minus Zero/No Limit", 
+            "track": 13
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1989-06-21", 
+            "duration": "5:38", 
+            "info": "Stadio Lamberti, Cava dei Tirreni, Italy", 
+            "s3_name": "Track14.ogg", 
+            "slug": "pancho-and-lefty", 
+            "title": "Pancho and Lefty", 
+            "track": 14
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1991-06-23", 
+            "duration": "3:15", 
+            "info": "Hamburg, Germany", 
+            "s3_name": "Track15.ogg", 
+            "slug": "man-gave-names-to-all-the-animals", 
+            "title": "Man Gave Names To All The Animals", 
+            "track": 15
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1991-06-23", 
+            "duration": "4:20", 
+            "info": "Hamburg, Germany", 
+            "s3_name": "Track16.ogg", 
+            "slug": "when-i-paint-my-masterpiece", 
+            "title": "When I Paint My Masterpiece", 
+            "track": 16
+        }, 
+        {
+            "album_id": 15, 
+            "date": "1995-11-01", 
+            "duration": "6:23", 
+            "info": "Frank Sinatra Birthday TV broadcast", 
+            "s3_name": "Track17.ogg", 
+            "slug": "restless-farewell", 
+            "title": "Restless Farewell", 
+            "track": 17
+        }, 
+        {
+            "album_id": 15, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "", 
+            "s3_name": "Track18.ogg", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 18
+        }
+    ], 
+    "source": "various", 
+    "title": "Hard To Find Vol. 2", 
+    "venue": "various", 
+    "venue_slug": "various"
+}
