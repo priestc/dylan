@@ -204,7 +204,8 @@ def add_all():
     """
     index = 1
     while True:
-        if not add_album(index):
+        success = add_album(index)
+        if not success:
             break
         else:
             index += 1
@@ -221,11 +222,14 @@ def add_album(index):
     songs = obj['songs']
     del obj['songs']
     obj['date_added'] = dateutil.parser.parse(obj['date_added'])
-    obj['date'] = dateutil.parser.parse(obj['date'])
+    d = obj['date']
+    obj['date'] = dateutil.parser.parse(d) if d else None
     a = Album(**obj)
     config.session.add(a)
 
     for song_data in songs:
+        d = song_data.get('date', None)
+        song_data['date'] = dateutil.parser.parse(d) if d else None
         s = Song(**song_data)
         config.session.add(s)
 
