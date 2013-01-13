@@ -7,7 +7,7 @@
     "encoding": "ogg -q5", 
     "folder": "rundown_to_maggie", 
     "id": 16, 
-    "published": null, 
+    "published": true, 
     "songs": [
         {
             "album_id": 16, 
