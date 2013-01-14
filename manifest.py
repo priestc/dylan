@@ -1,5 +1,6 @@
-from giotto import config
-from giotto.programs import GiottoProgram, ProgramManifest, management_manifest
+from giotto import get_config
+from giotto.programs import GiottoProgram, ProgramManifest
+from giotto.programs.management import management_manifest
 from giotto.views import BasicView, jinja_template
 from giotto.contrib.static.programs import StaticServe, SingleStaticServe
 from giotto.control import Redirection
@@ -16,14 +17,14 @@ manifest = ProgramManifest({
         ),
     ),
     'albums': GiottoProgram(
-        model=[Album.all, {'albums': [mock_album()]}],
+        model=[Album.all, {'albums': [mock_album]}],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_albums.html'),
         ),
     ),
     'album': GiottoProgram(
-        model=[Album.get, {'album': mock_album()}],
+        model=[Album.get, {'album': mock_album}],
         cache=3600,
         view=BasicView(
             html=jinja_template('album.html'),
@@ -31,28 +32,28 @@ manifest = ProgramManifest({
         ),
     ),
     'song': GiottoProgram(
-        model=[Song.profile, mock_song()],
+        model=[Song.profile, mock_song],
         cache=3600,
         view=BasicView(
             html=jinja_template('song.html'),
         ),
     ),
     'songs': GiottoProgram(
-        model=[Song.all_songs, mock_songs()],
+        model=[Song.all_songs, mock_songs],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_songs.html'),
         ),
     ),
     'venue': GiottoProgram(
-        model=[Album.by_venue, mock_venue()],
+        model=[Album.by_venue, mock_venue],
         cache=3600,
         view=BasicView(
             html=jinja_template('venue.html'),
         )
     ),
     'venues': GiottoProgram(
-        model=[Album.all_venues, mock_venues()],
+        model=[Album.all_venues, mock_venues],
         cache=3600,
         view=BasicView(
             html=jinja_template('all_venues.html'),
@@ -106,7 +107,7 @@ manifest = ProgramManifest({
         model=[add_album],
         view=BasicView(),
     ),
-    'favicon': SingleStaticServe(config.project_path + '/static/favicon.ico'),
-    'static': StaticServe(config.project_path + '/static/'),
+    'favicon': SingleStaticServe(get_config('project_path') + '/static/favicon.ico'),
+    'static': StaticServe(get_config('project_path') + '/static/'),
     'mgt': management_manifest,
 })

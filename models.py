@@ -2,7 +2,10 @@ import datetime
 import json
 import re
 
-from giotto import config
+from giotto import get_config
+Base = get_config('Base')
+session = get_config('session')
+
 from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
 from giotto.utils import slugify
@@ -12,7 +15,7 @@ from sqlalchemy.orm import relationship
 
 import dateutil.parser
 
-class Album(config.Base):
+class Album(Base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     date = Column(Date, nullable=True)
@@ -40,7 +43,7 @@ class Album(config.Base):
 
     @classmethod
     def by_city(cls, city_slug):
-        albums = config.session.query(cls).filter_by(city_slug=city_slug).all()
+        albums = session.query(cls).filter_by(city_slug=city_slug).all()
         if not albums:
             raise DataNotFound
         city = albums[0].city
@@ -48,7 +51,7 @@ class Album(config.Base):
 
     @classmethod
     def by_venue(cls, venue_slug):
-        albums = config.session.query(cls).filter_by(venue_slug=venue_slug).all()
+        albums = session.query(cls).filter_by(venue_slug=venue_slug).all()
         if not albums:
             raise DataNotFound
         venue = albums[0].venue
@@ -56,29 +59,29 @@ class Album(config.Base):
 
     @classmethod
     def newest(cls):
-        albums = config.session.query(cls).order_by(cls.date_added)
+        albums = session.query(cls).order_by(cls.date_added)
         return {'albums': albums[:10]}
 
     @classmethod
     def all_cities(cls):
         selects = [func.max(cls.city), cls.city_slug, func.count(cls.title)]
-        cities = config.session.query(*selects).group_by(cls.city_slug).all()
+        cities = session.query(*selects).group_by(cls.city_slug).all()
         return {'cities': cities, 'length': len(cities)}
 
     @classmethod
     def all_venues(cls):
         selects = [func.max(cls.venue), cls.venue_slug, func.count(cls.title)]
-        venues = config.session.query(*selects).group_by(cls.venue_slug).all()
+        venues = session.query(*selects).group_by(cls.venue_slug).all()
         return {'venues': venues, 'length': len(venues)}
 
     @classmethod
     def all(cls):
-        qs = config.session.query(cls).filter_by(published=True).order_by('date').all()
+        qs = session.query(cls).filter_by(published=True).order_by('date').all()
         return {'albums': qs}
 
     @classmethod
     def get(cls, id):
-        album = config.session.query(cls).filter_by(id=id).first()
+        album = session.query(cls).filter_by(id=id).first()
         if not album:
             raise DataNotFound()
         return {'album': album}
@@ -98,7 +101,7 @@ class Album(config.Base):
             source=data['source'],
             city=data.get('city', None),
         )
-        config.session.add(a)
+        session.add(a)
         for i in xrange(int(data['num_of_tracks']) + 1):
             title = data['title_%s' % i]
             track = data['track_%s' % i]
@@ -111,9 +114,9 @@ class Album(config.Base):
                 title=title, info=info, date=date,
                 track=track, s3_name=s3_name, album=a, duration=dur
             )
-            config.session.add(s)
+            session.add(s)
 
-        config.session.commit()
+        session.commit()
         return a
 
     def playlist_urls_js(self):
@@ -131,7 +134,7 @@ class Album(config.Base):
         s = dur % 60
         return "%d:%2d" % (m, s)
 
-class Song(config.Base):
+class Song(Base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     slug = Column(String)
@@ -145,7 +148,7 @@ class Song(config.Base):
     @classmethod
     def all_songs(cls):
         selects = func.max(cls.title), cls.slug, func.count(cls.title)
-        songs = config.session.query(*selects)\
+        songs = session.query(*selects)\
                               .group_by(cls.slug)\
                               .order_by(cls.slug)\
                               .all()
@@ -153,7 +156,7 @@ class Song(config.Base):
 
     @classmethod
     def profile(cls, slug):
-        songs = config.session.query(cls).join(Album).filter(cls.slug==slug).order_by(Album.date).all()
+        songs = session.query(cls).join(Album).filter(cls.slug==slug).order_by(Album.date).all()
         if not songs:
             raise DataNotFound
         title = songs[0].title
@@ -225,13 +228,13 @@ def add_album(index):
     d = obj['date']
     obj['date'] = dateutil.parser.parse(d) if d else None
     a = Album(**obj)
-    config.session.add(a)
+    session.add(a)
 
     for song_data in songs:
         d = song_data.get('date', None)
         song_data['date'] = dateutil.parser.parse(d) if d else None
         s = Song(**song_data)
-        config.session.add(s)
+        session.add(s)
 
-    config.session.commit()
+    session.commit()
     return "Added album #%s" % index
