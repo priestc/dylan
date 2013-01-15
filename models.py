@@ -186,7 +186,7 @@ class Song(Base):
 def get_bucket_contents(bucket, folder):
     from boto.s3.connection import S3Connection
     from boto.exception import S3ResponseError
-    conn = S3Connection(config.aws_access_key, config.aws_secret_access_key)
+    conn = S3Connection(get_config('aws_access_key'), get_config('aws_secret_access_key'))
     try:
         bucket = conn.get_bucket(bucket)
     except S3ResponseError:
