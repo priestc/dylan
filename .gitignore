@@ -34,7 +34,6 @@ nosetests.xml
 .project
 .pydevproject
 
-http
-cmd
+*_controller.py
 file.db
 machine_config.py
