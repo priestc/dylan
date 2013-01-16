@@ -1,0 +1,137 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "London, England", 
+    "city_slug": "london-england", 
+    "date": "1965-06-01", 
+    "date_added": "2013-01-16T01:51:27.600688", 
+    "encoding": "ogg -q5", 
+    "folder": "at_the_beeb_1965", 
+    "id": 18, 
+    "published": null, 
+    "songs": [
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "5:10", 
+            "info": "", 
+            "s3_name": "01.ogg", 
+            "slug": "ballad-of-hollis-brown", 
+            "title": "Ballad Of Hollis Brown", 
+            "track": 1
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "6:27", 
+            "info": "", 
+            "s3_name": "02.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr Tambourine Man", 
+            "track": 2
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "7:07", 
+            "info": "", 
+            "s3_name": "03.ogg", 
+            "slug": "gates-of-eden", 
+            "title": "Gates Of Eden", 
+            "track": 3
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "2:54", 
+            "info": "", 
+            "s3_name": "04.ogg", 
+            "slug": "if-you-gotta-go-go-now", 
+            "title": "If You Gotta Go, Go Now", 
+            "track": 4
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "6:29", 
+            "info": "", 
+            "s3_name": "05.ogg", 
+            "slug": "the-lonesome-death-of-hattie-carroll", 
+            "title": "The Lonesome Death Of Hattie Carroll", 
+            "track": 5
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "4:03", 
+            "info": "", 
+            "s3_name": "06.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me Babe", 
+            "track": 6
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "", 
+            "s3_name": "07.ogg", 
+            "slug": "love-minus-zerono-limit", 
+            "title": "Love Minus Zero/No Limit", 
+            "track": 7
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "4:20", 
+            "info": "", 
+            "s3_name": "08.ogg", 
+            "slug": "one-too-many-mornings", 
+            "title": "One Too Many Mornings", 
+            "track": 8
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "6:49", 
+            "info": "", 
+            "s3_name": "09.ogg", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 9
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "9:07", 
+            "info": "", 
+            "s3_name": "10.ogg", 
+            "slug": "its-alright-ma-im-only-bleeding", 
+            "title": "It's Alright Ma (I'm Only Bleeding)", 
+            "track": 10
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "4:45", 
+            "info": "", 
+            "s3_name": "11.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 11
+        }, 
+        {
+            "album_id": 18, 
+            "date": null, 
+            "duration": "5:09", 
+            "info": "", 
+            "s3_name": "12.ogg", 
+            "slug": "its-all-over-now-baby-blue", 
+            "title": "It's All Over Now, Baby Blue", 
+            "track": 12
+        }
+    ], 
+    "source": "", 
+    "title": "At The Beeb", 
+    "venue": "BBC TV Theatre", 
+    "venue_slug": "bbc-tv-theatre"
+}
