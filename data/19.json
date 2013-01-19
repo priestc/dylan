@@ -1,0 +1,97 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Toronto", 
+    "city_slug": "toronto", 
+    "date": "1980-04-19", 
+    "date_added": "2013-01-18T19:43:12.467877", 
+    "encoding": "ogg -q5", 
+    "folder": "rock_solid", 
+    "id": 19, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "7:03", 
+            "info": "", 
+            "s3_name": "01.%20Gotta%20Serve%20Somebody.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 1
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "6:26", 
+            "info": "", 
+            "s3_name": "02.%20Covenant%20Woman.ogg", 
+            "slug": "covenant-woman", 
+            "title": "Covenant Woman", 
+            "track": 2
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "6:07", 
+            "info": "", 
+            "s3_name": "03.%20When%20You%20Gonna%20Wake%20Up.ogg", 
+            "slug": "when-are-you-gonna-wake-up", 
+            "title": "When Are You Gonna Wake Up", 
+            "track": 3
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "5:20", 
+            "info": "", 
+            "s3_name": "04.%20Precious%20Angel.ogg", 
+            "slug": "precious-angel", 
+            "title": "Precious Angel", 
+            "track": 4
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "6:49", 
+            "info": "", 
+            "s3_name": "05.%20Slow%20Train.ogg", 
+            "slug": "slow-train-coming", 
+            "title": "Slow Train Coming", 
+            "track": 5
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "4:31", 
+            "info": "", 
+            "s3_name": "06.%20Solid%20Rock.ogg", 
+            "slug": "solid-rock", 
+            "title": "Solid Rock", 
+            "track": 6
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "6:50", 
+            "info": "", 
+            "s3_name": "07.%20In%20The%20Garden.ogg", 
+            "slug": "in-the-garden", 
+            "title": "In The Garden", 
+            "track": 7
+        }, 
+        {
+            "album_id": 19, 
+            "date": null, 
+            "duration": "4:37", 
+            "info": "", 
+            "s3_name": "08.%20Cover%20Down%20Break%20Through.ogg", 
+            "slug": "cover-down-break-through", 
+            "title": "Cover Down Break Through", 
+            "track": 8
+        }
+    ], 
+    "source": "soundboard", 
+    "title": "Solid Rock", 
+    "venue": "Massey Hall", 
+    "venue_slug": "massey-hall"
+}
