@@ -29,8 +29,8 @@
     <ul>
         {% for show in data %}
         <li>
-            <a href="/album/{{ show.id }}">{% if show.date %}{{ show.date }} - {% else %}{% endif %}{{ show.title }}</a>
-            <span class="date_added">(added: {{ show.date_added.strftime('%Y-%m-%d') }})</span>
+            {{ show.date_added.strftime('%Y %B %d') }}:
+            <a href="/album/{{ show.id }}">{% if show.date %}{{ show.date }} - {% endif %}{{ show.title }}</a>
         </li>
         {% endfor %}
     </ul>
