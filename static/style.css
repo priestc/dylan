@@ -31,3 +31,7 @@ footer {
     color: red;
     font-weight: bold;
 }
+
+.date_added {
+    font-size: small
+}

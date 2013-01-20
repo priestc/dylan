@@ -12,6 +12,8 @@ from views import album2json
 
 manifest = ProgramManifest({
     '': GiottoProgram(
+        model=[Album.most_recent],
+        cache=3600,
         view=BasicView(
             html=jinja_template('home.html'),
         ),

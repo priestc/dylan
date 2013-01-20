@@ -10,7 +10,7 @@ from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
 from giotto.utils import slugify
 
-from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Boolean, func
+from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Boolean, func, desc
 from sqlalchemy.orm import relationship
 
 import dateutil.parser
@@ -48,6 +48,10 @@ class Album(Base):
             raise DataNotFound
         city = albums[0].city
         return {'albums': albums, 'length': len(albums), 'city': city}
+
+    @classmethod
+    def most_recent(cls):
+        return session.query(cls).order_by(desc(cls.date_added)).all()[:5]
 
     @classmethod
     def by_venue(cls, venue_slug):

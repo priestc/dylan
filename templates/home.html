@@ -25,4 +25,14 @@
         does not have the codecs to play ogg files.
     </p>
 
+    <h2>Recently added Shows:</h2>
+    <ul>
+        {% for show in data %}
+        <li>
+            <a href="/album/{{ show.id }}">{% if show.date %}{{ show.date }} - {% else %}{% endif %}{{ show.title }}</a>
+            <span class="date_added">(added: {{ show.date_added.strftime('%Y-%m-%d') }})</span>
+        </li>
+        {% endfor %}
+    </ul>
+
 {% endblock %}
