@@ -1,0 +1,217 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "San Francisco, CA", 
+    "city_slug": "san-francisco-ca", 
+    "date": "1980-11-15", 
+    "date_added": "2013-01-20T05:23:27.803513", 
+    "encoding": "ogg -q5", 
+    "folder": "sf_1980", 
+    "id": 21, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:31", 
+            "info": "", 
+            "s3_name": "Disc01Track01%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 1
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "6:34", 
+            "info": "", 
+            "s3_name": "Disc01Track02%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "i-believe-in-you", 
+            "title": "I Believe In You", 
+            "track": 2
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:43", 
+            "info": "", 
+            "s3_name": "Disc01Track03%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 3
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:41", 
+            "info": "", 
+            "s3_name": "Disc01Track04%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "man-gave-names-to-all-the-animals", 
+            "title": "Man Gave Names To All The Animals", 
+            "track": 4
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:09", 
+            "info": "", 
+            "s3_name": "Disc01Track05%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "simple-twist-of-fate", 
+            "title": "Simple Twist Of Fate", 
+            "track": 5
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "3:22", 
+            "info": "", 
+            "s3_name": "Disc01Track06%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "aint-gonna-go-to-hell", 
+            "title": "Ain't Gonna Go To Hell", 
+            "track": 6
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:02", 
+            "info": "", 
+            "s3_name": "Disc01Track07%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 7
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:04", 
+            "info": "", 
+            "s3_name": "Disc01Track08%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "slow-train-coming", 
+            "title": "Slow Train Coming", 
+            "track": 8
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "3:28", 
+            "info": "", 
+            "s3_name": "Disc01Track09%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "abraham-martin-john", 
+            "title": "Abraham, Martin & John", 
+            "track": 9
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:40", 
+            "info": "", 
+            "s3_name": "Disc01Track10%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "lets-keep-it-between-us", 
+            "title": "Lets Keep It Between Us", 
+            "track": 10
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "3:18", 
+            "info": "", 
+            "s3_name": "Disc01Track11%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "mary-from-the-wild-moor", 
+            "title": "Mary From The Wild Moor", 
+            "track": 11
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "6:00", 
+            "info": "", 
+            "s3_name": "Disc02Track01%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "covenant-woman", 
+            "title": "Covenant Woman", 
+            "track": 12
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:05", 
+            "info": "", 
+            "s3_name": "Disc02Track02%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "solid-rock", 
+            "title": "Solid Rock", 
+            "track": 13
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:16", 
+            "info": "", 
+            "s3_name": "Disc02Track03%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 14
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:53", 
+            "info": "", 
+            "s3_name": "Disc02Track04%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "groom-still-waiting-at-the-altar", 
+            "title": "Groom Still Waiting At The Altar", 
+            "track": 15
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:40", 
+            "info": "", 
+            "s3_name": "Disc02Track05%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "when-you-gonna-wake-up", 
+            "title": "When You Gonna Wake Up?", 
+            "track": 16
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "5:47", 
+            "info": "", 
+            "s3_name": "Disc02Track06%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "in-the-garden", 
+            "title": "In The Garden", 
+            "track": 17
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "4:14", 
+            "info": "", 
+            "s3_name": "Disc02Track07%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 18
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "3:02", 
+            "info": "", 
+            "s3_name": "Disc02Track08%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "city-of-gold", 
+            "title": "City Of Gold", 
+            "track": 19
+        }, 
+        {
+            "album_id": 21, 
+            "date": null, 
+            "duration": "3:22", 
+            "info": "", 
+            "s3_name": "Disc02Track09%20Warfield%2015.11.80%20SBD.ogg", 
+            "slug": "love-minus-zero-no-limit", 
+            "title": "Love Minus Zero / No Limit", 
+            "track": 20
+        }
+    ], 
+    "source": "soundboard", 
+    "title": "Warfield 1980", 
+    "venue": "Fox Warfield Theatre", 
+    "venue_slug": "fox-warfield-theatre"
+}
