@@ -1,0 +1,167 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Cleveland, OH", 
+    "city_slug": "cleveland-oh", 
+    "date": "1994-08-20", 
+    "date_added": "2013-01-20T23:03:44.401584", 
+    "encoding": "ogg -q5", 
+    "folder": "cleveland_1994", 
+    "id": 22, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "0:07", 
+            "info": "", 
+            "s3_name": "01%20Intro.ogg", 
+            "slug": "intro", 
+            "title": "Intro", 
+            "track": 1
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "7:53", 
+            "info": "", 
+            "s3_name": "02%20Jokerman.ogg", 
+            "slug": "jokerman", 
+            "title": "Jokerman", 
+            "track": 2
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "6:23", 
+            "info": "", 
+            "s3_name": "03%20Lay%2C%20Lady%2C%20Lay.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 3
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "6:13", 
+            "info": "", 
+            "s3_name": "04%20All%20Along%20The%20Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 4
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "8:03", 
+            "info": "", 
+            "s3_name": "05%20Lenny%20Bruce.ogg", 
+            "slug": "lenny-bruce", 
+            "title": "Lenny Bruce", 
+            "track": 5
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "9:31", 
+            "info": "", 
+            "s3_name": "06%20Tangled%20Up%20In%20Blue.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 6
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "8:18", 
+            "info": "", 
+            "s3_name": "07%20Under%20The%20Red%20Sky.ogg", 
+            "slug": "under-the-red-sky", 
+            "title": "Under The Red Sky", 
+            "track": 7
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "5:19", 
+            "info": "", 
+            "s3_name": "08%20Mama%2C%20You%20Been%20On%20My%20Mind.ogg", 
+            "slug": "mama-you-been-on-my-mind", 
+            "title": "Mama, You Been On My Mind", 
+            "track": 8
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "5:45", 
+            "info": "", 
+            "s3_name": "09%20Masters%20Of%20War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 9
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "7:08", 
+            "info": "", 
+            "s3_name": "10%20To%20Ramona.ogg", 
+            "slug": "to-ramona", 
+            "title": "To Ramona", 
+            "track": 10
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "6:19", 
+            "info": "", 
+            "s3_name": "11%20God%20Knows.ogg", 
+            "slug": "god-knows", 
+            "title": "God Knows", 
+            "track": 11
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "7:16", 
+            "info": "", 
+            "s3_name": "12%20She%20Belongs%20To%20Me.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 12
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "10:07", 
+            "info": "", 
+            "s3_name": "13%20Maggie%27s%20Farm.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 13
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "6:32", 
+            "info": "", 
+            "s3_name": "14%20Everything%20Is%20Broken.ogg", 
+            "slug": "everything-is-broken", 
+            "title": "Everything Is Broken", 
+            "track": 14
+        }, 
+        {
+            "album_id": 22, 
+            "date": null, 
+            "duration": "9:21", 
+            "info": "", 
+            "s3_name": "15%20It%20Ain%27t%20Me%2C%20Babe.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 15
+        }
+    ], 
+    "source": "LB-4518", 
+    "title": "Cleveland 1994", 
+    "venue": "Nautica Stage", 
+    "venue_slug": "nautica-stage"
+}
