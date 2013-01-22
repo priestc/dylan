@@ -1,0 +1,87 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "New York, NY", 
+    "city_slug": "new-york-ny", 
+    "date": "1975-07-03", 
+    "date_added": "2013-01-21T23:31:27.978572", 
+    "encoding": "ogg -q5", 
+    "folder": "bitter_end_1975", 
+    "id": 24, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "6:24", 
+            "info": "Dylan on guitar for Jack Elliott", 
+            "s3_name": "Track01.ogg", 
+            "slug": "pretty-boy-floyd", 
+            "title": "Pretty Boy Floyd", 
+            "track": 1
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "3:42", 
+            "info": "Dylan on back-up vocal and guitar for Jack Elliott.", 
+            "s3_name": "Track02.ogg", 
+            "slug": "how-long-blues", 
+            "title": "How Long Blues", 
+            "track": 2
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "6:54", 
+            "info": "Dylan solo.", 
+            "s3_name": "Track03.ogg", 
+            "slug": "abandoned-love", 
+            "title": "Abandoned Love", 
+            "track": 3
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "2:50", 
+            "info": "Jack Elliott solo", 
+            "s3_name": "Track04.ogg", 
+            "slug": "aint-nobody-business-if-i-do", 
+            "title": "Ain't Nobody Business If I Do", 
+            "track": 4
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "5:42", 
+            "info": "Jack Elliott solo", 
+            "s3_name": "Track05.ogg", 
+            "slug": "the-1913-massacre", 
+            "title": "The 1913 Massacre", 
+            "track": 5
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "2:43", 
+            "info": "Jack Elliott solo", 
+            "s3_name": "Track06.ogg", 
+            "slug": "unidentified-fragment", 
+            "title": "(unidentified fragment)", 
+            "track": 6
+        }, 
+        {
+            "album_id": 24, 
+            "date": null, 
+            "duration": "3:38", 
+            "info": "Jack Elliott solo", 
+            "s3_name": "Track07.ogg", 
+            "slug": "someone-like-you", 
+            "title": "Someone Like You", 
+            "track": 7
+        }
+    ], 
+    "source": "LB-1602", 
+    "title": "Bitter End 1975", 
+    "venue": "The Bitter End", 
+    "venue_slug": "the-bitter-end"
+}
