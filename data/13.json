@@ -208,17 +208,7 @@
             "slug": "george-jackson", 
             "title": "George Jackson", 
             "track": 20
-        }, 
-        {
-            "album_id": 13, 
-            "date": null, 
-            "duration": "2:52", 
-            "info": "X rated David Allen Coe added as a joke", 
-            "s3_name": "d1/21.ogg", 
-            "slug": "shallow-throat-da-coe", 
-            "title": "Shallow Throat (D.A. Coe)", 
-            "track": 21
-        }
+        },
     ], 
     "source": "Various", 
     "title": "Hard To Find Vol. 1",
