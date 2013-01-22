@@ -1,0 +1,157 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "San Diego, CA", 
+    "city_slug": "san-diego-ca", 
+    "date": "1995-05-10", 
+    "date_added": "2013-01-22T13:01:04.785179", 
+    "encoding": "mp3 256kbps", 
+    "folder": "san_diego_1995", 
+    "id": 25, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "4:56", 
+            "info": "", 
+            "s3_name": "01%20Crash%20On%20The%20Levee%20%28Down%20In%20The%20Flood%29.mp3", 
+            "slug": "down-in-the-flood-crash-on-the-levee", 
+            "title": "Down In The Flood (Crash On The Levee)", 
+            "track": 1
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "4:13", 
+            "info": "", 
+            "s3_name": "02%20I%20Want%20You.mp3", 
+            "slug": "i-want-you", 
+            "title": "I Want You", 
+            "track": 2
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "6:16", 
+            "info": "", 
+            "s3_name": "03%20All%20Along%20The%20Watchtower.mp3", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 3
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "6:23", 
+            "info": "", 
+            "s3_name": "04%20Just%20Like%20A%20Woman.mp3", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 4
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "5:33", 
+            "info": "", 
+            "s3_name": "05%20Silvio.mp3", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 5
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "5:19", 
+            "info": "", 
+            "s3_name": "06%20Shooting%20Star.mp3", 
+            "slug": "shooting-star", 
+            "title": "Shooting Star", 
+            "track": 6
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "7:26", 
+            "info": "", 
+            "s3_name": "07%20Mr%20Tambourine%20Man.mp3", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr Tambourine Man", 
+            "track": 7
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "8:20", 
+            "info": "", 
+            "s3_name": "08%20Boots%20Of%20Spanish%20Leather.mp3", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 8
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "6:42", 
+            "info": "", 
+            "s3_name": "09%20Don%27t%20Think%20Twice%2C%20It%27s%20All%20Right.mp3", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "5:30", 
+            "info": "", 
+            "s3_name": "10%20Seeing%20The%20Real%20You%20At%20Last.mp3", 
+            "slug": "seeing-the-real-you-at-last", 
+            "title": "Seeing The Real You At Last", 
+            "track": 10
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "8:19", 
+            "info": "", 
+            "s3_name": "11%20Man%20In%20The%20Long%20Black%20Coat.mp3", 
+            "slug": "man-in-the-long-black-coat", 
+            "title": "Man In The Long Black Coat", 
+            "track": 11
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "7:43", 
+            "info": "", 
+            "s3_name": "12%20Highway%2061%20Revisited.mp3", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 12
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "7:15", 
+            "info": "", 
+            "s3_name": "13%20Like%20A%20Rolling%20Stone.mp3", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 13
+        }, 
+        {
+            "album_id": 25, 
+            "date": null, 
+            "duration": "9:05", 
+            "info": "", 
+            "s3_name": "14%20It%20Ain%27t%20Me%2C%20Babe.mp3", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 14
+        }
+    ], 
+    "source": "LB-3297", 
+    "title": "San Diego 1995", 
+    "venue": "Embarcadero Amphitheater", 
+    "venue_slug": "embarcadero-amphitheater"
+}
