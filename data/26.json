@@ -1,0 +1,227 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "", 
+    "city_slug": "", 
+    "date": null, 
+    "date_added": "2013-01-23T03:01:55.480419", 
+    "encoding": "ogg -q5", 
+    "folder": "hard_to_find/d3", 
+    "id": 26, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 26, 
+            "date": "1962-11-01", 
+            "duration": "2:29", 
+            "info": "Freewheelin' sessions", 
+            "s3_name": "01.ogg", 
+            "slug": "mixed-up-confusion", 
+            "title": "Mixed-Up Confusion", 
+            "track": 1
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1962-11-01", 
+            "duration": "2:41", 
+            "info": "Freewheelin' sessions", 
+            "s3_name": "02.ogg", 
+            "slug": "corrina-corrina", 
+            "title": "Corrina Corrina", 
+            "track": 2
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1963-07-26", 
+            "duration": "6:14", 
+            "info": "Newport Folk Festival, Newport, RI (w/ Baez)", 
+            "s3_name": "03.ogg", 
+            "slug": "with-god-on-our-side", 
+            "title": "With God On Our Side", 
+            "track": 3
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1963-07-26", 
+            "duration": "3:27", 
+            "info": "Newport Folk Festival, Newport, RI (w/ Baez)", 
+            "s3_name": "04.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 4
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1963-08-17", 
+            "duration": "3:11", 
+            "info": "Forest Hills, New York, NY", 
+            "s3_name": "05.ogg", 
+            "slug": "troubled-and-i-dont-know-why", 
+            "title": "Troubled And I Don't Know Why", 
+            "track": 5
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1964-10-31", 
+            "duration": "2:55", 
+            "info": "Philharmonic Hall, New York, NY", 
+            "s3_name": "06.ogg", 
+            "slug": "mama-you-been-on-my-mind", 
+            "title": "Mama You Been On My Mind", 
+            "track": 6
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1966-04-14", 
+            "duration": "5:41", 
+            "info": "Odeon, Liverpool, UK", 
+            "s3_name": "07.ogg", 
+            "slug": "just-like-tom-thumbs-blues", 
+            "title": "Just Like Tom Thumb's Blues", 
+            "track": 7
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1968-01-20", 
+            "duration": "3:43", 
+            "info": "Guthrie Memorial Concert , NY, NY", 
+            "s3_name": "08.ogg", 
+            "slug": "i-aint-got-no-home", 
+            "title": "I Ain't Got No Home", 
+            "track": 8
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1968-01-20", 
+            "duration": "5:49", 
+            "info": "Guthrie Memorial Concert , NY, NY", 
+            "s3_name": "09.ogg", 
+            "slug": "dear-mrs-roosevelt", 
+            "title": "Dear Mrs. Roosevelt", 
+            "track": 9
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1968-01-20", 
+            "duration": "3:04", 
+            "info": "Guthrie Memorial Concert , NY, NY", 
+            "s3_name": "10.ogg", 
+            "slug": "grand-coulee-dam", 
+            "title": "Grand Coulee Dam", 
+            "track": 10
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1971-11-02", 
+            "duration": "4:41", 
+            "info": "Blue Rock Studios, NY, NY", 
+            "s3_name": "11.ogg", 
+            "slug": "george-jackson", 
+            "title": "George Jackson", 
+            "track": 11
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1970-06-02", 
+            "duration": "3:31", 
+            "info": "Columbia Records Studio E NY, NY", 
+            "s3_name": "12.ogg", 
+            "slug": "spanish-is-the-loving-tongue", 
+            "title": "Spanish Is The Loving Tongue", 
+            "track": 12
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1971-09-24", 
+            "duration": "2:33", 
+            "info": "Columbia Records Studio B NY, NY", 
+            "s3_name": "13.ogg", 
+            "slug": "you-aint-goin-nowhere", 
+            "title": "You Ain't Goin' Nowhere", 
+            "track": 13
+        }, 
+        {
+            "album_id": 26, 
+            "date": null, 
+            "duration": "2:45", 
+            "info": "Renaldo And Clara EP", 
+            "s3_name": "14.ogg", 
+            "slug": "never-let-me-go", 
+            "title": "Never Let Me Go", 
+            "track": 14
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1976-05-25", 
+            "duration": "3:37", 
+            "info": "Colorado State U. Fort Collins, CO", 
+            "s3_name": "15.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 15
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1979-04-30", 
+            "duration": "4:06", 
+            "info": "Muscle Shoals Studio, Sheffield, AL", 
+            "s3_name": "16.ogg", 
+            "slug": "trouble-in-mind", 
+            "title": "Trouble In Mind", 
+            "track": 16
+        }, 
+        {
+            "album_id": 26, 
+            "date": null, 
+            "duration": "4:26", 
+            "info": "Shot Of Love outtake ", 
+            "s3_name": "17.ogg", 
+            "slug": "let-it-be-me", 
+            "title": "Let It Be Me", 
+            "track": 17
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1983-04-14", 
+            "duration": "4:33", 
+            "info": "Power Station NY, NY", 
+            "s3_name": "18.ogg", 
+            "slug": "angel-flying-too-close-to-the-ground", 
+            "title": "Angel Flying Too Close To The Ground", 
+            "track": 18
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1984-03-22", 
+            "duration": "5:10", 
+            "info": "David Letterman TV NY, NY", 
+            "s3_name": "19.ogg", 
+            "slug": "jokerman", 
+            "title": "Jokerman", 
+            "track": 19
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1986-01-20", 
+            "duration": "3:40", 
+            "info": "M L King Tribute, Washington, DC", 
+            "s3_name": "20.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 20
+        }, 
+        {
+            "album_id": 26, 
+            "date": "1986-08-26", 
+            "duration": "1:30", 
+            "info": "Hearts Of Fire, London, UK", 
+            "s3_name": "21.ogg", 
+            "slug": "couple-more-years", 
+            "title": "Couple More Years", 
+            "track": 21
+        }
+    ], 
+    "source": "", 
+    "title": "Hard To Find Vol. 3", 
+    "venue": "", 
+    "venue_slug": ""
+}
