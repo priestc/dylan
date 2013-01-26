@@ -1,0 +1,217 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "", 
+    "city_slug": "", 
+    "date": null, 
+    "date_added": "2013-01-26T16:23:27.868369", 
+    "encoding": "ogg -q5", 
+    "folder": "hard_to_find/d4", 
+    "id": 27, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 27, 
+            "date": null, 
+            "duration": "4:52", 
+            "info": "Radio version. From the Tacoma Dome, Tacoma, WA", 
+            "s3_name": "Track01.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me Babe", 
+            "track": 1
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1986-01-20", 
+            "duration": "2:11", 
+            "info": "JFK performing Arts Center Washington January", 
+            "s3_name": "Track02.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 2
+        }, 
+        {
+            "album_id": 27, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "Down In The Groove Argentinean release", 
+            "s3_name": "Track03.ogg", 
+            "slug": "got-love-if-you-want-it", 
+            "title": "Got Love If You Want It", 
+            "track": 3
+        }, 
+        {
+            "album_id": 27, 
+            "date": null, 
+            "duration": "3:08", 
+            "info": "Down In The Groove  DJ promo", 
+            "s3_name": "Track04.ogg", 
+            "slug": "important-words", 
+            "title": "Important Words", 
+            "track": 4
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1990-02-24", 
+            "duration": "5:19", 
+            "info": "Remixed from the original master from the Orbison tribute", 
+            "s3_name": "Track05.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 5
+        }, 
+        {
+            "album_id": 27, 
+            "date": null, 
+            "duration": "3:47", 
+            "info": "Alternate single version (shorter edit)", 
+            "s3_name": "Track06.ogg", 
+            "slug": "most-of-the-time", 
+            "title": "Most Of The Time", 
+            "track": 6
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1990-07-03", 
+            "duration": "4:03", 
+            "info": "Stadtpark, Hamburg, Germany", 
+            "s3_name": "Track07.ogg", 
+            "slug": "old-rock-n-roller", 
+            "title": "Old Rock-n-roller", 
+            "track": 7
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1991-06-06", 
+            "duration": "2:52", 
+            "info": "Rome, Italy", 
+            "s3_name": "Track08.ogg", 
+            "slug": "people-putting-people-down", 
+            "title": "People Putting People Down", 
+            "track": 8
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1991-02-06", 
+            "duration": "3:32", 
+            "info": "Belfast, North Ireland", 
+            "s3_name": "Track09.ogg", 
+            "slug": "tupelo-honey", 
+            "title": "Tupelo Honey", 
+            "track": 9
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1991-05-16", 
+            "duration": "2:38", 
+            "info": "TV program 'One Irish Rover'", 
+            "s3_name": "Track10.ogg", 
+            "slug": "crazy-love", 
+            "title": "Crazy Love", 
+            "track": 10
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1991-05-16", 
+            "duration": "4:07", 
+            "info": "TV program 'One Irish Rover'", 
+            "s3_name": "Track11.ogg", 
+            "slug": "foreign-window", 
+            "title": "Foreign Window", 
+            "track": 11
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1991-05-16", 
+            "duration": "2:46", 
+            "info": "TV program 'One Irish Rover'", 
+            "s3_name": "Track12.ogg", 
+            "slug": "one-irish-rover", 
+            "title": "One Irish Rover", 
+            "track": 12
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1993-06-12", 
+            "duration": "7:49", 
+            "info": "Fleadh Festival, Finsbury Park, London", 
+            "s3_name": "Track13.ogg", 
+            "slug": "one-irish-rover", 
+            "title": "One Irish Rover ", 
+            "track": 13
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1993-11-18", 
+            "duration": "4:39", 
+            "info": "David Letterman show New York City", 
+            "s3_name": "Track14.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 14
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1993-03-15", 
+            "duration": "4:15", 
+            "info": "Willie Nelson tribute birthday party", 
+            "s3_name": "Track15.ogg", 
+            "slug": "hard-times", 
+            "title": "Hard Times", 
+            "track": 15
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1994-05-22", 
+            "duration": "3:32", 
+            "info": "The great music experience, Nara City, Japan", 
+            "s3_name": "Track16.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 16
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1994-05-22", 
+            "duration": "3:18", 
+            "info": "The great music experience, Nara City, Japan", 
+            "s3_name": "Track17.ogg", 
+            "slug": "ring-them-bells", 
+            "title": "Ring Them Bells", 
+            "track": 17
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1995-04-12", 
+            "duration": "5:38", 
+            "info": "Dublin", 
+            "s3_name": "Track18.ogg", 
+            "slug": "real-real-gone", 
+            "title": "Real, Real Gone", 
+            "track": 18
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1996-01-01", 
+            "duration": "4:17", 
+            "info": "Pirated soundtrack 'Feeling Minnesota'", 
+            "s3_name": "Track19.ogg", 
+            "slug": "ring-of-fire", 
+            "title": "Ring Of Fire", 
+            "track": 19
+        }, 
+        {
+            "album_id": 27, 
+            "date": "1996-07-05", 
+            "duration": "2:43", 
+            "info": "Ferrara, Italy", 
+            "s3_name": "Track20.ogg", 
+            "slug": "knockin-on-heavens-door", 
+            "title": "Knockin' on Heaven's Door", 
+            "track": 20
+        }
+    ], 
+    "source": "", 
+    "title": "Hard To Find Vol. 4", 
+    "venue": "", 
+    "venue_slug": ""
+}
