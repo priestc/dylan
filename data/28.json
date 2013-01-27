@@ -1,0 +1,157 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "", 
+    "city_slug": "", 
+    "date": null, 
+    "date_added": "2013-01-26T20:19:48.868662", 
+    "encoding": "ogg -q5", 
+    "folder": "hard_to_find/d5", 
+    "id": 28, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "3:18", 
+            "info": "Outtake from 1994 Jimmie Rodgers tribute", 
+            "s3_name": "01.ogg", 
+            "slug": "my-blue-eyed-jane", 
+            "title": "My Blue Eyed Jane", 
+            "track": 1
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1994-01-01", 
+            "duration": "3:00", 
+            "info": "Ardent Studios, Memphis", 
+            "s3_name": "02.ogg", 
+            "slug": "my-blue-eyed-jane", 
+            "title": "My Blue Eyed Jane", 
+            "track": 2
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1998-02-25", 
+            "duration": "5:45", 
+            "info": "Grammys - Radio City Music Hall", 
+            "s3_name": "03.ogg", 
+            "slug": "love-sick", 
+            "title": "Love Sick", 
+            "track": 3
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1998-02-25", 
+            "duration": "3:32", 
+            "info": "Grammys - Radio City Music Hall", 
+            "s3_name": "04.ogg", 
+            "slug": "grammy-acceptance-speech", 
+            "title": "Grammy Acceptance Speech", 
+            "track": 4
+        }, 
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "6:01", 
+            "info": "Pirated official release. Jerry Maguire Sndtrk", 
+            "s3_name": "05.ogg", 
+            "slug": "shelter-from-the-storm", 
+            "title": "Shelter From The Storm", 
+            "track": 5
+        }, 
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "7:45", 
+            "info": "Live '96 From & \"Pink CD\" A 4 track USA promo ", 
+            "s3_name": "06.ogg", 
+            "slug": "my-back-pages", 
+            "title": "My Back Pages", 
+            "track": 6
+        }, 
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "6:26", 
+            "info": "Live '96 From & \"Pink CD\" A 4 track USA promo ", 
+            "s3_name": "07.ogg", 
+            "slug": "tombstone-blues", 
+            "title": "Tombstone Blues", 
+            "track": 7
+        }, 
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "8:48", 
+            "info": "Live '96 From & \"Pink CD\" A 4 track USA promo ", 
+            "s3_name": "08.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad Of A Thin Man", 
+            "track": 8
+        }, 
+        {
+            "album_id": 28, 
+            "date": null, 
+            "duration": "6:35", 
+            "info": "Live '96 From & \"Pink CD\" A 4 track USA promo ", 
+            "s3_name": "09.ogg", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 9
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1997-12-19", 
+            "duration": "6:03", 
+            "info": "Live in LA w/Sheryl Crow", 
+            "s3_name": "10.ogg", 
+            "slug": "knockin-on-heavens-door", 
+            "title": "Knockin' On Heaven's Door", 
+            "track": 10
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1997-12-19", 
+            "duration": "6:30", 
+            "info": "Live in LA w/Sheryl Crow", 
+            "s3_name": "11.ogg", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 11
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1995-03-30", 
+            "duration": "6:22", 
+            "info": "Live in London w/Elvis Costello", 
+            "s3_name": "12.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 12
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1964-01-01", 
+            "duration": "6:53", 
+            "info": "w/Ramblin' Jack", 
+            "s3_name": "13.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr Tambourine Man", 
+            "track": 13
+        }, 
+        {
+            "album_id": 28, 
+            "date": "1987-01-01", 
+            "duration": "2:47", 
+            "info": "Gershwin tribute", 
+            "s3_name": "14.ogg", 
+            "slug": "soon", 
+            "title": "Soon", 
+            "track": 14
+        }
+    ], 
+    "source": "", 
+    "title": "Hard To Find Vol. 5", 
+    "venue": "", 
+    "venue_slug": ""
+}
