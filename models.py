@@ -121,7 +121,7 @@ class Album(Base):
                 track=track, s3_name=s3_name, album=a, duration=dur
             )
             session.add(s)
-            
+
         session.commit()
         return a
 
@@ -221,6 +221,15 @@ def add_all():
     
     return "added %s albums from json" % (index - 1)
 
+
+def delete_album(id):
+    session.query(Album).filter_by(id=id).delete()
+    session.query(Song).filter_by(album_id=id).delete()
+    print("dropped album #%s" % id)
+
+def reload_album(id):
+    delete_album(id)
+    return add_album(id)
 
 def add_album(index):
     try:
