@@ -1,0 +1,197 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "", 
+    "city_slug": "", 
+    "date": null, 
+    "date_added": "2013-01-26T20:30:44.104626", 
+    "encoding": "ogg -q5", 
+    "folder": "hard_to_find/d6", 
+    "id": 29, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "5:29", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "01.ogg", 
+            "slug": "love-sick", 
+            "title": "Love Sick", 
+            "track": 1
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "6:50", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "02.ogg", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 2
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "5:43", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "03.ogg", 
+            "slug": "cocaine-blues", 
+            "title": "Cocaine Blues", 
+            "track": 3
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "5:21", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "04.ogg", 
+            "slug": "born-in-time", 
+            "title": "Born In Time", 
+            "track": 4
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "6:04", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "05.ogg", 
+            "slug": "cant-wait", 
+            "title": "Can't Wait", 
+            "track": 5
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "06.ogg", 
+            "slug": "roving-gambler", 
+            "title": "Roving Gambler", 
+            "track": 6
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "7:04", 
+            "info": "\"Love Sick\" CD singles", 
+            "s3_name": "07.ogg", 
+            "slug": "blind-willie-mctell", 
+            "title": "Blind Willie McTell", 
+            "track": 7
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "5:15", 
+            "info": "Extended single", 
+            "s3_name": "08.ogg", 
+            "slug": "handle-with-care", 
+            "title": "Handle With Care", 
+            "track": 8
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "3:03", 
+            "info": "Doug Sahm Band", 
+            "s3_name": "09.ogg", 
+            "slug": "is-anybody-going-to-san-antone", 
+            "title": "Is Anybody Going To San Antone", 
+            "track": 9
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "2:34", 
+            "info": "Doug Sahm Band", 
+            "s3_name": "10.ogg", 
+            "slug": "wallflower", 
+            "title": "Wallflower", 
+            "track": 10
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "4:38", 
+            "info": "Doug Sahm Band", 
+            "s3_name": "11.ogg", 
+            "slug": "blues-stay-away-from-me", 
+            "title": "Blues Stay Away From Me", 
+            "track": 11
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "3:28", 
+            "info": "Doug Sahm Band", 
+            "s3_name": "12.ogg", 
+            "slug": "me-and-paul", 
+            "title": "Me And Paul", 
+            "track": 12
+        }, 
+        {
+            "album_id": 29, 
+            "date": "1970-05-01", 
+            "duration": "2:37", 
+            "info": "CBS Studio A NY, NY", 
+            "s3_name": "13.ogg", 
+            "slug": "i-threw-it-all-away", 
+            "title": "I Threw It All Away", 
+            "track": 13
+        }, 
+        {
+            "album_id": 29, 
+            "date": "1970-05-01", 
+            "duration": "2:49", 
+            "info": "CBS Studio A NY, NY", 
+            "s3_name": "14.ogg", 
+            "slug": "i-dont-believe-you", 
+            "title": "I Don't Believe You", 
+            "track": 14
+        }, 
+        {
+            "album_id": 29, 
+            "date": "1970-05-01", 
+            "duration": "2:38", 
+            "info": "CBS Studio A NY, NY", 
+            "s3_name": "15.ogg", 
+            "slug": "honey-just-allow-me-one-more-chance", 
+            "title": "Honey Just Allow Me One More Chance", 
+            "track": 15
+        }, 
+        {
+            "album_id": 29, 
+            "date": null, 
+            "duration": "1:39", 
+            "info": "Freewheelin' Bob Dylan (w/Intro)", 
+            "s3_name": "16.ogg", 
+            "slug": "oxford-town", 
+            "title": "Oxford Town", 
+            "track": 16
+        }, 
+        {
+            "album_id": 29, 
+            "date": "1980-04-01", 
+            "duration": "4:22", 
+            "info": "Massey Hall, Toronto, Ontario", 
+            "s3_name": "17.ogg", 
+            "slug": "aint-gonna-go-to-hell-for-anybody", 
+            "title": "Ain't Gonna Go To Hell For Anybody", 
+            "track": 17
+        }, 
+        {
+            "album_id": 29, 
+            "date": "1978-10-31", 
+            "duration": "5:01", 
+            "info": "Civic Center, St. Paul, MN", 
+            "s3_name": "18.ogg", 
+            "slug": "coming-from-the-heart", 
+            "title": "Coming From The Heart", 
+            "track": 18
+        }
+    ], 
+    "source": "", 
+    "title": "Hard To Find Vol. 6", 
+    "venue": "", 
+    "venue_slug": ""
+}
