@@ -223,8 +223,8 @@ def add_all():
 
 
 def delete_album(id):
-    session.query(Album).filter_by(id=id).delete()
     session.query(Song).filter_by(album_id=id).delete()
+    session.query(Album).filter_by(id=id).delete()
     print("dropped album #%s" % id)
 
 def reload_album(id):
