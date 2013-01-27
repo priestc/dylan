@@ -113,13 +113,15 @@ class Album(Base):
             dur = data['duration_%s' % i]
             info = data['info_%s' % i]
             d = data.get('date_%s' % i, None)
+            if not title:
+                continue
             date = dateutil.parser.parse(d) if d else None
             s = Song(
                 title=title, info=info, date=date,
                 track=track, s3_name=s3_name, album=a, duration=dur
             )
             session.add(s)
-
+            
         session.commit()
         return a
 
