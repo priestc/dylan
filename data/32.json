@@ -1,0 +1,227 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "New York, NY", 
+    "city_slug": "new-york-ny", 
+    "date": "1993-11-17", 
+    "date_added": "2013-01-27T22:27:41.075457", 
+    "encoding": "ogg -q5", 
+    "folder": "supper_club_17", 
+    "id": 32, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:24", 
+            "info": "", 
+            "s3_name": "early/01.ogg", 
+            "slug": "ragged-and-dirty", 
+            "title": "Ragged And Dirty", 
+            "track": 1
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "6:35", 
+            "info": "", 
+            "s3_name": "early/02.ogg", 
+            "slug": "one-more-cup-of-coffee", 
+            "title": "One More Cup Of Coffee", 
+            "track": 2
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:14", 
+            "info": "", 
+            "s3_name": "early/03.ogg", 
+            "slug": "blood-in-my-eyes", 
+            "title": "Blood In My Eyes", 
+            "track": 3
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "8:41", 
+            "info": "", 
+            "s3_name": "early/04.ogg", 
+            "slug": "queen-jane-approximately", 
+            "title": "Queen Jane Approximately", 
+            "track": 4
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:13", 
+            "info": "", 
+            "s3_name": "early/05.ogg", 
+            "slug": "ill-be-your-baby-tonight", 
+            "title": "I'll Be Your Baby Tonight", 
+            "track": 5
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:44", 
+            "info": "", 
+            "s3_name": "early/06.ogg", 
+            "slug": "disease-of-conceit", 
+            "title": "Disease Of Conceit", 
+            "track": 6
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:49", 
+            "info": "", 
+            "s3_name": "early/07.ogg", 
+            "slug": "i-want-you", 
+            "title": "I Want You", 
+            "track": 7
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:02", 
+            "info": "", 
+            "s3_name": "early/08.ogg", 
+            "slug": "ring-them-bells", 
+            "title": "Ring Them Bells", 
+            "track": 8
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "6:32", 
+            "info": "", 
+            "s3_name": "early/09.ogg", 
+            "slug": "my-back-pages", 
+            "title": "My Back Pages", 
+            "track": 9
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "7:14", 
+            "info": "", 
+            "s3_name": "early/10.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 10
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:23", 
+            "info": "", 
+            "s3_name": "late/01.ogg", 
+            "slug": "ragged-and-dirty", 
+            "title": "Ragged And Dirty", 
+            "track": 11
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:02", 
+            "info": "", 
+            "s3_name": "late/02.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay Lady Lay", 
+            "track": 12
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "7:04", 
+            "info": "", 
+            "s3_name": "late/03.ogg", 
+            "slug": "tight-connection-to-my-heart", 
+            "title": "Tight Connection To My Heart", 
+            "track": 13
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "4:28", 
+            "info": "", 
+            "s3_name": "late/04.ogg", 
+            "slug": "weeping-willow", 
+            "title": "Weeping Willow", 
+            "track": 14
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "7:20", 
+            "info": "", 
+            "s3_name": "late/05.ogg", 
+            "slug": "delia", 
+            "title": "Delia", 
+            "track": 15
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:31", 
+            "info": "", 
+            "s3_name": "late/06.ogg", 
+            "slug": "jim-jones", 
+            "title": "Jim Jones", 
+            "track": 16
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "7:45", 
+            "info": "", 
+            "s3_name": "late/07.ogg", 
+            "slug": "queen-jane-approximately", 
+            "title": "Queen Jane Approximately", 
+            "track": 17
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "4:41", 
+            "info": "", 
+            "s3_name": "late/08.ogg", 
+            "slug": "ring-them-bells", 
+            "title": "Ring Them Bells", 
+            "track": 18
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "6:01", 
+            "info": "", 
+            "s3_name": "late/09.ogg", 
+            "slug": "jack-a-roe", 
+            "title": "Jack-A-Roe", 
+            "track": 19
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "9:02", 
+            "info": "", 
+            "s3_name": "late/10.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 20
+        }, 
+        {
+            "album_id": 32, 
+            "date": null, 
+            "duration": "5:41", 
+            "info": "", 
+            "s3_name": "late/11.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 21
+        }
+    ], 
+    "source": "", 
+    "title": "The Supper Club 11-17", 
+    "venue": "The Supper Club", 
+    "venue_slug": "the-supper-club"
+}
