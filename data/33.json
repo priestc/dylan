@@ -1,0 +1,257 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "New York, NY", 
+    "city_slug": "new-york-ny", 
+    "date": "1963-04-12", 
+    "date_added": "2013-01-28T23:33:02.927039", 
+    "encoding": "ogg -q5", 
+    "folder": "town_hall_1963", 
+    "id": 33, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "2:27", 
+            "info": "", 
+            "s3_name": "01.%20%20Ramblin%27%20tru%20the%20World.ogg", 
+            "slug": "ramblin-thru-the-world", 
+            "title": "Ramblin' thru the World", 
+            "track": 1
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "4:37", 
+            "info": "", 
+            "s3_name": "02.%20%20%20Bob%20Dylan%27s%20Dream.ogg", 
+            "slug": "bob-dylans-dream", 
+            "title": "Bob Dylan's Dream", 
+            "track": 2
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:59", 
+            "info": "", 
+            "s3_name": "03.%20%20%20Talkin%27%20New%20York.ogg", 
+            "slug": "talkin-new-york", 
+            "title": "Talkin' New York", 
+            "track": 3
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "6:22", 
+            "info": "", 
+            "s3_name": "04.%20%20%20Ballad%20Of%20Hollis%20Brown.ogg", 
+            "slug": "ballad-of-hollis-brown", 
+            "title": "Ballad Of Hollis Brown", 
+            "track": 4
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:53", 
+            "info": "", 
+            "s3_name": "05.%20%20%20Walls%20Of%20Red%20Wing.ogg", 
+            "slug": "walls-of-red-wing", 
+            "title": "Walls Of Red Wing", 
+            "track": 5
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "6:06", 
+            "info": "", 
+            "s3_name": "06.%20%20%20All%20Over%20You.ogg", 
+            "slug": "all-over-you", 
+            "title": "All Over You", 
+            "track": 6
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:51", 
+            "info": "", 
+            "s3_name": "07.%20%20%20Talking%20John%20Birch%20Paranoid%20Blues.ogg", 
+            "slug": "talking-john-birch-paranoid-blues", 
+            "title": "Talking John Birch Paranoid Blues", 
+            "track": 7
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:34", 
+            "info": "", 
+            "s3_name": "08.%20%20%20Boots%20Of%20Spanish%20Leather.ogg", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 8
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:42", 
+            "info": "", 
+            "s3_name": "09.%20%20%20Hero%20Blues.ogg", 
+            "slug": "hero-blues", 
+            "title": "Hero Blues", 
+            "track": 9
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:18", 
+            "info": "", 
+            "s3_name": "10.%20%20Blowin%27%20In%20The%20Wind.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 10
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:53", 
+            "info": "", 
+            "s3_name": "11.%20%20John%20Brown.ogg", 
+            "slug": "john-brown", 
+            "title": "John Brown", 
+            "track": 11
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:28", 
+            "info": "", 
+            "s3_name": "12.%20%20Tomorrow%20Is%20A%20Long%20Time.ogg", 
+            "slug": "tomorrow-is-a-long-time", 
+            "title": "Tomorrow Is A Long Time", 
+            "track": 12
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "8:02", 
+            "info": "", 
+            "s3_name": "13.%20%20A%20Hard%20Rain%27s%20A-Gonna%20Fall.ogg", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 13
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "6:38", 
+            "info": "", 
+            "s3_name": "d2/01.%20%20%20Dusty%20Old%20Fairgrounds.ogg", 
+            "slug": "dusty-old-fairgrounds", 
+            "title": "Dusty Old Fairgrounds", 
+            "track": 14
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:50", 
+            "info": "", 
+            "s3_name": "d2/02.%20%20%20Who%20Killed%20Davey%20Moore.ogg", 
+            "slug": "who-killed-davey-moore", 
+            "title": "Who Killed Davey Moore", 
+            "track": 15
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:50", 
+            "info": "", 
+            "s3_name": "d2/03.%20%20%20Seven%20Curses.ogg", 
+            "slug": "seven-curses", 
+            "title": "Seven Curses", 
+            "track": 16
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:02", 
+            "info": "", 
+            "s3_name": "d2/04.%20%20%20Highway%2051%20%28Curtis%20Jones%29.ogg", 
+            "slug": "highway-51", 
+            "title": "Highway 51", 
+            "track": 17
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:15", 
+            "info": "", 
+            "s3_name": "d2/05.%20%20%20Pretty%20Peggy-O%20%28trad.%2C%20arranged%20by%20Bob%20Dylan%29.ogg", 
+            "slug": "pretty-peggy-o", 
+            "title": "Pretty Peggy-O", 
+            "track": 18
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "4:07", 
+            "info": "", 
+            "s3_name": "d2/06.%20%20%20Bob%20Dylan%27s%20New%20Orleans%20Rag.ogg", 
+            "slug": "bob-dylans-new-orleans-rag", 
+            "title": "Bob Dylan's New Orleans Rag", 
+            "track": 19
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:51", 
+            "info": "", 
+            "s3_name": "d2/07.%20%20%20Don%27t%20Think%20Twice%2C%20It%27s%20All%20Right.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 20
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "3:22", 
+            "info": "", 
+            "s3_name": "d2/08.%20%20%20You%27ve%20Been%20Hiding%20Too%20Long.ogg", 
+            "slug": "youve-been-hiding-too-long", 
+            "title": "You've Been Hiding Too Long", 
+            "track": 21
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "7:00", 
+            "info": "", 
+            "s3_name": "d2/09.%20%20%20With%20God%20On%20Our%20Side.ogg", 
+            "slug": "with-god-on-our-side", 
+            "title": "With God On Our Side", 
+            "track": 22
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "5:25", 
+            "info": "", 
+            "s3_name": "d2/10.%20%20%20Masters%20Of%20War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 23
+        }, 
+        {
+            "album_id": 33, 
+            "date": null, 
+            "duration": "8:05", 
+            "info": "", 
+            "s3_name": "d2/11.%20%20%20Last%20Thoughts%20On%20Woody%20Guthrie.ogg", 
+            "slug": "last-thoughts-on-woody-guthrie", 
+            "title": "Last Thoughts On Woody Guthrie", 
+            "track": 24
+        }
+    ], 
+    "source": "LB-8035", 
+    "title": "Town Hall 1963", 
+    "venue": "Town Hall", 
+    "venue_slug": "town-hall"
+}
