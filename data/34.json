@@ -1,0 +1,237 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "New York, NY", 
+    "city_slug": "new-york-ny", 
+    "date": "1963-10-26", 
+    "date_added": "2013-01-29T23:48:43.307257", 
+    "encoding": "ogg -q5", 
+    "folder": "carnegie_1963", 
+    "id": 34, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "1:11", 
+            "info": "", 
+            "s3_name": "01%20audience.ogg", 
+            "slug": "audience", 
+            "title": "audience", 
+            "track": 1
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "3:57", 
+            "info": "", 
+            "s3_name": "02%20the%20times%20they%20are%20a-changin%27.ogg", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 2
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "7:43", 
+            "info": "", 
+            "s3_name": "03%20ballad%20of%20hollis%20brown.ogg", 
+            "slug": "the-ballad-of-hollis-brown", 
+            "title": "The Ballad Of Hollis Brown", 
+            "track": 3
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "3:39", 
+            "info": "", 
+            "s3_name": "04%20who%20killed%20davey%20moore.ogg", 
+            "slug": "who-killed-davey-moore", 
+            "title": "Who Killed Davey Moore?", 
+            "track": 4
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "5:41", 
+            "info": "", 
+            "s3_name": "05%20boots%20of%20spanish%20leather.ogg", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 5
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "4:40", 
+            "info": "", 
+            "s3_name": "06%20talking%20john%20birch%20paranoid%20blues.ogg", 
+            "slug": "talking-john-birch-paranoid-blues", 
+            "title": "Talking John Birch Paranoid Blues", 
+            "track": 6
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "5:15", 
+            "info": "", 
+            "s3_name": "07%20lay%20down%20your%20weary%20tune.ogg", 
+            "slug": "lay-down-your-weary-tune", 
+            "title": "Lay Down Your Weary Tune", 
+            "track": 7
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "2:13", 
+            "info": "", 
+            "s3_name": "08%20intro%20blowin.ogg", 
+            "slug": "intro", 
+            "title": "intro", 
+            "track": 8
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "3:40", 
+            "info": "", 
+            "s3_name": "09%20blowin%20in%20the%20wind.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 9
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "9:12", 
+            "info": "", 
+            "s3_name": "10%20percy%27s%20song%20final.ogg", 
+            "slug": "percys-song", 
+            "title": "Percy's Song", 
+            "track": 10
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "4:25", 
+            "info": "", 
+            "s3_name": "11%20seven%20curses.ogg", 
+            "slug": "seven-curses", 
+            "title": "Seven Curses", 
+            "track": 11
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "5:16", 
+            "info": "", 
+            "s3_name": "12%20walls%20of%20%20red%20wing.ogg", 
+            "slug": "walls-of-red-wing", 
+            "title": "Walls Of Red Wing", 
+            "track": 12
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "4:48", 
+            "info": "", 
+            "s3_name": "13%20north%20country.ogg", 
+            "slug": "north-country-blues", 
+            "title": "North Country Blues", 
+            "track": 13
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "9:37", 
+            "info": "", 
+            "s3_name": "14%20hard%20rain.ogg", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 14
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "5:24", 
+            "info": "", 
+            "s3_name": "d2/01%20talking%20world%20war%20III%20blues.ogg", 
+            "slug": "talking-world-war-iii-blues", 
+            "title": "Talking World War III Blues", 
+            "track": 15
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "4:35", 
+            "info": "", 
+            "s3_name": "d2/02%20don%27t%20think%20twice%2C%20it%27s%20all%20right.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 16
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "6:09", 
+            "info": "", 
+            "s3_name": "d2/03%20hootenanny.ogg", 
+            "slug": "hootenanny", 
+            "title": "hootenanny", 
+            "track": 17
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "7:36", 
+            "info": "", 
+            "s3_name": "d2/04%20With%20God%20On%20Our%20Side.ogg", 
+            "slug": "with-god-on-our-side", 
+            "title": "With God On Our Side", 
+            "track": 18
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "3:59", 
+            "info": "", 
+            "s3_name": "d2/05%20only%20a%20pawn%20in%20their%20game.ogg", 
+            "slug": "only-a-pawn-in-their-game", 
+            "title": "Only A Pawn In Their Game", 
+            "track": 19
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "3:57", 
+            "info": "", 
+            "s3_name": "d2/06%20masters%20of%20war.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 20
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "6:46", 
+            "info": "", 
+            "s3_name": "d2/07%20the%20lonesome%20death%20of%20hattie%20carroll.ogg", 
+            "slug": "the-lonesome-death-of-hattie-carroll", 
+            "title": "The Lonesome Death Of Hattie Carroll", 
+            "track": 21
+        }, 
+        {
+            "album_id": 34, 
+            "date": null, 
+            "duration": "4:06", 
+            "info": "", 
+            "s3_name": "d2/08%20when%20the%20ship%20comes%20in.ogg", 
+            "slug": "when-the-ship-comes-in", 
+            "title": "When The Ship Comes In", 
+            "track": 22
+        }
+    ], 
+    "source": "", 
+    "title": "Carnegie Hall 1963", 
+    "venue": "Carnegie Hall", 
+    "venue_slug": "carnegie-hall"
+}
