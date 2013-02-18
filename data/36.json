@@ -1,0 +1,287 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Miami, FL", 
+    "city_slug": "miami-fl", 
+    "date": "1981-11-20", 
+    "date_added": "2013-02-17T23:51:03.940507", 
+    "encoding": "ogg -q5", 
+    "folder": "miami_1981", 
+    "id": 36, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:04", 
+            "info": "", 
+            "s3_name": "01%20Gotta%20serve%20somebody.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 1
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:48", 
+            "info": "", 
+            "s3_name": "02%20I%20believe%20in%20you.ogg", 
+            "slug": "i-believe-in-you", 
+            "title": "I Believe In You", 
+            "track": 2
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:48", 
+            "info": "", 
+            "s3_name": "03%20Like%20a%20rolling%20stone.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 3
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:53", 
+            "info": "", 
+            "s3_name": "04%20The%20lonesome%20death%20of%20Hattie%20Carroll.ogg", 
+            "slug": "the-lonesome-death-of-hattie-carroll", 
+            "title": "The Lonesome Death of Hattie Carroll", 
+            "track": 4
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "6:08", 
+            "info": "", 
+            "s3_name": "05%20Man%20gave%20names%20to%20all%20the%20animals.ogg", 
+            "slug": "mane-gave-names-to-all-the-animals", 
+            "title": "Mane Gave Names To All The Animals", 
+            "track": 5
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:38", 
+            "info": "", 
+            "s3_name": "06%20Maggie%27s%20farm.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 6
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:17", 
+            "info": "", 
+            "s3_name": "07%20Girl%20of%20the%20North%20Country.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 7
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:21", 
+            "info": "", 
+            "s3_name": "08%20Just%20like%20Tom%20Thumb%27s%20blues.ogg", 
+            "slug": "just-like-tom-thumbs-blues", 
+            "title": "Just Like Tom Thumb's Blues", 
+            "track": 8
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:46", 
+            "info": "", 
+            "s3_name": "09%20Ballad%20of%20a%20thin%20man.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad of a Thin Man", 
+            "track": 9
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:44", 
+            "info": "", 
+            "s3_name": "10%20Heart%20of%20mine.ogg", 
+            "slug": "heart-of-mine", 
+            "title": "Heart of Mine", 
+            "track": 10
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "2:49", 
+            "info": "", 
+            "s3_name": "11%20All%20along%20the%20watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 11
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:38", 
+            "info": "", 
+            "s3_name": "12%20I%27ll%20be%20your%20baby%20tonight.ogg", 
+            "slug": "ill-be-your-baby-tonight", 
+            "title": "I'll Be Your Baby Tonight", 
+            "track": 12
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:15", 
+            "info": "", 
+            "s3_name": "13%20Forever%20young.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 13
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:52", 
+            "info": "", 
+            "s3_name": "14%20Gamblin%27%20man.ogg", 
+            "slug": "gamblin-man", 
+            "title": "Gamblin' Man", 
+            "track": 14
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "6:17", 
+            "info": "", 
+            "s3_name": "15%20The%20times%20they%20are%20a-changin%27.ogg", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 15
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "7:38", 
+            "info": "", 
+            "s3_name": "16%20A%20hard%20rain%27s%20a-gonna%20fall.ogg", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 16
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:15", 
+            "info": "", 
+            "s3_name": "17%20Watered-down%20love.ogg", 
+            "slug": "watered-down-love", 
+            "title": "Watered-Down Love", 
+            "track": 17
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:08", 
+            "info": "", 
+            "s3_name": "18%20Shot%20of%20love.ogg", 
+            "slug": "shot-of-love", 
+            "title": "Shot of Love", 
+            "track": 18
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "", 
+            "s3_name": "19%20Just%20like%20a%20woman.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 19
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:17", 
+            "info": "", 
+            "s3_name": "20%20Solid%20rock.ogg", 
+            "slug": "solid-rock", 
+            "title": "Solid Rock", 
+            "track": 20
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:37", 
+            "info": "", 
+            "s3_name": "21%20Simple%20twist%20of%20fate.ogg", 
+            "slug": "simple-twist-of-fate", 
+            "title": "Simple Twist of Fate", 
+            "track": 21
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "3:20", 
+            "info": "", 
+            "s3_name": "22%20Masters%20of%20war.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 22
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "8:51", 
+            "info": "", 
+            "s3_name": "23%20In%20the%20garden.ogg", 
+            "slug": "in-the-garden", 
+            "title": "In The Garden", 
+            "track": 23
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "5:45", 
+            "info": "", 
+            "s3_name": "24%20Blowin%27%20in%20the%20wind.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 24
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "6:23", 
+            "info": "", 
+            "s3_name": "25%20It%27s%20alright%2C%20ma%20%28I%27m%20only%20bleeding%29.ogg", 
+            "slug": "its-alright-ma-im-only-bleeding", 
+            "title": "It's Alright, Ma (I'm Only Bleeding)", 
+            "track": 25
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "7:02", 
+            "info": "", 
+            "s3_name": "26%20It%20ain%27t%20me%2C%20babe.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 26
+        }, 
+        {
+            "album_id": 36, 
+            "date": null, 
+            "duration": "4:51", 
+            "info": "", 
+            "s3_name": "27%20Knockin%27%20on%20heaven%27s%20door.ogg", 
+            "slug": "knockin-on-heavens-door", 
+            "title": "Knockin' On Heaven's Door", 
+            "track": 27
+        }
+    ], 
+    "source": "", 
+    "title": "Miami 1981", 
+    "venue": "Sunrise Musical Theatre", 
+    "venue_slug": "sunrise-musical-theatre"
+}
