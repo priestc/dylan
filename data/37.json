@@ -1,0 +1,167 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Portland, ME", 
+    "city_slug": "portland-me", 
+    "date": "1988-07-03", 
+    "date_added": "2013-02-18T11:20:51.602030", 
+    "encoding": "M4A 256", 
+    "folder": "by_the_waterfront_docks", 
+    "id": 37, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "3:41", 
+            "info": "", 
+            "s3_name": "01%20Subterranean%20Homesick%20Blues.m4a", 
+            "slug": "subterranean-homesick-blues", 
+            "title": "Subterranean Homesick Blues", 
+            "track": 1
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "6:44", 
+            "info": "", 
+            "s3_name": "02%20Tangled%20Up%20In%20Blue.m4a", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 2
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "4:23", 
+            "info": "", 
+            "s3_name": "03%20Highway%2061%20Revisited.m4a", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 3
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "6:40", 
+            "info": "", 
+            "s3_name": "04%20Simple%20Twist%20Of%20Fate.m4a", 
+            "slug": "simple-twist-of-fate", 
+            "title": "Simple Twist Of Fate", 
+            "track": 4
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "5:05", 
+            "info": "", 
+            "s3_name": "05%20The%20Ballad%20Of%20Frankie%20Lee%20And%20Judas%20Priest.m4a", 
+            "slug": "the-ballad-of-frankie-lee-and-judas-priest", 
+            "title": "The Ballad Of Frankie Lee And Judas Priest", 
+            "track": 5
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "4:13", 
+            "info": "", 
+            "s3_name": "06%20Masters%20Of%20War.m4a", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 6
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "4:26", 
+            "info": "", 
+            "s3_name": "07%20The%20Times%20They%20Are%20A-Changin%27.m4a", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 7
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "3:54", 
+            "info": "", 
+            "s3_name": "08%20To%20Ramona.m4a", 
+            "slug": "to-ramona", 
+            "title": "To Ramona", 
+            "track": 8
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "6:27", 
+            "info": "", 
+            "s3_name": "09%20Trail%20Of%20The%20Buffalo.m4a", 
+            "slug": "trail-of-the-buffalo", 
+            "title": "Trail Of The Buffalo", 
+            "track": 9
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "4:16", 
+            "info": "", 
+            "s3_name": "10%20Maggie%27s%20Farm.m4a", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 10
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "5:07", 
+            "info": "", 
+            "s3_name": "11%20You%27re%20A%20Big%20Girl%20Now.m4a", 
+            "slug": "youre-a-big-girl-now", 
+            "title": "You're A Big Girl Now", 
+            "track": 11
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "7:33", 
+            "info": "", 
+            "s3_name": "12%20Like%20A%20Rolling%20Stone.m4a", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 12
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "8:26", 
+            "info": "", 
+            "s3_name": "13%20A%20Hard%20Rain%27s%20A-Gonna%20Fall.m4a", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 13
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "3:41", 
+            "info": "", 
+            "s3_name": "14%20Silvio.m4a", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 14
+        }, 
+        {
+            "album_id": 37, 
+            "date": null, 
+            "duration": "4:14", 
+            "info": "", 
+            "s3_name": "15%20All%20Along%20The%20Watchtower.m4a", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 15
+        }
+    ], 
+    "source": "soundboard", 
+    "title": "By The Waterfront Docs", 
+    "venue": "Old Orchard Beach Ballpark", 
+    "venue_slug": "old-orchard-beach-ballpark"
+}
