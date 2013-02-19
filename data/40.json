@@ -1,0 +1,257 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Drammen, Norway", 
+    "city_slug": "drammen-norway", 
+    "date": "1981-07-10", 
+    "date_added": "2013-02-19T11:10:45.134465", 
+    "encoding": "ogg -q5", 
+    "folder": "drammen_1981", 
+    "id": 40, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:59", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20101.ogg", 
+            "slug": "the-times-they-are-a-changin", 
+            "title": "The Times They Are A-Changin'", 
+            "track": 1
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:55", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20102.ogg", 
+            "slug": "gotta-serve-somebody", 
+            "title": "Gotta Serve Somebody", 
+            "track": 2
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:49", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20103.ogg", 
+            "slug": "i-believe-in-you", 
+            "title": "I Believe In You", 
+            "track": 3
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "6:25", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20104.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 4
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:34", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20105.ogg", 
+            "slug": "till-i-get-it-right", 
+            "title": "'Till I Get It Right", 
+            "track": 5
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:40", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20106.ogg", 
+            "slug": "man-gave-names-to-all-the-animals", 
+            "title": "Man Gave Names To All The Animals", 
+            "track": 6
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "1:06", 
+            "info": "incomplete", 
+            "s3_name": "Oslo%2010July%2081%20PA%20107.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 7
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:37", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20108.ogg", 
+            "slug": "girl-from-the-north-country", 
+            "title": "Girl From The North Country", 
+            "track": 8
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:16", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20109.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad Of A Thin Man", 
+            "track": 9
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:24", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20110.ogg", 
+            "slug": "in-the-summertime", 
+            "title": "In The Summertime", 
+            "track": 10
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:15", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20111.ogg", 
+            "slug": "slow-train-coming", 
+            "title": "Slow Train Coming", 
+            "track": 11
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "0:17", 
+            "info": "Intro only", 
+            "s3_name": "Oslo%2010July%2081%20PA%20112.ogg", 
+            "slug": "walk-around-heaven-all-day", 
+            "title": "Walk Around Heaven All Day", 
+            "track": 12
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:26", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20201.ogg", 
+            "slug": "lets-begin", 
+            "title": "Let's Begin", 
+            "track": 13
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:27", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20202.ogg", 
+            "slug": "lenny-bruce", 
+            "title": "Lenny Bruce", 
+            "track": 14
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:27", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20203.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 15
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:14", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20204.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 16
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:24", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20205.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 17
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "3:53", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20206.ogg", 
+            "slug": "jesus-is-the-one", 
+            "title": "Jesus Is The One", 
+            "track": 18
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "4:52", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20207.ogg", 
+            "slug": "heart-of-mine", 
+            "title": "Heart Of Mine", 
+            "track": 19
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:18", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20208.ogg", 
+            "slug": "when-you-gonna-wake-up", 
+            "title": "When You Gonna Wake Up?", 
+            "track": 20
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "9:09", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20209.ogg", 
+            "slug": "in-the-garden", 
+            "title": "In The Garden", 
+            "track": 21
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:27", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20210.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 22
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "6:07", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20211.ogg", 
+            "slug": "aint-me-babe", 
+            "title": "Ain't Me, Babe", 
+            "track": 23
+        }, 
+        {
+            "album_id": 40, 
+            "date": null, 
+            "duration": "5:28", 
+            "info": "", 
+            "s3_name": "Oslo%2010July%2081%20PA%20212.ogg", 
+            "slug": "knockin-on-heavens-door", 
+            "title": "Knockin' On Heaven's Door", 
+            "track": 24
+        }
+    ], 
+    "source": "LB-8574", 
+    "title": "Drammen 1981", 
+    "venue": "Drammenshallen", 
+    "venue_slug": "drammenshallen"
+}
