@@ -1,0 +1,207 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Phoenix, AZ", 
+    "city_slug": "phoenix-az", 
+    "date": "1995-11-09", 
+    "date_added": "2013-02-19T11:25:25.781216", 
+    "encoding": "ogg -q5", 
+    "folder": "phoenix_1995", 
+    "id": 41, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "5:16", 
+            "info": "", 
+            "s3_name": "1-01%20-%20Crash%20On%20The%20Levee%20%28Down%20In%20The%20Flood%29.ogg", 
+            "slug": "crash-on-the-levee-down-in-the-flood", 
+            "title": "Crash On The Levee (Down In The Flood)", 
+            "track": 1
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "5:35", 
+            "info": "", 
+            "s3_name": "1-02%20-%20If%20Not%20For%20You.ogg", 
+            "slug": "if-not-for-you", 
+            "title": "If Not For You", 
+            "track": 2
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:44", 
+            "info": "", 
+            "s3_name": "1-03%20-%20All%20Along%20The%20Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 3
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:09", 
+            "info": "", 
+            "s3_name": "1-04%20-%20You%27re%20A%20Big%20Girl%20Now.ogg", 
+            "slug": "youre-a-big-girl-now", 
+            "title": "You're A Big Girl Now", 
+            "track": 4
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "7:22", 
+            "info": "", 
+            "s3_name": "1-05%20-%20Most%20Likely%20You%20Go%20Your%20Way%20%28And%20I%27ll%20Go%20Mine%29.ogg", 
+            "slug": "most-likely-you-go-your-way-and-ill-go-mine", 
+            "title": "Most Likely You Go Your Way (And I'll Go Mine)", 
+            "track": 5
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "8:07", 
+            "info": "", 
+            "s3_name": "1-06%20-%20Silvio.ogg", 
+            "slug": "silvio", 
+            "title": "Silvio", 
+            "track": 6
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "10:41", 
+            "info": "", 
+            "s3_name": "1-07%20-%20Mr.%20Tambourine%20Man.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 7
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:13", 
+            "info": "", 
+            "s3_name": "1-08%20-%20Masters%20Of%20War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 8
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:36", 
+            "info": "", 
+            "s3_name": "2-09%20-%20Don%27t%20Think%20Twice%2C%20It%27s%20All%20Right.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "8:11", 
+            "info": "", 
+            "s3_name": "2-10%20-%20Maggie%27s%20Farm.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 10
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:35", 
+            "info": "", 
+            "s3_name": "2-11%20-%20I%27ll%20Remember%20You.ogg", 
+            "slug": "ill-remember-you", 
+            "title": "I'll Remember You", 
+            "track": 11
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "0:52", 
+            "info": "", 
+            "s3_name": "2-12%20-%20band%20introduction.ogg", 
+            "slug": "band-introductions", 
+            "title": "band introductions", 
+            "track": 12
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:59", 
+            "info": "", 
+            "s3_name": "2-13%20-%20Obviously%20Five%20Believers.ogg", 
+            "slug": "obviously-five-believers", 
+            "title": "Obviously Five Believers", 
+            "track": 13
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "2:25", 
+            "info": "", 
+            "s3_name": "2-14%20-%20audience.ogg", 
+            "slug": "audience", 
+            "title": "audience", 
+            "track": 14
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:06", 
+            "info": "", 
+            "s3_name": "2-15%20-%20Alabama%20Getaway.ogg", 
+            "slug": "alabama-getaway", 
+            "title": "Alabama Getaway", 
+            "track": 15
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "1:32", 
+            "info": "", 
+            "s3_name": "2-16%20-%20audience.ogg", 
+            "slug": "audience", 
+            "title": "audience", 
+            "track": 16
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:28", 
+            "info": "", 
+            "s3_name": "2-17%20-%20I%20Shall%20Be%20Released.ogg", 
+            "slug": "i-shall-be-released", 
+            "title": "I Shall Be Released", 
+            "track": 17
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "1:09", 
+            "info": "", 
+            "s3_name": "2-18%20-%20audience.ogg", 
+            "slug": "audience", 
+            "title": "audience", 
+            "track": 18
+        }, 
+        {
+            "album_id": 41, 
+            "date": null, 
+            "duration": "6:25", 
+            "info": "", 
+            "s3_name": "2-19%20-%20Rainy%20Day%20Women%20%2312%20%26%2035.ogg", 
+            "slug": "rainy-day-women-12-35", 
+            "title": "Rainy Day Women #12 & 35", 
+            "track": 19
+        }
+    ], 
+    "source": "LB-02258", 
+    "title": "Phoenix 1995", 
+    "venue": "Phoenix Symphony Hall", 
+    "venue_slug": "phoenix-symphony-hall"
+}
