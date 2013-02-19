@@ -1,0 +1,227 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Philadelphia, PA", 
+    "city_slug": "philadelphia-pa", 
+    "date": "2001-11-17", 
+    "date_added": "2013-02-18T20:15:24.854729", 
+    "encoding": "ogg -q5", 
+    "folder": "philadelphia_2001", 
+    "id": 38, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "3:28", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t01.ogg", 
+            "slug": "wait-for-the-light-to-shine", 
+            "title": "Wait For The Light To Shine", 
+            "track": 1
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "9:08", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t02.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 2
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "8:36", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t03.ogg", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 3
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "3:17", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t04.ogg", 
+            "slug": "searching-for-a-soldiers-grave", 
+            "title": "Searching For A Soldier's Grave", 
+            "track": 4
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:16", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t05.ogg", 
+            "slug": "tweedle-dee-tweedle-dum", 
+            "title": "Tweedle Dee & Tweedle Dum", 
+            "track": 5
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:38", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t06.ogg", 
+            "slug": "tonight-ill-be-staying-here-with-you", 
+            "title": "Tonight I'll Be Staying Here With You", 
+            "track": 6
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "7:05", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t07.ogg", 
+            "slug": "lonesome-day-blues", 
+            "title": "Lonesome Day Blues", 
+            "track": 7
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "6:45", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t08.ogg", 
+            "slug": "high-water-for-charley-patton", 
+            "title": "High Water (For Charley Patton)", 
+            "track": 8
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "7:39", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t09.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "9:51", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t10.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 10
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:27", 
+            "info": "", 
+            "s3_name": "bd01-11-17d1t11.ogg", 
+            "slug": "john-brown", 
+            "title": "John Brown", 
+            "track": 11
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:56", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t01.ogg", 
+            "slug": "summer-days", 
+            "title": "Summer Days", 
+            "track": 12
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "7:18", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t02.ogg", 
+            "slug": "sugar-baby", 
+            "title": "Sugar Baby", 
+            "track": 13
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "6:10", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t03.ogg", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 14
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "8:25", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t04.ogg", 
+            "slug": "rainy-day-women-12-35", 
+            "title": "Rainy Day Women # 12 & 35", 
+            "track": 15
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "6:18", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t05.ogg", 
+            "slug": "things-have-changed", 
+            "title": "Things Have Changed", 
+            "track": 16
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "7:01", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t06.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 17
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "6:08", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t07.ogg", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 18
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "6:41", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t08.ogg", 
+            "slug": "honest-with-me", 
+            "title": "Honest With Me", 
+            "track": 19
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:12", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t09.ogg", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' in the Wind", 
+            "track": 20
+        }, 
+        {
+            "album_id": 38, 
+            "date": null, 
+            "duration": "5:36", 
+            "info": "", 
+            "s3_name": "bd01-11-17d2t10.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along the Watchtower", 
+            "track": 21
+        }
+    ], 
+    "source": "LB-0549", 
+    "title": "Philiadelphia 2001", 
+    "venue": "First Union Spectrum", 
+    "venue_slug": "first-union-spectrum"
+}
