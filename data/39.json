@@ -1,0 +1,177 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Lyon, France", 
+    "city_slug": "lyon-france", 
+    "date": "1994-07-05", 
+    "date_added": "2013-02-19T01:57:46.707759", 
+    "encoding": "ogg -q5", 
+    "folder": "lyon_1994", 
+    "id": 39, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "0:24", 
+            "info": "", 
+            "s3_name": "1-00%20-%20intro.ogg", 
+            "slug": "intro", 
+            "title": "Intro", 
+            "track": 1
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "7:49", 
+            "info": "", 
+            "s3_name": "1-01%20-%20Jokerman.ogg", 
+            "slug": "jokerman", 
+            "title": "Jokerman", 
+            "track": 2
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "5:44", 
+            "info": "", 
+            "s3_name": "1-02%20-%20If%20Not%20For%20You.ogg", 
+            "slug": "if-not-for-you", 
+            "title": "If Not For You", 
+            "track": 3
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "5:27", 
+            "info": "", 
+            "s3_name": "1-03%20-%20All%20Along%20The%20Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 4
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "6:14", 
+            "info": "", 
+            "s3_name": "1-04%20-%20You%27re%20A%20Big%20Girl%20Now.ogg", 
+            "slug": "youre-a-big-girl-now", 
+            "title": "You're A Big Girl Now", 
+            "track": 5
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "10:04", 
+            "info": "", 
+            "s3_name": "1-05%20-%20Tangled%20Up%20In%20Blue.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 6
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "5:17", 
+            "info": "", 
+            "s3_name": "1-06%20-%20Watching%20The%20River%20Flow.ogg", 
+            "slug": "watching-the-river-flow", 
+            "title": "Watching The River Flow", 
+            "track": 7
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "4:24", 
+            "info": "", 
+            "s3_name": "1-07%20-%20Love%20Minus%20Zero-No%20Limit.ogg", 
+            "slug": "love-minus-zero-no-limit", 
+            "title": "Love Minus Zero / No Limit", 
+            "track": 8
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "6:01", 
+            "info": "", 
+            "s3_name": "2-08%20-%20Masters%20Of%20War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 9
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "6:22", 
+            "info": "", 
+            "s3_name": "2-09%20-%20Boots%20Of%20Spanish%20Leather.ogg", 
+            "slug": "boots-of-spanish-leather", 
+            "title": "Boots Of Spanish Leather", 
+            "track": 10
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "6:28", 
+            "info": "", 
+            "s3_name": "2-10%20-%20God%20Knows.ogg", 
+            "slug": "god-knows", 
+            "title": "God Knows", 
+            "track": 11
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "7:14", 
+            "info": "", 
+            "s3_name": "2-11%20-%20I%27ll%20Remember%20You.ogg", 
+            "slug": "ill-remember-you", 
+            "title": "I'll Remember You", 
+            "track": 12
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "6:13", 
+            "info": "", 
+            "s3_name": "2-12%20-%20She%20Belongs%20To%20Me.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 13
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "8:56", 
+            "info": "", 
+            "s3_name": "2-13%20-%20Maggie%27s%20Farm.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 14
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "7:11", 
+            "info": "", 
+            "s3_name": "2-14%20-%20Man%20In%20The%20Long%20Black%20Coat.ogg", 
+            "slug": "man-in-the-long-black-coat", 
+            "title": "Man In The Long Black Coat", 
+            "track": 15
+        }, 
+        {
+            "album_id": 39, 
+            "date": null, 
+            "duration": "10:22", 
+            "info": "", 
+            "s3_name": "2-15%20-%20It%20Ain%27t%20Me%2C%20Babe.ogg", 
+            "slug": "it-aint-me-babe", 
+            "title": "It Ain't Me, Babe", 
+            "track": 16
+        }
+    ], 
+    "source": "LB-04369", 
+    "title": "Lyon 1994", 
+    "venue": "Th\u00e9\u00e2tre Antique de Fourvi\u00e8re", 
+    "venue_slug": "theatre-antique-de-fourviere"
+}
