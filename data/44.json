@@ -1,0 +1,137 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Kerkrade, Holland", 
+    "city_slug": "kerkrade-holland", 
+    "date": "1995-03-19", 
+    "date_added": "2013-03-02T17:29:25.380766", 
+    "encoding": "ogg -q5", 
+    "folder": "kerkrade_1995", 
+    "id": 44, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "5:01", 
+            "info": "", 
+            "s3_name": "01%20-%20Crash%20On%20The%20Levee%20%28Down%20In%20The%20Flood%29.ogg", 
+            "slug": "crash-on-the-levee-down-in-the-flood", 
+            "title": "Crash On The Levee (Down In The Flood)", 
+            "track": 1
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "4:57", 
+            "info": "", 
+            "s3_name": "02%20-%20Lay%20Lady%20Lay.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 2
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "5:43", 
+            "info": "", 
+            "s3_name": "03%20-%20All%20Along%20The%20Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 3
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "5:36", 
+            "info": "", 
+            "s3_name": "04%20-%20Just%20Like%20A%20Woman.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 4
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "7:43", 
+            "info": "", 
+            "s3_name": "05%20-%20Tangled%20Up%20In%20Blue.ogg", 
+            "slug": "tangled-up-in-blue", 
+            "title": "Tangled Up In Blue", 
+            "track": 5
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "5:02", 
+            "info": "", 
+            "s3_name": "06%20-%20I%27ll%20Be%20Your%20Baby%20Tonight.ogg", 
+            "slug": "ill-be-your-baby-tonight", 
+            "title": "I'll Be Your Baby Tonight", 
+            "track": 6
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "4:17", 
+            "info": "", 
+            "s3_name": "08%20-%20Masters%20Of%20War.ogg", 
+            "slug": "masters-of-war", 
+            "title": "Masters Of War", 
+            "track": 8
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "5:54", 
+            "info": "", 
+            "s3_name": "09%20-%20Don%27t%20Think%20Twice%2C%20Iti%u0301s%20All%20Right.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "7:17", 
+            "info": "", 
+            "s3_name": "10%20-%20Dignity.ogg", 
+            "slug": "dignity", 
+            "title": "Dignity", 
+            "track": 10
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "6:44", 
+            "info": "", 
+            "s3_name": "11%20-%20God%20Knows.ogg", 
+            "slug": "god-knows", 
+            "title": "God Knows", 
+            "track": 11
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "7:04", 
+            "info": "", 
+            "s3_name": "12%20-%20Maggie%27s%20Farm.ogg", 
+            "slug": "maggies-farm", 
+            "title": "Maggie's Farm", 
+            "track": 12
+        }, 
+        {
+            "album_id": 44, 
+            "date": null, 
+            "duration": "7:06", 
+            "info": "", 
+            "s3_name": "13%20-%20Like%20A%20Rolling%20Stone.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 13
+        }
+    ], 
+    "source": "LB-01810", 
+    "title": "Kerkrade 1995", 
+    "venue": "Rodahal", 
+    "venue_slug": "rodahal"
+}
