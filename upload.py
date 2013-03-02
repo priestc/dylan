@@ -21,6 +21,7 @@ def get_duration_from_ogginfo(out):
 
 
 if __name__ == '__main__':
+    # usage: python upload.py *.flac bucket_name folder_name
     bucket_name = sys.argv[-2]
     folder = sys.argv[-1]
     if not folder.endswith("/"):
@@ -38,8 +39,18 @@ if __name__ == '__main__':
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
+        elif f.endswith(".shn"):
+            upload_file = f[:-3] + "ogg"
+            intermediate = f[:-3] + "wav"
+            call(["shorten", "-x", f]) # uncompress
+            call(["oggenc", "-o%s" % upload_file, "-q5", intermediate])
+            call(["shorten", intermediate]) # recompress
+            out = check_output(["ogginfo", upload_file])
+            duration = get_duration_from_ogginfo(out)
+            delete = True
         elif f.endswith('.mp3'):
-            upload_file = "file"
+            upload_file = f
+            delete = False
         elif f.endswith(".ogg"):
             upload_file = f
             delete = False

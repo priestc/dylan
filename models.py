@@ -190,14 +190,7 @@ class Song(Base):
     def url(self):
         return "https://s3.amazonaws.com/%s/%s/%s" % (
             self.album.bucket, self.album.folder, self.s3_name
-        ) 
-
-    def get_length_from_s3(self):
-        url = self.url()
-        response = requests.head(url)
-        duration = response.headers['x-amz-meta-x-content-duration']
-        if not duration:
-            return None
+        )
 
 
 def duration_to_hms(duration):
