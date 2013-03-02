@@ -1,0 +1,177 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Lake Tahoe, NV", 
+    "city_slug": "lake-tahoe-nv", 
+    "date": "2003-07-19", 
+    "date_added": "2013-03-02T05:32:57.999762", 
+    "encoding": "ogg -q5", 
+    "folder": "lake_tahoe_2003", 
+    "id": 43, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:15", 
+            "info": "", 
+            "s3_name": "01%20Tombstone%20Blues.ogg", 
+            "slug": "tombstone-blues", 
+            "title": "Tombstone Blues", 
+            "track": 1
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "4:39", 
+            "info": "", 
+            "s3_name": "02%20Lay%2C%20Lady%2C%20Lay.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 2
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:17", 
+            "info": "", 
+            "s3_name": "03%20Tweedle%20Dee%20%26%20Tweedle%20Dum.ogg", 
+            "slug": "tweedle-dee-tweedle-dum", 
+            "title": "Tweedle Dee & Tweedle Dum", 
+            "track": 3
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "6:13", 
+            "info": "", 
+            "s3_name": "04%20Don%27t%20Think%20Twice%2C%20It%27s%20All%20Right.ogg", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 4
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "6:26", 
+            "info": "", 
+            "s3_name": "05%20Things%20Have%20Changed.ogg", 
+            "slug": "things-have-changed", 
+            "title": "Things Have Changed", 
+            "track": 5
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:52", 
+            "info": "", 
+            "s3_name": "06%20Watching%20The%20River%20Flow.ogg", 
+            "slug": "watching-the-river-flow", 
+            "title": "Watching The River Flow", 
+            "track": 6
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "7:40", 
+            "info": "", 
+            "s3_name": "07%20It%27s%20Alright%2C%20Ma%20%28I%27m%20Only%20Bleeding%29.ogg", 
+            "slug": "its-alright-ma-im-only-bleeding", 
+            "title": "It's Alright, Ma (I'm Only Bleeding)", 
+            "track": 7
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:08", 
+            "info": "", 
+            "s3_name": "08%20Make%20You%20Feel%20My%20Love.ogg", 
+            "slug": "make-you-feel-my-love", 
+            "title": "Make You Feel My Love", 
+            "track": 8
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "6:14", 
+            "info": "", 
+            "s3_name": "09%20A%20Hard%20Rain%27s%20A-Gonna%20Fall.ogg", 
+            "slug": "a-hard-rains-a-gonna-fall", 
+            "title": "A Hard Rain's A-Gonna Fall", 
+            "track": 9
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:40", 
+            "info": "", 
+            "s3_name": "10%20Cold%20Irons%20Bound.ogg", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 10
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:42", 
+            "info": "", 
+            "s3_name": "11%20Under%20The%20Red%20Sky.ogg", 
+            "slug": "under-the-red-sky", 
+            "title": "Under The Red Sky", 
+            "track": 11
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "6:23", 
+            "info": "", 
+            "s3_name": "12%20Honest%20With%20Me.ogg", 
+            "slug": "honest-with-me", 
+            "title": "Honest With Me", 
+            "track": 12
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "5:13", 
+            "info": "", 
+            "s3_name": "13%20Moonlight.ogg", 
+            "slug": "moonlight", 
+            "title": "Moonlight", 
+            "track": 13
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "7:16", 
+            "info": "", 
+            "s3_name": "14%20Summer%20Days.ogg", 
+            "slug": "summer-days", 
+            "title": "Summer Days", 
+            "track": 14
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "11:12", 
+            "info": "", 
+            "s3_name": "15%20Like%20A%20Rolling%20Stone.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 15
+        }, 
+        {
+            "album_id": 43, 
+            "date": null, 
+            "duration": "6:17", 
+            "info": "", 
+            "s3_name": "16%20All%20Along%20The%20Watchtower.ogg", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 16
+        }
+    ], 
+    "source": "LB-1300", 
+    "title": "Lake Tahoe 2003", 
+    "venue": "Harveys Outdoor Amphitheatre", 
+    "venue_slug": "harveys-outdoor-amphitheatre"
+}

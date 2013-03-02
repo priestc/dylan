@@ -76,7 +76,7 @@ manifest = ProgramManifest({
         )
     ),
     'bucket_contents': GiottoProgram(
-        model=[get_bucket_contents, ['1.mp3', '2.mp3']],
+        model=[get_bucket_contents, [{"filename": '1.mp3', "duration": "2:12"}, {"filename": '2.mp3', "duration": "7:50"}]],
         view=BasicView(),
     ),
     'newest': GiottoProgram(

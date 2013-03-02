@@ -14,6 +14,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Bool
 from sqlalchemy.orm import relationship
 
 import dateutil.parser
+import requests
 
 class Album(Base):
     id = Column(Integer, primary_key=True)
@@ -162,6 +163,9 @@ class Song(Base):
 
     @classmethod
     def profile(cls, slug):
+        """
+        All songs for a title slug
+        """
         songs = session.query(cls).join(Album).filter(cls.slug==slug).order_by(Album.date).all()
         if not songs:
             raise DataNotFound
@@ -188,6 +192,23 @@ class Song(Base):
             self.album.bucket, self.album.folder, self.s3_name
         ) 
 
+    def get_length_from_s3(self):
+        url = self.url()
+        response = requests.head(url)
+        duration = response.headers['x-amz-meta-x-content-duration']
+        if not duration:
+            return None
+
+
+def duration_to_hms(duration):
+    """
+    Number of seconds to MM:SS format
+    >>> duration_to_hms(234.23)
+    '2:56.23'
+    """
+    seconds = "%02d" % (float(duration) % 60)
+    minutes = int(float(duration)) / 60
+    return "%s:%s" % (minutes, seconds)
 
 def get_bucket_contents(bucket, folder):
     from boto.s3.connection import S3Connection
@@ -199,13 +220,18 @@ def get_bucket_contents(bucket, folder):
         raise DataNotFound("Can't open S3 bucket")
 
     length = len(folder)
-    # skip the first result (which is just the folder name, and remove the
-    # folder name from each result
-    ret = [x.name[length+1:] for x in bucket.list(folder)]
+    ret = []
+    for k in bucket.list(folder):
+        key = bucket.get_key(k.key) # refetch so we can get metadata
+        obj = {
+            "filename": key.name[length+1:],     # remove the folder name from each result
+            "duration": duration_to_hms(key.get_metadata('x-content-duration'))
+        }
+        ret.append(obj)
+
     if len(ret) == 0:
         raise DataNotFound("Empty Bucket or folder")
     return ret
-
 
 def add_all():
     """

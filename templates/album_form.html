@@ -33,9 +33,11 @@
         $.get(
             '/bucket_contents', {bucket: bucket, folder: folder}
         ).done(function(r) {
-            var filename, html;
-            for(i in r) {
-                filename = r[i];
+            var filename, html, duration;
+            var num_of_tracks = r.length - 1;
+            $.each(r, function(i, obj) {
+                filename = obj['filename'];
+                duration = obj['duration'];
                 html = "<div class='song'><strong>" + filename + "</strong>\
                             <div>\
                                 <input type='hidden' name='s3_" + i + "' value='" + escape(filename) + "'>\
@@ -43,12 +45,12 @@
                                 Title: <input class=\"title\" type='text' name='title_" + i + "'>\
                                 Info: <input class=\"info\" type='text' name='info_" + i + "'>\
                                 Date: <input class=\"date\" type='text' name='date_" + i + "'>\
-                                Duration: <input class=\"duration\" type='text' name='duration_" + i + "'>\
+                                Duration: <input class=\"duration\" type='text' name='duration_" + i + "' value='" + duration + "'>\
                             </div>\
                         </div>";
                 $("#tracks").append(html);
-            }
-            $('#tracks').append($("<input type='hidden' name='num_of_tracks' value='" + i + "'>"));
+            });
+            $('#tracks').append($("<input type='hidden' name='num_of_tracks' value='" + num_of_tracks + "'>"));
             $('#submit_button').show();
             $("#spinner").hide();
         }).error(function(r) {
