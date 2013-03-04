@@ -18,6 +18,17 @@ def get_duration_from_ogginfo(out):
     seconds = seconds[:-1]
     return int(minutes) * 60 + float(seconds)
 
+def get_duration_from_exiftool(out):
+    """
+    Parse the output of exiftool to get the duration in seconds.
+    """
+    for line in out.split("\n"):
+        if line.startswith("Duration"):
+            splitted = line.split(":")
+            hours, minutes, seconds = splitted[1:4]
+            if seconds.endswith("(approx)"):
+                seconds = seconds[:-8]
+    return int(hours) * 3600 + int(minutes) * 60 + int(seconds)
 
 if __name__ == '__main__':
     # usage: python upload.py *.flac bucket_name folder_name
@@ -50,6 +61,8 @@ if __name__ == '__main__':
         elif f.endswith('.mp3'):
             upload_file = f
             delete = False
+            out = check_output(["exiftool", f])
+            duration = get_duration_from_exiftool(out)
         elif f.endswith(".wav"):
             upload_file = f[:-3] + "ogg"
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
@@ -66,7 +79,7 @@ if __name__ == '__main__':
         call([
             "s3cmd", "put", "--acl-public",
             "--add-header=X-Content-Duration:%s" % duration, upload_file,
-            "s3://%s/%s" % (bucket_name, folder_name)
+            "s3://%s/%s" % (bucket_name, folder)
         ])
 
         if delete:
