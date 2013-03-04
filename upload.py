@@ -1,8 +1,6 @@
 import os
 import sys
 from subprocess import check_output, call
-from boto.s3.connection import S3Connection
-from boto.s3.key import Key
 
 def get_duration_from_ogginfo(out):
     """
@@ -37,15 +35,12 @@ if __name__ == '__main__':
     if not folder.endswith("/"):
         folder += "/"
 
-    conn = S3Connection()
-    bucket = conn.get_bucket(bucket_name)
     files = sys.argv[1:-2]
 
     for f in files:
-        delete = False
+        upload_file = None
         if f.endswith(".flac"):
             upload_file = f[:-4] + "ogg"
-            delete = True
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
@@ -57,30 +52,29 @@ if __name__ == '__main__':
             call(["shorten", intermediate]) # recompress
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-            delete = True
-        elif f.endswith('.mp3'):
-            upload_file = f
-            delete = False
-            out = check_output(["exiftool", f])
-            duration = get_duration_from_exiftool(out)
         elif f.endswith(".wav"):
             upload_file = f[:-3] + "ogg"
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-            delete = True
+        elif f.endswith('.mp3'):
+            out = check_output(["exiftool", f])
+            duration = get_duration_from_exiftool(out)
         elif f.endswith(".ogg"):
-            upload_file = f
-            delete = False
+            out = check_output(["ogginfo", upload_file])
+            duration = get_duration_from_ogginfo(out)
+        elif f.endswith('.m4a'):
+            pass
         else:
             print "skipping:", f
             continue
 
         call([
             "s3cmd", "put", "--acl-public",
-            "--add-header=X-Content-Duration:%s" % duration, upload_file,
+            "--add-header=X-Content-Duration:%s" % duration,
+            upload_file or f,
             "s3://%s/%s" % (bucket_name, folder)
         ])
 
-        if delete:
+        if upload_file:
             os.remove(upload_file)
