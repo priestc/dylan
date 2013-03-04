@@ -199,6 +199,8 @@ def duration_to_hms(duration):
     >>> duration_to_hms(234.23)
     '2:56.23'
     """
+    if not duration:
+        return ''
     seconds = "%02d" % (float(duration) % 60)
     minutes = int(float(duration)) / 60
     return "%s:%s" % (minutes, seconds)

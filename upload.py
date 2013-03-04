@@ -39,12 +39,12 @@ if __name__ == '__main__':
 
     for f in files:
         upload_file = None
-        if f.endswith(".flac"):
+        if f.lower().endswith(".flac"):
             upload_file = f[:-4] + "ogg"
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-        elif f.endswith(".shn"):
+        elif f.lower().endswith(".shn"):
             upload_file = f[:-3] + "ogg"
             intermediate = f[:-3] + "wav"
             call(["shorten", "-x", f]) # uncompress
@@ -52,26 +52,25 @@ if __name__ == '__main__':
             call(["shorten", intermediate]) # recompress
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-        elif f.endswith(".wav"):
+        elif f.lower().endswith(".wav"):
             upload_file = f[:-3] + "ogg"
             call(["oggenc", "-o%s" % upload_file, "-q5", f])
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-        elif f.endswith('.mp3'):
+        elif f.lower().endswith('.mp3') or f.lower().endswith('.m4a'):
             out = check_output(["exiftool", f])
             duration = get_duration_from_exiftool(out)
-        elif f.endswith(".ogg"):
+        elif f.lower().endswith(".ogg"):
             out = check_output(["ogginfo", upload_file])
             duration = get_duration_from_ogginfo(out)
-        elif f.endswith('.m4a'):
-            pass
         else:
             print "skipping:", f
             continue
 
+        #print f, str(int(duration) / 60) + ":" + str(int(duration) % 60)
         call([
             "s3cmd", "put", "--acl-public",
-            "--add-header=X-Content-Duration:%s" % duration,
+            "--add-header=x-amz-meta-x-content-duration:%s" % duration,
             upload_file or f,
             "s3://%s/%s" % (bucket_name, folder)
         ])
