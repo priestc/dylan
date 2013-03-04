@@ -1,6 +1,5 @@
 import os
 import sys
-import StringIO
 from subprocess import check_output, call
 from boto.s3.connection import S3Connection
 from boto.s3.key import Key
@@ -51,6 +50,12 @@ if __name__ == '__main__':
         elif f.endswith('.mp3'):
             upload_file = f
             delete = False
+        elif f.endswith(".wav"):
+            upload_file = f[:-3] + "ogg"
+            call(["oggenc", "-o%s" % upload_file, "-q5", f])
+            out = check_output(["ogginfo", upload_file])
+            duration = get_duration_from_ogginfo(out)
+            delete = True
         elif f.endswith(".ogg"):
             upload_file = f
             delete = False
@@ -58,11 +63,11 @@ if __name__ == '__main__':
             print "skipping:", f
             continue
 
-        key = Key(bucket)
-        key.key = folder + upload_file
-        key.set_metadata("X-Content-Duration", "%.2f" % duration)
-        key.set_contents_from_filename(upload_file)
-        key.set_acl('public-read')
+        call([
+            "s3cmd", "put", "--acl-public",
+            "--add-header=X-Content-Duration:%s" % duration, upload_file,
+            "s3://%s/%s" % (bucket_name, folder_name)
+        ])
 
         if delete:
             os.remove(upload_file)
