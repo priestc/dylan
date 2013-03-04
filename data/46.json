@@ -1,0 +1,207 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Tokyo, Japan", 
+    "city_slug": "tokyo-japan", 
+    "date": "2001-03-04", 
+    "date_added": "2013-03-04T00:18:01.818294", 
+    "encoding": "MP3 192 kbps", 
+    "folder": "tokyo_2001", 
+    "id": 46, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "3:58", 
+            "info": "", 
+            "s3_name": "01.%20Bob%20Dylan%20-%20Duncan%20%26%20Brady%20%5B4-3-2001%5D.mp3", 
+            "slug": "duncan-brady", 
+            "title": "Duncan & Brady", 
+            "track": 1
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "4:07", 
+            "info": "", 
+            "s3_name": "02.%20Bob%20Dylan%20-%20Song%20To%20Woody%20%5B4-3-2001%5D.mp3", 
+            "slug": "song-to-woody", 
+            "title": "Song To Woody", 
+            "track": 2
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "8:31", 
+            "info": "", 
+            "s3_name": "03.%20Bob%20Dylan%20-%20Desolation%20Row%20%5B4-3-2001%5D.mp3", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 3
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:26", 
+            "info": "", 
+            "s3_name": "04.%20Bob%20Dylan%20-%20Absolutely%20Sweet%20Marie%20%5B4-3-2001%5D.mp3", 
+            "slug": "absolutely-sweet-marie", 
+            "title": "Absolutely Sweet Marie", 
+            "track": 4
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:07", 
+            "info": "", 
+            "s3_name": "05.%20Bob%20Dylan%20-%20Can%27t%20Wait%20%5B4-3-2001%5D.mp3", 
+            "slug": "cant-wait", 
+            "title": "Can't Wait", 
+            "track": 5
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:10", 
+            "info": "", 
+            "s3_name": "06.%20Bob%20Dylan%20-%20Seeing%20The%20Real%20You%20At%20Last%20%5B4-3-2001%5D.mp3", 
+            "slug": "seeing-the-real-you-at-last", 
+            "title": "Seeing The Real You At Last", 
+            "track": 6
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "8:28", 
+            "info": "", 
+            "s3_name": "07.%20Bob%20Dylan%20-%20Visions%20Of%20Johanna%20%5B4-3-2001%5D.mp3", 
+            "slug": "visions-of-johanna", 
+            "title": "Visions Of Johanna", 
+            "track": 7
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "6:07", 
+            "info": "", 
+            "s3_name": "08.%20Bob%20Dylan%20-%20John%20Brown%20%5B4-3-2001%5D.mp3", 
+            "slug": "john-brown", 
+            "title": "John Brown", 
+            "track": 8
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:52", 
+            "info": "", 
+            "s3_name": "09.%20Bob%20Dylan%20-%20Don%27t%20Think%20Twice%2C%20It%27s%20All%20Right%20%5B4-3-2001%5D.mp3", 
+            "slug": "dont-think-twice-its-all-right", 
+            "title": "Don't Think Twice, It's All Right", 
+            "track": 9
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "7:26", 
+            "info": "", 
+            "s3_name": "10.%20Bob%20Dylan%20-%20Stuck%20Inside%20Of%20Mobile%20With%20The%20Memphis%20Blues%20Again%20%5B4-3-2001%5D.mp3", 
+            "slug": "stuck-inside-of-mobile-with-the-memphis-blues-again", 
+            "title": "Stuck Inside Of Mobile With The Memphis Blues Again", 
+            "track": 10
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "6:18", 
+            "info": "", 
+            "s3_name": "11.%20Bob%20Dylan%20-%20Cold%20Irons%20Bound%20%5B4-3-2001%5D.mp3", 
+            "slug": "cold-irons-bound", 
+            "title": "Cold Irons Bound", 
+            "track": 11
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "7:50", 
+            "info": "", 
+            "s3_name": "12.%20Bob%20Dylan%20-%20Leopard-Skin%20Pill-Box%20Hat%20%5B4-3-2001%5D.mp3", 
+            "slug": "leopard-skin-pill-box-hat", 
+            "title": "Leopard-Skin Pill-Box Hat", 
+            "track": 12
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:29", 
+            "info": "", 
+            "s3_name": "13.%20Bob%20Dylan%20-%20Love%20Sick%20%5B4-3-2001%5D.mp3", 
+            "slug": "love-sick", 
+            "title": "Love Sick", 
+            "track": 13
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "7:30", 
+            "info": "", 
+            "s3_name": "14.%20Bob%20Dylan%20-%20Like%20A%20Rolling%20Stone%20%5B4-3-2001%5D.mp3", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 14
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "3:58", 
+            "info": "", 
+            "s3_name": "15.%20Bob%20Dylan%20-%20If%20Dogs%20Run%20Free%20%5B4-3-2001%5D.mp3", 
+            "slug": "if-dogs-run-free", 
+            "title": "If Dogs Run Free", 
+            "track": 15
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "4:50", 
+            "info": "", 
+            "s3_name": "16.%20Bob%20Dylan%20-%20All%20Along%20The%20Watchtower%20%5B4-3-2001%5D.mp3", 
+            "slug": "all-along-the-watchtower", 
+            "title": "All Along The Watchtower", 
+            "track": 16
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "6:19", 
+            "info": "", 
+            "s3_name": "17.%20Bob%20Dylan%20-%20Forever%20Young%20%5B4-3-2001%5D.mp3", 
+            "slug": "forever-young", 
+            "title": "Forever Young", 
+            "track": 17
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "5:57", 
+            "info": "", 
+            "s3_name": "18.%20Bob%20Dylan%20-%20Highway%2061%20Revisited%20%5B4-3-2001%5D.mp3", 
+            "slug": "highway-61-revisited", 
+            "title": "Highway 61 Revisited", 
+            "track": 18
+        }, 
+        {
+            "album_id": 46, 
+            "date": null, 
+            "duration": "6:57", 
+            "info": "", 
+            "s3_name": "19.%20Bob%20Dylan%20-%20Blowin%27%20In%20The%20Wind%20%5B4-3-2001%5D.mp3", 
+            "slug": "blowin-in-the-wind", 
+            "title": "Blowin' In The Wind", 
+            "track": 19
+        }
+    ], 
+    "source": "(unknown)", 
+    "title": "Tokyo 2001", 
+    "venue": "Hall \"A\", Tokyo International Forum", 
+    "venue_slug": "hall-a-tokyo-international-forum"
+}
