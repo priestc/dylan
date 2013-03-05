@@ -1,0 +1,27 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Unknown", 
+    "city_slug": "unknown", 
+    "date": "1975-10-01", 
+    "date_added": "2013-03-05T16:02:18.282909", 
+    "encoding": "ogg -q5", 
+    "folder": "bette_midler", 
+    "id": 50, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 50, 
+            "date": null, 
+            "duration": "27:53", 
+            "info": "", 
+            "s3_name": "Buckets%20of%20Rain%20%26%20I%20Don%27t%20Believe%20You.ogg", 
+            "slug": "buckets-of-rain-i-dont-believe-you", 
+            "title": "Buckets of Rain / I Don't Believe You", 
+            "track": 1
+        }
+    ], 
+    "source": "Unknown", 
+    "title": "Bette Midler Session 1975", 
+    "venue": "Studio", 
+    "venue_slug": "studio"
+}
