@@ -1,0 +1,277 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "various", 
+    "city_slug": "various", 
+    "date": "1969-01-01", 
+    "date_added": "2013-03-05T14:51:51.456784", 
+    "encoding": "ogg -q5", 
+    "folder": "pastures_of_plenty", 
+    "id": 49, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:17", 
+            "info": "Johnny Cash Show", 
+            "s3_name": "01%20I%20Threw%20It%20All%20Away%20%28Johnny%20Cash%20Show%29.ogg", 
+            "slug": "i-threw-it-all-away", 
+            "title": "I Threw It All Away", 
+            "track": 1
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:37", 
+            "info": "Self-Portrait Outtake", 
+            "s3_name": "02%20Folsom%20Prison%20Blues%20%28Self-Portrait%20Outtake%29.ogg", 
+            "slug": "folsom-prison-blues", 
+            "title": "Folsom Prison Blues", 
+            "track": 2
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:35", 
+            "info": "Greatest Hits II Outtake", 
+            "s3_name": "03%20You%20Ain%27t%20Goin%27%20Nowhere%20%28Greatest%20Hits%20II%20Outtake%29.ogg", 
+            "slug": "you-aint-goin-nowhere", 
+            "title": "You Ain't Goin' Nowhere", 
+            "track": 3
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:24", 
+            "info": "George Harrison Session", 
+            "s3_name": "04%20Mama%2C%20You%20Been%20On%20My%20Mind%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "mama-you-been-on-my-mind", 
+            "title": "Mama, You Been On My Mind", 
+            "track": 4
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:34", 
+            "info": "Johnny Cash Session", 
+            "s3_name": "05%20Blue%20Yodel%20%231%20%28Johnny%20Cash%20Session%29.ogg", 
+            "slug": "blue-yodel-1", 
+            "title": "Blue Yodel #1", 
+            "track": 5
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:30", 
+            "info": "George Harrison Session", 
+            "s3_name": "06%20Cupid%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "cupid", 
+            "title": "Cupid", 
+            "track": 6
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:27", 
+            "info": "Johnny Cash Show", 
+            "s3_name": "07%20Living%20the%20Blues%20%28Johnny%20Cash%20Show%29.ogg", 
+            "slug": "living-the-blues", 
+            "title": "Living the Blues", 
+            "track": 7
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:39", 
+            "info": "George Harrison Session", 
+            "s3_name": "08%20Working%20On%20A%20Guru%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "working-on-a-guru", 
+            "title": "Working On A Guru", 
+            "track": 8
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:29", 
+            "info": "New Morning Outtake", 
+            "s3_name": "09%20If%20Not%20For%20You%20%28New%20Morning%20Outtake%29.ogg", 
+            "slug": "if-not-for-you", 
+            "title": "If Not For You", 
+            "track": 9
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:44", 
+            "info": "Nashville Skyline Outtake", 
+            "s3_name": "10%20One%20More%20Night%20%28Nashville%20Skyline%20Outtake%29.ogg", 
+            "slug": "one-more-night", 
+            "title": "One More Night", 
+            "track": 10
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:31", 
+            "info": "George Harrison Session", 
+            "s3_name": "11%20All%20I%20Have%20To%20Do%20Is%20Dream%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "all-i-have-to-do-is-dream", 
+            "title": "All I Have To Do Is Dream", 
+            "track": 11
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:28", 
+            "info": "Self-Portrait Outtake", 
+            "s3_name": "12%20Ring%20Of%20Fire%20%28Self-Portrait%20Outtake%29.ogg", 
+            "slug": "ring-of-fire", 
+            "title": "Ring Of Fire", 
+            "track": 12
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "1:55", 
+            "info": "Johnny Cash Session", 
+            "s3_name": "13%20Good%20Ol%27%20Mountain%20Dew%20%28Johnny%20Cash%20Session%29.ogg", 
+            "slug": "good-ol-mountain-dew", 
+            "title": "Good Ol' Mountain Dew", 
+            "track": 13
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:45", 
+            "info": "New Morning Outtake", 
+            "s3_name": "14%20Sign%20On%20The%20Window%20%28New%20Morning%20Outtake%29.ogg", 
+            "slug": "sign-on-the-window", 
+            "title": "Sign On The Window", 
+            "track": 14
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:32", 
+            "info": "George Harrison Session", 
+            "s3_name": "15%20Honey%2C%20Just%20Allow%20Me%20One%20More%20Chance%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "honey-just-allow-me-one-more-chance", 
+            "title": "Honey, Just Allow Me One More Chance", 
+            "track": 15
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:27", 
+            "info": "Nashville Skyline Outtake", 
+            "s3_name": "16%20Lay%2C%20Lady%2C%20Lay%20%28Nashville%20Skyline%20Outtake%29.ogg", 
+            "slug": "lay-lady-lay", 
+            "title": "Lay, Lady, Lay", 
+            "track": 16
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:48", 
+            "info": "George Harrison Session", 
+            "s3_name": "17%20I%20Don%27t%20Believe%20You%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "i-dont-believe-you", 
+            "title": "I Don't Believe You", 
+            "track": 17
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:03", 
+            "info": "George Harrison Session", 
+            "s3_name": "18%20Yesterday%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "yesterday", 
+            "title": "Yesterday", 
+            "track": 18
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:08", 
+            "info": "Johnny Cash Session", 
+            "s3_name": "19%20Big%20River%20%28Johnny%20Cash%20Session%29.ogg", 
+            "slug": "big-river", 
+            "title": "Big River", 
+            "track": 19
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:47", 
+            "info": "Isle Of Wight Concert", 
+            "s3_name": "20%20Wild%20Mountain%20Thyme%20%28Isle%20Of%20Wight%20Concert%29.ogg", 
+            "slug": "wild-mountain-thyme", 
+            "title": "Wild Mountain Thyme", 
+            "track": 20
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:55", 
+            "info": "New Morning Outtake", 
+            "s3_name": "21%20Tomorrow%20Is%20A%20Long%20Time%20%28New%20Morning%20Outtake%29.ogg", 
+            "slug": "tomorrow-is-a-long-time", 
+            "title": "Tomorrow Is A Long Time", 
+            "track": 21
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:33", 
+            "info": "Earl Scruggs Session", 
+            "s3_name": "22%20East%20Virginia%20Blues%20%28Earl%20Scruggs%20Session%29.ogg", 
+            "slug": "east-virginia-blues", 
+            "title": "East Virginia Blues", 
+            "track": 22
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:47", 
+            "info": "George Harrison Session", 
+            "s3_name": "23%20One%20Too%20Many%20Mornings%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "one-too-many-mornings", 
+            "title": "One Too Many Mornings", 
+            "track": 23
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "3:31", 
+            "info": "George Harrison Session", 
+            "s3_name": "24%20Match%20Box%20%28George%20Harrison%20Session%29.ogg", 
+            "slug": "match-box", 
+            "title": "Match Box", 
+            "track": 24
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "2:29", 
+            "info": "Johnny Cash Session", 
+            "s3_name": "25%20I%20Still%20Miss%20Someone%20%28Johnny%20Cash%20Session%29.ogg", 
+            "slug": "i-still-miss-someone", 
+            "title": "I Still Miss Someone", 
+            "track": 25
+        }, 
+        {
+            "album_id": 49, 
+            "date": null, 
+            "duration": "4:28", 
+            "info": "New Morning Outtake", 
+            "s3_name": "26%20Song%20To%20Woody%20%28New%20Morning%20Outtake%29.ogg", 
+            "slug": "song-to-woody", 
+            "title": "Song To Woody", 
+            "track": 26
+        }
+    ], 
+    "source": "Studio Outtakes", 
+    "title": "Pastures of Plenty", 
+    "venue": "Various", 
+    "venue_slug": "various"
+}
