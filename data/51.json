@@ -1,0 +1,217 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "London, UK", 
+    "city_slug": "london-uk", 
+    "date": "1966-05-17", 
+    "date_added": "2013-03-06T19:34:30.571723", 
+    "encoding": "ogg -q5", 
+    "folder": "genuine_live_1966", 
+    "id": 51, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 51, 
+            "date": "1966-05-17", 
+            "duration": "4:06", 
+            "info": "Free Trade Hall, Manchester, UK", 
+            "s3_name": "d1/01.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 1
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-17", 
+            "duration": "5:08", 
+            "info": "Free Trade Hall, Manchester, UK", 
+            "s3_name": "d1/02.ogg", 
+            "slug": "fourth-time-around", 
+            "title": "Fourth Time Around", 
+            "track": 2
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-17", 
+            "duration": "8:16", 
+            "info": "Free Trade Hall, Manchester, UK", 
+            "s3_name": "d1/03.ogg", 
+            "slug": "visions-of-johanna", 
+            "title": "Visions Of Johanna", 
+            "track": 3
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-17", 
+            "duration": "6:00", 
+            "info": "Free Trade Hall, Manchester, UK", 
+            "s3_name": "d1/04.ogg", 
+            "slug": "its-all-over-now-baby-blue", 
+            "title": "It's All Over Now Baby Blue", 
+            "track": 4
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-17", 
+            "duration": "7:12", 
+            "info": "Free Trade Hall, Manchester, UK", 
+            "s3_name": "d1/05.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 5
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "3:54", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/06.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 6
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "4:35", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/07.ogg", 
+            "slug": "fourth-time-around", 
+            "title": "Fourth Time Around", 
+            "track": 7
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "7:30", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/08.ogg", 
+            "slug": "visions-of-johanna", 
+            "title": "Visions of Johanna", 
+            "track": 8
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "4:15", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/09.ogg", 
+            "slug": "leopard-skin-pill-box-hat", 
+            "title": "Leopard Skin Pill-Box Hat", 
+            "track": 9
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "3:54", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/10.ogg", 
+            "slug": "one-too-many-mornings", 
+            "title": "One Too Many Mornings", 
+            "track": 10
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "7:10", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/11.ogg", 
+            "slug": "ballad-of-a-thin-man", 
+            "title": "Ballad Of A Thin Man", 
+            "track": 11
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-26", 
+            "duration": "11:14", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d1/12.ogg", 
+            "slug": "like-a-rolling-stone", 
+            "title": "Like A Rolling Stone", 
+            "track": 12
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "5:25", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/01.ogg", 
+            "slug": "she-belongs-to-me", 
+            "title": "She Belongs To Me", 
+            "track": 13
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "7:55", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/02.ogg", 
+            "slug": "fourth-time-around", 
+            "title": "Fourth Time Around", 
+            "track": 14
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "8:58", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/03.ogg", 
+            "slug": "visions-of-johanna", 
+            "title": "Visions Of Johanna", 
+            "track": 15
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "6:42", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/04.ogg", 
+            "slug": "its-all-over-now-baby-blue", 
+            "title": "It's All Over Now Baby Blue", 
+            "track": 16
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "14:45", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/05.ogg", 
+            "slug": "desolation-row", 
+            "title": "Desolation Row", 
+            "track": 17
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "8:28", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/06.ogg", 
+            "slug": "just-like-a-woman", 
+            "title": "Just Like A Woman", 
+            "track": 18
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-05-27", 
+            "duration": "8:22", 
+            "info": "Royal Albert Hall, London, UK", 
+            "s3_name": "d2/07.ogg", 
+            "slug": "mr-tambourine-man", 
+            "title": "Mr. Tambourine Man", 
+            "track": 19
+        }, 
+        {
+            "album_id": 51, 
+            "date": "1966-01-26", 
+            "duration": "12:30", 
+            "info": "Bob Fass Show (WBAI-FM, NY)", 
+            "s3_name": "d2/08.ogg", 
+            "slug": "interview-and-listener-calls", 
+            "title": "Interview and listener calls", 
+            "track": 20
+        }
+    ], 
+    "source": "", 
+    "title": "Genuine Live 1966", 
+    "venue": "Royal Albert Hall", 
+    "venue_slug": "royal-albert-hall"
+}
