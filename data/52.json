@@ -1,0 +1,167 @@
+{
+    "bucket": "priestc-dylan", 
+    "city": "Nashville, TN", 
+    "city_slug": "nashville-tn", 
+    "date": "1969-01-01", 
+    "date_added": "2013-03-07T19:11:08.189544", 
+    "encoding": "ogg -q5", 
+    "folder": "cash_sessions", 
+    "id": 52, 
+    "published": true, 
+    "songs": [
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "1:52", 
+            "info": "", 
+            "s3_name": "01%20-%20Good%20Ol%27%20Mt%20Dew.ogg", 
+            "slug": "good-ol-mt-dew", 
+            "title": "Good Ol' Mt Dew", 
+            "track": 1
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:31", 
+            "info": "", 
+            "s3_name": "02%20-%20I%20Still%20Miss%20Someone.ogg", 
+            "slug": "i-still-miss-someone", 
+            "title": "I Still Miss Someone", 
+            "track": 2
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "7:00", 
+            "info": "", 
+            "s3_name": "03%20-%20Careless%20Love.ogg", 
+            "slug": "careless-love", 
+            "title": "Careless Love", 
+            "track": 3
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "3:08", 
+            "info": "", 
+            "s3_name": "04%20-%20Matchbox.ogg", 
+            "slug": "matchbox", 
+            "title": "Matchbox", 
+            "track": 4
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:44", 
+            "info": "", 
+            "s3_name": "05%20-%20That%27s%20Alright%20Mama.ogg", 
+            "slug": "thats-alright-mama", 
+            "title": "That's Alright Mama", 
+            "track": 5
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:01", 
+            "info": "", 
+            "s3_name": "06%20-%20Big%20River.ogg", 
+            "slug": "big-river", 
+            "title": "Big River", 
+            "track": 6
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "3:46", 
+            "info": "", 
+            "s3_name": "07%20-%20Girl%20of%20the%20North%20Country.ogg", 
+            "slug": "girl-of-the-north-country", 
+            "title": "Girl of the North Country", 
+            "track": 7
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:44", 
+            "info": "", 
+            "s3_name": "08%20-%20I%20Walk%20the%20Line.ogg", 
+            "slug": "i-walk-the-line", 
+            "title": "I Walk the Line", 
+            "track": 8
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "3:21", 
+            "info": "", 
+            "s3_name": "09%20-%20You%20Are%20My%20Sunshine.ogg", 
+            "slug": "you-are-my-sunshine", 
+            "title": "You Are My Sunshine", 
+            "track": 9
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:29", 
+            "info": "", 
+            "s3_name": "10%20-%20Ring%20of%20Fine.ogg", 
+            "slug": "ring-of-fire", 
+            "title": "Ring of Fire", 
+            "track": 10
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "1:48", 
+            "info": "", 
+            "s3_name": "11%20-%20Guess%20Things%20Happen%20that%20Way.ogg", 
+            "slug": "guess-things-happen-that-way", 
+            "title": "Guess Things Happen that Way", 
+            "track": 11
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:52", 
+            "info": "", 
+            "s3_name": "12%20-%20Just%20a%20Closer%20Walk%20with%20Thee.ogg", 
+            "slug": "just-a-closer-walk-with-thee", 
+            "title": "Just a Closer Walk with Thee", 
+            "track": 12
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "3:06", 
+            "info": "", 
+            "s3_name": "13%20-%20T%20for%20Texas.ogg", 
+            "slug": "t-for-texas", 
+            "title": "T for Texas", 
+            "track": 13
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "2:28", 
+            "info": "", 
+            "s3_name": "14%20-%20Living%20the%20Blues.ogg", 
+            "slug": "living-the-blues", 
+            "title": "Living the Blues", 
+            "track": 14
+        }, 
+        {
+            "album_id": 52, 
+            "date": null, 
+            "duration": "3:17", 
+            "info": "", 
+            "s3_name": "15%20-%20One%20Too%20Many%20Mornings.ogg", 
+            "slug": "one-too-many-mornings", 
+            "title": "One Too Many Mornings", 
+            "track": 15
+        }
+    ], 
+    "source": "Galemark remaster", 
+    "title": "Johnny Cash Sessions", 
+    "venue": "Studio", 
+    "venue_slug": "studio"
+}
