@@ -1,0 +1,13 @@
+uwsgi:
+    master: true
+    processes: 1
+    vaccum: true
+    gid: chris
+    uid: chris
+    chmod-socket: 666
+    plugins: python
+    socket: /tmp/dylan.sock
+    chdir: /home/chris/dylan
+    pythonpath: /home/cheis/dylan
+    module: http_controller:application
+    touch-reload: /home/chris/dylan/http_controller.py
