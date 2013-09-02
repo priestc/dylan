@@ -115,6 +115,6 @@ manifest = Manifest({
         view=BasicView,
     ),
     'favicon': SingleStaticServe(get_config('project_path') + '/static/favicon.ico'),
-    'static': StaticServe('/static/'),
+    'static': StaticServe(),
     'mgt': management_manifest,
 })
