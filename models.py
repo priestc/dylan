@@ -4,7 +4,6 @@ import re
 
 from giotto import get_config
 Base = get_config('Base')
-session = get_config('session')
 
 from giotto.primitives import ALL_DATA
 from giotto.exceptions import DataNotFound, InvalidInput
@@ -44,6 +43,7 @@ class Album(Base):
 
     @classmethod
     def by_city(cls, city_slug):
+        session = get_config('db_session')
         albums = session.query(cls).filter_by(city_slug=city_slug).all()
         if not albums:
             raise DataNotFound
@@ -52,10 +52,12 @@ class Album(Base):
 
     @classmethod
     def most_recent(cls):
+        session = get_config('db_session')
         return session.query(cls).order_by(desc(cls.date_added)).all()[:5]
 
     @classmethod
     def by_venue(cls, venue_slug):
+        session = get_config('db_session')
         albums = session.query(cls).filter_by(venue_slug=venue_slug).all()
         if not albums:
             raise DataNotFound
@@ -64,28 +66,33 @@ class Album(Base):
 
     @classmethod
     def newest(cls):
+        session = get_config('db_session')
         albums = session.query(cls).order_by(cls.date_added)
         return {'albums': albums[:10]}
 
     @classmethod
     def all_cities(cls):
+        session = get_config('db_session')
         selects = [func.max(cls.city), cls.city_slug, func.count(cls.title)]
         cities = session.query(*selects).group_by(cls.city_slug).all()
         return {'cities': cities, 'length': len(cities)}
 
     @classmethod
     def all_venues(cls):
+        session = get_config('db_session')
         selects = [func.max(cls.venue), cls.venue_slug, func.count(cls.title)]
         venues = session.query(*selects).group_by(cls.venue_slug).all()
         return {'venues': venues, 'length': len(venues)}
 
     @classmethod
     def all(cls):
+        session = get_config('db_session')
         qs = session.query(cls).filter_by(published=True).order_by('date').all()
         return {'albums': qs}
 
     @classmethod
     def get(cls, id):
+        session = get_config('db_session')
         album = session.query(cls).filter_by(id=id).first()
         if not album:
             raise DataNotFound()
@@ -95,7 +102,8 @@ class Album(Base):
     def create(cls, data=ALL_DATA):
         d = data.get('date', None)
         date = dateutil.parser.parse(d) if d else None
-
+        session = get_config('db_session')
+        
         a = cls(
             title=data['title'],
             date=date,
@@ -155,6 +163,7 @@ class Song(Base):
     @classmethod
     def all_songs(cls):
         selects = func.max(cls.title), cls.slug, func.count(cls.title)
+        session = get_config('db_session')
         songs = session.query(*selects)\
                               .group_by(cls.slug)\
                               .order_by(cls.slug)\
@@ -166,6 +175,7 @@ class Song(Base):
         """
         All songs for a title slug
         """
+        session = get_config('db_session')
         songs = session.query(cls).join(Album).filter(cls.slug==slug).order_by(Album.date).all()
         if not songs:
             raise DataNotFound
@@ -244,6 +254,7 @@ def add_all():
 
 
 def delete_album(id):
+    session = get_config('db_session')
     session.query(Song).filter_by(album_id=id).delete()
     session.query(Album).filter_by(id=id).delete()
     print("dropped album #%s" % id)
@@ -253,6 +264,7 @@ def reload_album(id):
     return add_album(id)
 
 def add_album(index):
+    session = get_config('db_session')
     try:
         j = open("data/%s.json" % index, 'r').read()
     except IOError:
