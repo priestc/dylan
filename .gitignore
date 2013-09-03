@@ -36,4 +36,5 @@ nosetests.xml
 
 *_controller.py
 file.db
-machine_config.py
+machine.py
+secrets.py
